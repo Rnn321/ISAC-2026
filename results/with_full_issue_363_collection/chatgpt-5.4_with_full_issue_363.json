@@ -1,0 +1,2180 @@
+[
+  {
+    "task_id": "spark_259860d23d1740954b739b639c5bdc3ede65ed25",
+    "model": "gpt-5.4",
+    "label": "Add support for IS [NOT] DISTINCT FROM.",
+    "pred": "[SQL] Add support for IS [NOT] DISTINCT FROM predicate."
+  },
+  {
+    "task_id": "spark_e965a798d09a9fba61b104c5cc0b65cdc28d27f6",
+    "model": "gpt-5.4",
+    "label": "Fix Scala 2.11 build break in UnsafeExternalRowSorter",
+    "pred": "[SQL] Make AbstractScalaRowIterator concrete to fix Scala 2.11 build break in UnsafeExternalRowSorter."
+  },
+  {
+    "task_id": "spark_57566d0af3008982a1e24a763ed2f6a700b40f8f",
+    "model": "gpt-5.4",
+    "label": "[Yarn] Add volatile to ApplicationMaster's reporterThread and allocator",
+    "pred": "[YARN] Mark ApplicationMaster reporterThread and allocator as volatile"
+  },
+  {
+    "task_id": "spark_6da1069696186572c66cbd83947c1a1dbd2bc827",
+    "model": "gpt-5.4",
+    "label": "[ML] Fix definition of residual in LinearRegressionSummary, EnsembleTestHelper, and SquaredError",
+    "pred": "[MLLIB] Fix residual definition to use label - prediction"
+  },
+  {
+    "task_id": "spark_9df08e218cfd4dd91bc407b98528b74f452f34f8",
+    "model": "gpt-5.4",
+    "label": "[CORE] ExternalShuffleClient.close() should check clientFactory null",
+    "pred": "[Shuffle] Add null check in ExternalShuffleClient.close()."
+  },
+  {
+    "task_id": "spark_d2d438d1d549628a0183e468ed11d6e85b5d6061",
+    "model": "gpt-5.4",
+    "label": "[SQL] Add debug code for SQLQuerySuite flakiness when metastore partition pruning is enabled",
+    "pred": "[SPARK-18167][SQL] Log retry/full fetch status for flaky Hive partition pruning failures"
+  },
+  {
+    "task_id": "spark_7e8e62aec11c43c983055adc475b96006412199a",
+    "model": "gpt-5.4",
+    "label": "[mllib] Random seed for GMM + make test suite deterministic",
+    "pred": "[MLlib] Add random seed parameter to GaussianMixtureEM."
+  },
+  {
+    "task_id": "spark_e4aef91fe70d6c9765d530b913a9d79103fc27ce",
+    "model": "gpt-5.4",
+    "label": "[SQL] Support Intersect/Except in Catalyst DSL.",
+    "pred": "[SQL] Add Except and Intersect support to Catalyst DSL."
+  },
+  {
+    "task_id": "spark_86430cc4e8dbc65a091a532fc9c5ec12b7be04f4",
+    "model": "gpt-5.4",
+    "label": "[SQL] Fixed Exception Messages when Hitting an Invocation Exception of Function Lookup",
+    "pred": "[SQL] Use invocation exception cause message in function lookup errors"
+  },
+  {
+    "task_id": "spark_742e0fea5391857964e90d396641ecf95cac4248",
+    "model": "gpt-5.4",
+    "label": "Improve doc for rangeBetween and rowsBetween",
+    "pred": "[SQL] Improve rowsBetween and rangeBetween API documentation."
+  },
+  {
+    "task_id": "spark_857ecff1d8268b28bb287e47cda370c87afe9d41",
+    "model": "gpt-5.4",
+    "label": "[DOC] remove package grouping in Java docs",
+    "pred": "[BUILD] Remove JavaDoc package grouping from genjavadoc."
+  },
+  {
+    "task_id": "spark_f72743d971a38d3d08984ef4b66e0955945d2f58",
+    "model": "gpt-5.4",
+    "label": "[SQL] fast serialization for collecting DataFrame/Dataset",
+    "pred": "[SQL] Use compressed UnsafeRow serialization for DataFrame collect."
+  },
+  {
+    "task_id": "spark_90c606925e7ec8f65f28e2290a0048f64af8c6a6",
+    "model": "gpt-5.4",
+    "label": "[MLLIB] User guide for VectorAssembler",
+    "pred": "[ML] Add VectorAssembler user guide section and Java test."
+  },
+  {
+    "task_id": "spark_db801cf3f26a5452b341dafbcd3efea64d177d83",
+    "model": "gpt-5.4",
+    "label": "[CORE] Treat timeouts as fatal in SASL fallback path.",
+    "pred": "[Network] Avoid SASL fallback on auth timeouts and reduce fallback log noise"
+  },
+  {
+    "task_id": "spark_ad0dadaa251b031a480fc2080f792a54ed7dfc5f",
+    "model": "gpt-5.4",
+    "label": "[SQL] the offset of short should be 2 in OffHeapColumn",
+    "pred": "[SQL] Fix short offset increment in OffHeapColumnVector.putShorts"
+  },
+  {
+    "task_id": "spark_f7135ed7194d4f936f6f58e14f02b1ed93f68ad1",
+    "model": "gpt-5.4",
+    "label": "[CORE] Register DAGScheduler metrics source after app id is known.",
+    "pred": "[CORE] Register DAGScheduler metrics source in SparkContext after startup"
+  },
+  {
+    "task_id": "spark_6ea8a56ca26a7e02e6574f5f763bb91059119a80",
+    "model": "gpt-5.4",
+    "label": "[LAUNCHER] Fix race condition in LauncherServer#acceptConnections",
+    "pred": "[LAUNCHER] Schedule connection timeout before starting client thread in LauncherServer"
+  },
+  {
+    "task_id": "spark_3bb217750ada18a49c40d974ac57050ef2abfd2c",
+    "model": "gpt-5.4",
+    "label": "[MLLIB] added verification results from R for FPGrowthSuite",
+    "pred": "[MLLIB] Add equivalent R validation code to FPGrowthSuite tests"
+  },
+  {
+    "task_id": "spark_f9705d461350c6fccf8022e933ea909f40c53576",
+    "model": "gpt-5.4",
+    "label": "[SQL] Make the WHERE clause with timestamp show consistent result",
+    "pred": "[SQL] Cast string literals to timestamp in WHERE comparisons."
+  },
+  {
+    "task_id": "spark_10c27a6559803797e89c28ced11c1087127b82eb",
+    "model": "gpt-5.4",
+    "label": "[ML] Add JSON support for Matrix parameters (LR with coefficients bound)",
+    "pred": "[ML] Add Matrix JSON param serialization to support saving LogisticRegression models with coefficient bounds"
+  },
+  {
+    "task_id": "spark_aa88b8dbbb7e71b282f31ae775140c783e83b4d6",
+    "model": "gpt-5.4",
+    "label": "[DOC] Add PySpark doc for SparkSession.builder",
+    "pred": "[PySpark] Fix misleading SparkSession.builder API docs."
+  },
+  {
+    "task_id": "spark_f9b397f54d1c491680d70aba210bb8211fd249c1",
+    "model": "gpt-5.4",
+    "label": "[SQL] Add logs to record the progress of HiveSparkSubmitSuite.",
+    "pred": "[SQL] Stabilize HiveSparkSubmitSuite --jars test with extra logging and SparkContext cleanup."
+  },
+  {
+    "task_id": "spark_1824cbfa39c92d999e24173f2337f518aa5e3e9b",
+    "model": "gpt-5.4",
+    "label": "[ML] Fix the log format of ml.util.Instrumentation.logFai…",
+    "pred": "[MLLIB] Include exception message in Instrumentation.logFailure output"
+  },
+  {
+    "task_id": "spark_2727304660663fcf1e41f7b666978c1443262e4e",
+    "model": "gpt-5.4",
+    "label": "[ML] Simplify LogisticRegression suite to use Vector Vector comparision",
+    "pred": "[MLLIB] Clean up LogisticRegressionSuite tests by comparing weights as DenseVectors."
+  },
+  {
+    "task_id": "spark_c1b3eebf97b986439f71afd3c4eccf47b90da2cd",
+    "model": "gpt-5.4",
+    "label": "[SQL] Literal in agg grouping expressions leads to incorrect result",
+    "pred": "[SQL] Fix incorrect partial aggregation with literal GROUP BY expressions."
+  },
+  {
+    "task_id": "spark_a7c8f0c8cb144a026ea21e8780107e363ceacb8d",
+    "model": "gpt-5.4",
+    "label": "[SQL] Resolve self-join condition ambiguity for EqualNullSafe",
+    "pred": "[SPARK-24385][SQL] Handle EqualNullSafe in Dataset.join self-join resolution"
+  },
+  {
+    "task_id": "spark_b44d1b8fcf00b238df434cf70ad09460b27adf07",
+    "model": "gpt-5.4",
+    "label": "[HOTFIX] Add new resource-managers directories to SparkLauncher.",
+    "pred": "[LAUNCHER] Update buildClassPath for resource-managers/{mesos,yarn} modules"
+  },
+  {
+    "task_id": "spark_cde5483884068b0ae1470b9b9b3ee54ab944ab12",
+    "model": "gpt-5.4",
+    "label": "[SQL] Avoid row copying in exchange when sort.serializeMapOutputs takes effect",
+    "pred": "[SQL] Avoid defensive copying in Exchange when sort-based shuffle serializes map outputs."
+  },
+  {
+    "task_id": "spark_8be4d24a27a1e9995a53d4efb3a13a47813d1f77",
+    "model": "gpt-5.4",
+    "label": "[SQL][FOLLOWUP] Dumping truncated plans and generated code to a file",
+    "pred": "[SQL] Finalize TreeNode.treeString and redact DataSourceScanExec at node level"
+  },
+  {
+    "task_id": "spark_f75f633b21faaf911f04aeff847f25749b1ecd89",
+    "model": "gpt-5.4",
+    "label": "[MLLIB] use wrapper in MatrixFactorizationModel.load",
+    "pred": "[MLlib] Wrap loaded MatrixFactorizationModel to fix Python predictAll"
+  },
+  {
+    "task_id": "spark_7703b46d2843db99e28110c4c7ccf60934412504",
+    "model": "gpt-5.4",
+    "label": "[SS] Added config for registering streamingQueryListeners",
+    "pred": "[SQL] Add static conf to auto-register StreamingQueryListener instances"
+  },
+  {
+    "task_id": "spark_9bb798f2e6eefd9edb7b6d9980a894557c107bd3",
+    "model": "gpt-5.4",
+    "label": "[PYTHON] lint-python: Upgrade pycodestyle to v2.4.0",
+    "pred": "[PYTHON] Upgrade lint-python to pycodestyle 2.4.0 and address new lint warnings"
+  },
+  {
+    "task_id": "spark_150f6a89b79f0e5bc31aa83731429dc7ac5ea76b",
+    "model": "gpt-5.4",
+    "label": "[SQL] Fixes ADD JAR when the input path contains URL scheme",
+    "pred": "[SQL] Fix Hive ADD JAR for paths with URL schemes"
+  },
+  {
+    "task_id": "spark_a78fbfa619a13421b294328b80c82510ca7efed0",
+    "model": "gpt-5.4",
+    "label": "[ML] Explicitly tell user initial coefficients is ignored when size mismatch happened in LogisticRegression",
+    "pred": "[ML] Clarify LogisticRegression warning when initial coefficients size mismatches."
+  },
+  {
+    "task_id": "spark_d2a879762a2b4f3c4d703cc183275af12b3c7de1",
+    "model": "gpt-5.4",
+    "label": "[PYTHON][ML] Correct OneHotEncoder doc string to say dropLast",
+    "pred": "[PySpark][ML] Fix OneHotEncoder __init__ docstring to use dropLast"
+  },
+  {
+    "task_id": "spark_bdd537164dcfeec5e9c51d54791ef16997ff2597",
+    "model": "gpt-5.4",
+    "label": "[SQL] Rebuild Table Comment when Retrieving Metadata from Hive Metastore",
+    "pred": "[SQL][Hive] Restore CatalogTable comment from Hive metastore and remove it from properties"
+  },
+  {
+    "task_id": "spark_20b239845b695fe6a893ebfe97b49ef05fae773d",
+    "model": "gpt-5.4",
+    "label": "[SQL] SQL write job should also set Spark task output metrics",
+    "pred": "[SQL] Report output metrics for DataFrame writes."
+  },
+  {
+    "task_id": "spark_e71c07557c39e2f74bd20d2ab3a2fca88aa5dfbb",
+    "model": "gpt-5.4",
+    "label": "[ML] flaky spark.ml read/write tests",
+    "pred": "[ML] Fix flaky default read/write tests by clearing active SQLContext and re-enabling them."
+  },
+  {
+    "task_id": "spark_93338807aafdb2db9fb036ceadee1467cd367cdd",
+    "model": "gpt-5.4",
+    "label": "[SQL] Addendum: Fix Python API",
+    "pred": "[PySpark][SQL] Add maxMalformedLogPerPartition option to CSV readers."
+  },
+  {
+    "task_id": "spark_793841c6b8b98b918dcf241e29f60ef125914db9",
+    "model": "gpt-5.4",
+    "label": "[SQL] remove useless hive client in SparkSQLEnv",
+    "pred": "[SQL][ThriftServer] Avoid creating a useless meta hive client in SparkSQLEnv."
+  },
+  {
+    "task_id": "spark_8c911adac56a1b1d95bc19915e0070ce7305257c",
+    "model": "gpt-5.4",
+    "label": "[CORE] Throws a proper exception when any temp directory could not be got",
+    "pred": "[CORE] Throw IOException when no local temp dirs can be created"
+  },
+  {
+    "task_id": "spark_7bca62f79056e592cf07b49d8b8d04c59dea25fc",
+    "model": "gpt-5.4",
+    "label": "[SQL] Check invalid characters for Parquet schema and show error messages",
+    "pred": "[SQL] Reject Parquet attribute names with special characters in schema generation."
+  },
+  {
+    "task_id": "spark_01440395176bdbb2662480f03b27851cb860f385",
+    "model": "gpt-5.4",
+    "label": "[DOCUMENTATION, MLLIB, PYSPARK] Added documentation for few APIs",
+    "pred": "[MLLIB] Add missing API docs and fix typos in pyspark.mllib.linalg vectors."
+  },
+  {
+    "task_id": "spark_0f80990bfac1e9969644952d1d8edaf7d26fb436",
+    "model": "gpt-5.4",
+    "label": "[SQL] Add \"deterministic\" attribute to Expression to avoid collapsing nondeterministic projects.",
+    "pred": "[SQL] Prevent ProjectCollapsing from merging nondeterministic projections."
+  },
+  {
+    "task_id": "spark_6c5827c72391d5a55afdc089bbad00ba9b19a7ff",
+    "model": "gpt-5.4",
+    "label": "[R][DOCS] Use https URL for CRAN repo",
+    "pred": "[BUILD] Use HTTPS URLs for CRAN and Scala downloads."
+  },
+  {
+    "task_id": "spark_50e3644d00c75de8273cce191debde68061e6e13",
+    "model": "gpt-5.4",
+    "label": "[SQL][STRING] Dataset.toJSON should return Dataset",
+    "pred": "[SQL] Make Dataset.toJSON return Dataset[String]"
+  },
+  {
+    "task_id": "spark_431542765785304edb76a19885fbc5f9b8ae7d64",
+    "model": "gpt-5.4",
+    "label": "[SQL] Disables writing Parquet summary files by default",
+    "pred": "[SPARK-15719][SQL] Disable writing Parquet summary files by default"
+  },
+  {
+    "task_id": "spark_9fed6abfdcb7afcf92be56e5ccbed6599fe66bc4",
+    "model": "gpt-5.4",
+    "label": "Add message processing time metric to DAGScheduler",
+    "pred": "[CORE] Add DAGScheduler event-loop message processing timer metric."
+  },
+  {
+    "task_id": "spark_e3eb393961051a48ed1cac756ac1928156aa161f",
+    "model": "gpt-5.4",
+    "label": "Launch Spark using assembly jar instead of a separate launcher jar",
+    "pred": "[Launcher] Use the Spark assembly jar for launcher startup to restore backward compatibility."
+  },
+  {
+    "task_id": "spark_62fd133f744ab2d1aa3c409165914b5940e4d328",
+    "model": "gpt-5.4",
+    "label": "[SQL][WEBUI] onJobStart happens after onExecutionEnd shouldn't overwrite kvstore",
+    "pred": "[SQL] Prevent late job events from overwriting persisted SQL execution UI data"
+  },
+  {
+    "task_id": "spark_65b75e66e89075e23ccaa3813648397b3ec010fe",
+    "model": "gpt-5.4",
+    "label": "[WEBUI] Limit the max number of acceptors and selectors for Jetty",
+    "pred": "[CORE] Increase Jetty UI thread pool size to avoid insufficient connector threads"
+  },
+  {
+    "task_id": "spark_24ffa85c002a095ffb270175ec838995d3ed5469",
+    "model": "gpt-5.4",
+    "label": "[SQL] A direct write API for testing Parquet",
+    "pred": "[SQL] Add direct Parquet write DSL for compatibility tests."
+  },
+  {
+    "task_id": "spark_2d76cb11f51b20a57af7bdefb7a74fdfe41060aa",
+    "model": "gpt-5.4",
+    "label": "[CORE][TEST] Stop env params output on Jenkins job page",
+    "pred": "[TESTS] Silence testCommandAvailable output to avoid flooding Jenkins logs."
+  },
+  {
+    "task_id": "spark_6900f0173790ad2fa4c79a426bd2dec2d149daa2",
+    "model": "gpt-5.4",
+    "label": "[YARN][CORE] Fix AM failure situation for dynamic allocation",
+    "pred": "[YARN] Reset scheduler and dynamic allocation state on AM re-registration"
+  },
+  {
+    "task_id": "spark_69a739c7f5fd002432ece203957e1458deb2f4c3",
+    "model": "gpt-5.4",
+    "label": "[STREAMING] Fix the race conditions in StreamingListenerSuite",
+    "pred": "[Streaming] Fix flaky StreamingListenerSuite by synchronizing listener collector buffers."
+  },
+  {
+    "task_id": "spark_9808052b5adfed7dafd6c1b3971b998e45b2799a",
+    "model": "gpt-5.4",
+    "label": "[SQL] Add decimal support for floor and ceil",
+    "pred": "[SQL] Add decimal support for CEIL and FLOOR."
+  },
+  {
+    "task_id": "spark_6a734575a80e6b4ec4963206254451f05d64b742",
+    "model": "gpt-5.4",
+    "label": "[SQL] Tests for the samplingRatio option of JSON datasource",
+    "pred": "[SPARK-23849][SQL][TESTS] Add JSON samplingRatio schema inference coverage"
+  },
+  {
+    "task_id": "spark_600031ebe27473d8fffe6ea436c2149223b82896",
+    "model": "gpt-5.4",
+    "label": "[STREAMING] [BUILD] Updated streaming kinesis SBT project name to be more consistent",
+    "pred": "[BUILD] Rename Kinesis ASL SBT project/module to streaming-kinesis-asl"
+  },
+  {
+    "task_id": "spark_eafe37236c56b41ab32adf6610743e1e9a0f230f",
+    "model": "gpt-5.4",
+    "label": "[STREAMING] Reload appId and attemptId when app starts with checkpoint file in cluster mode",
+    "pred": "[Streaming] Reload YARN app and attempt IDs when restoring from checkpoint"
+  },
+  {
+    "task_id": "spark_dc6c5ea4c91c387deb87764c86c4f40ea71657b7",
+    "model": "gpt-5.4",
+    "label": "[WEB UI] Fix a corner case where the Stage UI page should show DAG but it doesn't show",
+    "pred": "[UI] Fix Stage page DAG expansion when opening multiple links from the Job DAG view"
+  },
+  {
+    "task_id": "spark_ae14f362355b131fcb3e3633da7bb14bdd2b6893",
+    "model": "gpt-5.4",
+    "label": "[SCHEDULER] Allow for underscores in TaskLocation in the Executor ID",
+    "pred": "[CORE] Allow executor IDs with underscores in TaskLocation parsing."
+  },
+  {
+    "task_id": "spark_78ecb6d457970b136a2e0e0e27d170c84ea28eac",
+    "model": "gpt-5.4",
+    "label": "[YARN] Properly quote library path for YARN.",
+    "pred": "[SPARK-24446][YARN] Properly quote library path prefixes with special characters"
+  },
+  {
+    "task_id": "spark_b484490824527bd036b94bba86972d7c0bad26c8",
+    "model": "gpt-5.4",
+    "label": "[CORE] Progress bar should be enabled by default for spark-shell",
+    "pred": "[CORE] Restore console progress bar initialization in SparkContext."
+  },
+  {
+    "task_id": "spark_9e01fe2ed1e834710f4ee6a02864ab0fcc528fef",
+    "model": "gpt-5.4",
+    "label": "[SQL] Fix Analysis Exceptions when Using Backticks in Transform Clause",
+    "pred": "[SQL][Hive] Clean Script Transform output column names with backticks"
+  },
+  {
+    "task_id": "spark_4329eb2e73181819bb712f57ca9c7feac0d640ea",
+    "model": "gpt-5.4",
+    "label": "[Mesos] Improve data locality when launching new executors when dynamic allocation is enabled",
+    "pred": "[MESOS] Improve data locality for new executors with dynamic allocation"
+  },
+  {
+    "task_id": "spark_3c6198c86ef36e7e5814d74ede00672d0eeb7f32",
+    "model": "gpt-5.4",
+    "label": "[SQL] fix a compatibility issue of sql event logs",
+    "pred": "[SQL] Ignore removed SparkPlanInfo metadata when reading Spark 2.2 event logs"
+  },
+  {
+    "task_id": "spark_f27d96b9f35799bf7ecc850effbfdb0bf7b237ab",
+    "model": "gpt-5.4",
+    "label": "[TEST] Reduce DateExpressionsSuite test time costs in Jenkins",
+    "pred": "[SQL][TEST] Reduce DateExpressionsSuite Hour test cases to speed up runtime"
+  },
+  {
+    "task_id": "spark_ecfb3127670c7f15e3a15e7f51fa578532480cda",
+    "model": "gpt-5.4",
+    "label": "[Documentation] null -> zero in crosstab doc",
+    "pred": "[SQL] Update crosstab docs to show missing pairs have zero counts"
+  },
+  {
+    "task_id": "spark_7d16776d28da5bcf656f0d8556b15ed3a5edca44",
+    "model": "gpt-5.4",
+    "label": "[SQL][WIP] Fixed NPE when creating encoder for enum",
+    "pred": "[SQL] Fix Encoders.bean NPE by supporting Java enum types."
+  },
+  {
+    "task_id": "spark_6cbc61d1070584ffbc34b1f53df352c9162f414a",
+    "model": "gpt-5.4",
+    "label": "[SQL][PYSPARK] Add fill functions for nulls in bool fields of datasets",
+    "pred": "[SQL][PySpark] Add boolean support to DataFrame.fillna/na.fill"
+  },
+  {
+    "task_id": "spark_dffeac3691daa620446ae949c5b147518d128e08",
+    "model": "gpt-5.4",
+    "label": "[STREAMING] Spark Streaming backpressure generates batch with large number of records",
+    "pred": "[Streaming][Kafka] Fix direct stream backpressure rounding to avoid zero-message partitions and giant batches"
+  },
+  {
+    "task_id": "spark_9b33dfc408de986f4203bb0ac0c3f5c56effd69d",
+    "model": "gpt-5.4",
+    "label": "[SQL] fix aggregation after dropDuplicates on empty data frames",
+    "pred": "[SQL] Fix dropDuplicates on empty DataFrames by adding a dummy grouping key"
+  },
+  {
+    "task_id": "spark_75934457d75996be71ffd0d4b448497d656c0d40",
+    "model": "gpt-5.4",
+    "label": "[GRAPHX][FOLLOWUP] Add param checking for runParallelPersonalizedPageRank",
+    "pred": "[GraphX] Validate inputs for parallel personalized PageRank."
+  },
+  {
+    "task_id": "spark_b79071910e61a851931b8b96d4acb66e0576caa7",
+    "model": "gpt-5.4",
+    "label": "[SQL] objects functions should not use unneeded global variables",
+    "pred": "[SPARK-22696][SQL] Avoid useless mutable states in CreateExternalRow and InitializeJavaBean."
+  },
+  {
+    "task_id": "spark_272a2f78f3ff801b94a81fa8fcc6633190eaa2f4",
+    "model": "gpt-5.4",
+    "label": "[YARN] Add rolling log aggregation support for Spark on yarn",
+    "pred": "[YARN] Support rolling log aggregation with include/exclude patterns."
+  },
+  {
+    "task_id": "spark_8de080d9f9d3deac7745f9b3428d97595975701d",
+    "model": "gpt-5.4",
+    "label": "[YARN] Fix the YarnAllocator allocates more Resource",
+    "pred": "[YARN] Track starting executors to prevent over-allocation"
+  },
+  {
+    "task_id": "spark_f1e223bfa37d7b42666af22c5ced38923807ef0a",
+    "model": "gpt-5.4",
+    "label": "[CORE] Remove stale HTTP auth code.",
+    "pred": "[CORE] Remove legacy HTTP/HTTPS URI authentication code from file fetching."
+  },
+  {
+    "task_id": "spark_6f62e9d9b9fa9b5adb461f0de7f176e4589a4d66",
+    "model": "gpt-5.4",
+    "label": "[SQL] Fix throwing a Java exception at df.fliter() due to 64KB bytecode size limit",
+    "pred": "[SPARK-19372][SQL] Fallback to interpreted predicates when filter codegen exceeds JVM method size limit"
+  },
+  {
+    "task_id": "spark_215281d88ed664547088309cb432da2fed18b8b7",
+    "model": "gpt-5.4",
+    "label": "[PYSPARK][SQL] Add posexplode and posexplode_outer",
+    "pred": "[PySpark] Add wrappers for explode_outer and posexplode_outer."
+  },
+  {
+    "task_id": "spark_310454be3b0ce5ff6b6ef0070c5daadf6fb16927",
+    "model": "gpt-5.4",
+    "label": "[SQL] Cast expression should initialize timezoneId when it is called statically to convert something into TimestampType",
+    "pred": "[SQL] Fix timezone-aware cast for Hive timestamp partitions"
+  },
+  {
+    "task_id": "spark_990f05c80347c6eec2ee06823cff587c9ea90b49",
+    "model": "gpt-5.4",
+    "label": "[SQL] AnalysisBarrier should override innerChildren to print correct explain output",
+    "pred": "[SQL] Fix AnalysisBarrier cutting off parsed logical plan explain output."
+  },
+  {
+    "task_id": "spark_139da116f130ed21481d3e9bdee5df4b8d7760ac",
+    "model": "gpt-5.4",
+    "label": "[PYSPARK][ML] Expose numPartitions (expert) param of PySpark FPGrowth.",
+    "pred": "[PySpark][ML] Expose numPartitions param in FPGrowth."
+  },
+  {
+    "task_id": "spark_986a3b8b5bedb1d64e2cf7c95bfdf5505f3e8c69",
+    "model": "gpt-5.4",
+    "label": "[SQL] Support wildcard character in filename for LOAD DATA LOCAL INPATH",
+    "pred": "[SQL] Support filename wildcards in LOAD DATA LOCAL INPATH."
+  },
+  {
+    "task_id": "spark_ed775042cceb61a0566502e1306ac3c70f4a6a5f",
+    "model": "gpt-5.4",
+    "label": "[DOCS] Add source links to scaladoc generation",
+    "pred": "[BUILD] Add GitHub source URLs to generated Scaladoc for releases."
+  },
+  {
+    "task_id": "spark_c4bb02abf2c5b1724f2f848c79da5ebbf2584e45",
+    "model": "gpt-5.4",
+    "label": "[CORE][NETWORK] avoid significant memory copy in netty's transferTo",
+    "pred": "[Network] Chunk large ByteBuf writes in MessageWithHeader to reduce memory copy."
+  },
+  {
+    "task_id": "spark_dba2ca2c129b6d2597f1707e0315d4e238c40ed6",
+    "model": "gpt-5.4",
+    "label": "SCALA_VERSION in _config.yml should be consistent with pom.xml",
+    "pred": "[BUILD] Align Scala version references with pom.xml (2.11.8)."
+  },
+  {
+    "task_id": "spark_31b391019ff6eb5a483f4b3e62fd082de7ff8416",
+    "model": "gpt-5.4",
+    "label": "[SQL] add convenient show functions",
+    "pred": "[SQL] Make DataFrame.showString public and add a default overload."
+  },
+  {
+    "task_id": "spark_39dfaf2fd167cafc84ec9cc637c114ed54a331e3",
+    "model": "gpt-5.4",
+    "label": "Make the threshold for highly compressed map status configurable",
+    "pred": "[SPARK-24519][CORE] Make MapStatus highly compressed threshold configurable"
+  },
+  {
+    "task_id": "spark_191bf2689d127a9dd328b9cc517362fd51eaed3d",
+    "model": "gpt-5.4",
+    "label": "[SQL] cleanup generated UnsafeRowJoiner and fix bug",
+    "pred": "[SQL] Clean up GenerateUnsafeRowJoiner bitset merging and use row base offsets"
+  },
+  {
+    "task_id": "spark_31c4fab3fb0343edf971de9070a319c6b3094647",
+    "model": "gpt-5.4",
+    "label": "[SQL] Prevent empty files for empty partitions in Text datasources",
+    "pred": "[SQL] Avoid writing empty files for empty partitions in CSV/JSON/Text datasources."
+  },
+  {
+    "task_id": "spark_5572ccf86b084eb5938fe62fd5d9973ec14d555d",
+    "model": "gpt-5.4",
+    "label": "[SQL][FOLLOWUP] Change statement `SHOW TABLES EXTENDED` to `SHOW TABLE EXTENDED`",
+    "pred": "[SQL] Add parser support for SHOW TABLE EXTENDED syntax."
+  },
+  {
+    "task_id": "spark_43717dee570dc41d71f0b27b8939f6297a029a02",
+    "model": "gpt-5.4",
+    "label": "[CORE] Allocate a bit less than Int.MaxValue",
+    "pred": "[CORE] Fix >2GB block replication by capping ChunkedByteBuffer chunk size"
+  },
+  {
+    "task_id": "spark_8079424763c2043264f30a6898ce964379bd9b56",
+    "model": "gpt-5.4",
+    "label": "[MLLIB] Optimize MLLIB ALS recommendForAll",
+    "pred": "[MLLIB][ALS] Reduce GC in recommend-all methods with per-block top-k computation"
+  },
+  {
+    "task_id": "spark_4af37812915763ac3bfd91a600a7f00a4b84d29a",
+    "model": "gpt-5.4",
+    "label": "[CORE] Make spark-submit download remote files to local in client mode",
+    "pred": "[CORE] Download remote application resources in client mode spark-submit"
+  },
+  {
+    "task_id": "spark_4901086fea969a34ec312ef4a8f83d84e1bf21fb",
+    "model": "gpt-5.4",
+    "label": "[TESTS] Fix ReplSuite for Scala 2.10.",
+    "pred": "[REPL] Fix Scala 2.10 ReplSuite by using groupByKey in aggregation test."
+  },
+  {
+    "task_id": "spark_5e7bc2acef4a1e11d0d8056ef5c12cd5c8f220da",
+    "model": "gpt-5.4",
+    "label": "[SQL] Skipping chars disallowed in UTF-8",
+    "pred": "[CORE] Handle invalid UTF-8 first bytes in UTF8String.numChars"
+  },
+  {
+    "task_id": "spark_af0e3125cb1d48b1fc0e44c42b6880d67a9f1a85",
+    "model": "gpt-5.4",
+    "label": "[SPARKR] support Unicode characters in collect()",
+    "pred": "[SparkR] Support UTF-8/CJK strings in collect() serialization"
+  },
+  {
+    "task_id": "spark_001d3095385626e329b3853364a4feeb811aac5a",
+    "model": "gpt-5.4",
+    "label": "[ML] Add training cost to BisectingKMeans summary",
+    "pred": "[SPARK-25765][ML] Add trainingCost to BisectingKMeans summary"
+  },
+  {
+    "task_id": "spark_fb90273212dc7241c9a0c3446e25e0e0b9377750",
+    "model": "gpt-5.4",
+    "label": "[ML] ml.Model optional parent support",
+    "pred": "[ML] Mark Model.parent transient and add hasParent helper."
+  },
+  {
+    "task_id": "spark_bfd73a7c48b87456d1b84d826e04eca938a1be64",
+    "model": "gpt-5.4",
+    "label": "[CORE] Don't try to connect to launcher in standalone cluster mode.",
+    "pred": "[SPARK-21159][Core] Only connect LauncherBackend in client mode in StandaloneSchedulerBackend"
+  },
+  {
+    "task_id": "spark_a634d66ce767bd5e1d8553d1a2c32e2b1a80f642",
+    "model": "gpt-5.4",
+    "label": "[PYSPARK] Use build-specific temp directory for pyspark tests.",
+    "pred": "[PySpark] Keep test temp files under target and clean them up."
+  },
+  {
+    "task_id": "spark_87c98de8b23f0e978958fc83677fdc4c339b7e6a",
+    "model": "gpt-5.4",
+    "label": "[SQL] Fix NullPointerException when DESC a database with NULL description",
+    "pred": "[SPARK-23001][SQL][HIVE] Handle null database descriptions in HiveClientImpl"
+  },
+  {
+    "task_id": "spark_fbc269252a1c99e04bd08906ad8404c031e9a097",
+    "model": "gpt-5.4",
+    "label": "[SQL] AggregationIterator does not initialize the generated result projection before using it",
+    "pred": "[SPARK-19471][SQL] Initialize AggregationIterator result projections with partition index."
+  },
+  {
+    "task_id": "spark_7374e518e2641fddfe57003340db410224b37581",
+    "model": "gpt-5.4",
+    "label": "[SQL] Data Source API: Enable Extending RelationProvider and CreatableRelationProvider without Extending SchemaRelationProvider",
+    "pred": "[SQL] Fix relation resolution for data sources without SchemaRelationProvider"
+  },
+  {
+    "task_id": "spark_e82cb68349b785c1b35bcfb85bff3a8ec2c93fee",
+    "model": "gpt-5.4",
+    "label": "[ML] Add pmml export for k-means in Spark ML",
+    "pred": "[ML] Add PMML export support for KMeansModel"
+  },
+  {
+    "task_id": "spark_658547974915ebcaae83e13e4c3bdf68d5426fda",
+    "model": "gpt-5.4",
+    "label": "[SQL] Extracts method for preparing arguments from StaticInvoke, Invoke and NewInstance and modify to short circuit if arguments have null when `needNullCheck == true`.",
+    "pred": "[SQL] Extract InvokeLike for shared invoke codegen and fix NewInstance nullability"
+  },
+  {
+    "task_id": "spark_1742c3ab86d75ce3d352f7cddff65e62fb7c8dd4",
+    "model": "gpt-5.4",
+    "label": "[CORE] Fix memory leak in Memory store when unable to cache the whole RDD in memory",
+    "pred": "[SPARK-17503][Core] Release unroll memory eagerly in PartiallyUnrolledIterator"
+  },
+  {
+    "task_id": "spark_27d3b0a51cfd1caf05c242b45db9a78ef5868685",
+    "model": "gpt-5.4",
+    "label": "[K8S] Improve container status logging",
+    "pred": "[Kubernetes] Use formatted pod and container status in watcher and executor logs"
+  },
+  {
+    "task_id": "spark_2b1ac6cea882246ef0e655bb2c134ef1656a5068",
+    "model": "gpt-5.4",
+    "label": "[SQL] DROP TABLE throw exception if table doesn't exist",
+    "pred": "[SQL] Throw AnalysisException for DROP TABLE/VIEW when target does not exist"
+  },
+  {
+    "task_id": "spark_37526aca2430e36a931fbe6e01a152e701a1b94e",
+    "model": "gpt-5.4",
+    "label": "[SQL] fix bug in create Decimal",
+    "pred": "[SQL] Fix Decimal to preserve scale for large unscaled values"
+  },
+  {
+    "task_id": "spark_652c4703099c1e5b17732fa019318358dc99ad50",
+    "model": "gpt-5.4",
+    "label": "[SQL] Fix same result of Union",
+    "pred": "[SQL] Fix QueryPlan.sameResult for Union by cleaning nested child TreeNodes"
+  },
+  {
+    "task_id": "spark_1b6e938be836786bac542fa430580248161e5403",
+    "model": "gpt-5.4",
+    "label": "Remove spark.driver.allowMultipleContexts override in tests",
+    "pred": "[TEST] Remove spark.driver.allowMultipleContexts from unit test settings."
+  },
+  {
+    "task_id": "spark_8a545822d0cc3a866ef91a94e58ea5c8b1014007",
+    "model": "gpt-5.4",
+    "label": "[SS] Prevent InMemoryFileIndex from failing if file path doesn't exist",
+    "pred": "[SQL] Skip missing files when listing leaf files in InMemoryFileIndex"
+  },
+  {
+    "task_id": "spark_23e39cc7b1bb7f1087c4706234c9b5165a571357",
+    "model": "gpt-5.4",
+    "label": "[MLLIB] use first 128 nonzeros to compute Vector.hashCode",
+    "pred": "[MLLIB] Use first 128 nonzero entries in Vector.hashCode"
+  },
+  {
+    "task_id": "spark_b67d36957287c1fbefa1996e6a4a009a75c4c3f8",
+    "model": "gpt-5.4",
+    "label": "[SQL] Add 'xxhash64' for hashing arbitrary columns to Long",
+    "pred": "[SQL] Expose xxhash64 as a 64-bit hash function across Scala, Python, and R APIs"
+  },
+  {
+    "task_id": "spark_91575cac32e470d7079a55fb86d66332aba599d0",
+    "model": "gpt-5.4",
+    "label": "[YARN][CORE] Avoid adding jars twice for Spark running on yarn",
+    "pred": "[YARN][REPL] Avoid adding --jars/--packages twice by only merging spark.yarn.dist.jars in shell"
+  },
+  {
+    "task_id": "spark_572b62cafe4bc7b1d464c9dcfb449c9d53456826",
+    "model": "gpt-5.4",
+    "label": "[SQL] Fix HiveContext in Spark Shell",
+    "pred": "[SQL] Fix Spark SQL ClassNotFoundException when loading Hive SerDe jars via --jars."
+  },
+  {
+    "task_id": "spark_c971aee40d806ed02d3d6a5cc478b63654052e54",
+    "model": "gpt-5.4",
+    "label": "[SQL][TEST] Drop Partition Does Not Delete Data of External Tables",
+    "pred": "[SQL][Hive] Add tests to ensure external table partition drops do not delete data"
+  },
+  {
+    "task_id": "spark_01a8e46278dbfde916a74b6fd51e08804602e1cf",
+    "model": "gpt-5.4",
+    "label": "[SQL] Add a table-specific option for always respecting schemas inferred/controlled by Spark SQL",
+    "pred": "[SQL][Hive] Add respectSparkSchema option for Hive serde tables"
+  },
+  {
+    "task_id": "spark_35319d326488b3bf9235dfcf9ac4533ce846f21f",
+    "model": "gpt-5.4",
+    "label": "[SQL] When creating a CatalogColumn, we should use the catalogString of a DataType object.",
+    "pred": "[SQL] Use DataType.catalogString when creating CatalogColumn"
+  },
+  {
+    "task_id": "spark_2a53fbfce72b3faef020e39a1e8628d68bc95beb",
+    "model": "gpt-5.4",
+    "label": "[SQL] limit logging of Janino code",
+    "pred": "[SQL] Truncate logged codegen on Janino compile errors with configurable max lines"
+  },
+  {
+    "task_id": "spark_9215ee7a16b57c56ae927d65e024cf7afe542cbb",
+    "model": "gpt-5.4",
+    "label": "[CORE] Detect length overflow in UTF8String.concat()/ByteArray.concat()",
+    "pred": "[Unsafe] Detect length overflow in UTF8String.concat and ByteArray.concat"
+  },
+  {
+    "task_id": "spark_cb8ea9e1f34b9af287b3d10e47f24de4307c63ba",
+    "model": "gpt-5.4",
+    "label": "[SQL] Fixed error in reading json file stream inside a partitioned directory",
+    "pred": "[SQL][Streaming] Set basePath when inferring FileStreamSource schema from partitioned dirs"
+  },
+  {
+    "task_id": "spark_0e821ec6fa98f4b0aa6e2eb6fecd18cc1ee6f3f2",
+    "model": "gpt-5.4",
+    "label": "[ML][MLLIB] GaussianMixture should limit the number of features",
+    "pred": "[ML][MLLIB] Guard GaussianMixture against too many features to avoid covariance size overflow."
+  },
+  {
+    "task_id": "spark_bfa3d32f7719cd4bfb2c161fe4a6bd3eea148158",
+    "model": "gpt-5.4",
+    "label": "[FOLLOW-UP][SQL] throw SparkOutOfMemoryError intead of SparkException in UnsafeHashedRelation",
+    "pred": "[SQL] Throw SparkOutOfMemoryError on UnsafeHashedRelation hash map OOM"
+  },
+  {
+    "task_id": "spark_12d20dd75b1620da362dbb5345bed58e47ddacb9",
+    "model": "gpt-5.4",
+    "label": "[PYSPARK][SQL][FOLLOW-UP] Modify error messages to show actual versions.",
+    "pred": "[PySpark] Include installed pandas/pyarrow versions in minimum version ImportErrors."
+  },
+  {
+    "task_id": "spark_163a6e298213f216f74f4764e241ee6298ea30b6",
+    "model": "gpt-5.4",
+    "label": "Skip collapsing windows with empty window expressions",
+    "pred": "[SQL] Skip empty window expressions in CollapseWindow."
+  },
+  {
+    "task_id": "spark_55c96858107739dd768abea1dff88bd970e47e9f",
+    "model": "gpt-5.4",
+    "label": "[SQL] Track optimization phase for streaming queries",
+    "pred": "[SQL] Measure IncrementalExecution optimization with QueryPlanningTracker"
+  },
+  {
+    "task_id": "spark_45ad97df87c89cb94ce9564e5773897b6d9326f5",
+    "model": "gpt-5.4",
+    "label": "[PYTHON][ML] Run doctests in ml.image when testing",
+    "pred": "[ML] Run ml.image doctests and fix readImages example path/count"
+  },
+  {
+    "task_id": "spark_d6ddfdf60e77340256873b5acf08e85f95cf3bc2",
+    "model": "gpt-5.4",
+    "label": "[PYSPARK] Jenkins Python Conda based test.",
+    "pred": "[Tests] Add Conda support to Python and pip test scripts."
+  },
+  {
+    "task_id": "spark_1ce6428907b4ddcf52dbf0c86196d82ab7392442",
+    "model": "gpt-5.4",
+    "label": "[CORE] Restore INFO level after log4j test.",
+    "pred": "[Core][Test] Restore root log level after UtilsSuite log4j level change test"
+  },
+  {
+    "task_id": "spark_5864e8e47496c3a841b97632e5137de87a91efea",
+    "model": "gpt-5.4",
+    "label": "[SQL] Executor accidentally exit because ScriptTransformationWriterThread throw Exception.",
+    "pred": "[SPARK-25158][SQL][Hive] Avoid executor exit from uncaught ScriptTransformationWriterThread exceptions"
+  },
+  {
+    "task_id": "spark_e65b6b7ca1a7cff1b91ad2262bb7941e6bf057cd",
+    "model": "gpt-5.4",
+    "label": "[SQL] Refresh Persistent Views by REFRESH TABLE Command",
+    "pred": "[SQL] Refresh underlying tables for persistent views in refreshTable"
+  },
+  {
+    "task_id": "spark_3ab48f985c7f96bc9143caad99bf3df7cc984583",
+    "model": "gpt-5.4",
+    "label": "[SQL] Adding of isModifiable() to RuntimeConfig",
+    "pred": "[SPARK-24761][SQL][PYSPARK] Add RuntimeConfig.isModifiable for config checks"
+  },
+  {
+    "task_id": "spark_10396d9505c752cc18b6424f415d4ff0f460ad65",
+    "model": "gpt-5.4",
+    "label": "[SQL] Cache the statistics for logical plans",
+    "pred": "[SQL] Cache logical plan statistics with lazy val."
+  },
+  {
+    "task_id": "spark_a8340fa7df17e3f0a3658f8b8045ab840845a72a",
+    "model": "gpt-5.4",
+    "label": "Add logLikelihood to LocalLDAModel",
+    "pred": "[MLLIB] Add LocalLDAModel.logLikelihood and use it in logPerplexity."
+  },
+  {
+    "task_id": "spark_1d5d2a9d0940d05444b76005f3548f96ecfbde95",
+    "model": "gpt-5.4",
+    "label": "[ML][PYTHON][DOC] Minor doc fixes for ML Python Params and LinearSVC",
+    "pred": "[ML][PYTHON] Fix LinearSVC docs and remove incorrect Since tags in Params"
+  },
+  {
+    "task_id": "spark_22df953f6bb191858053eafbabaa5b3ebca29f56",
+    "model": "gpt-5.4",
+    "label": "[MESOS] add support for local:// scheme for the app jar",
+    "pred": "[Mesos] Add container-local `local:///` app jar support in cluster mode."
+  },
+  {
+    "task_id": "spark_0996b7c95a79fb018169ed1da7a8e3e482260838",
+    "model": "gpt-5.4",
+    "label": "[SQL][FOLLOWUP][TEST] Test Sort metrics while Sort is missing",
+    "pred": "[SQL][TESTS] Fix Sort metrics test after removing unnecessary Sort"
+  },
+  {
+    "task_id": "spark_4633a87b86a6ef01fa724d31763dcb97cb5bc746",
+    "model": "gpt-5.4",
+    "label": "[SQL] Add a test case for SPARK-6330",
+    "pred": "[SQL] Add SPARK-6330 regression test for Parquet FileSystem resolution."
+  },
+  {
+    "task_id": "spark_2ae7b88a07140e012b6c60db3c4a2a8ca360c684",
+    "model": "gpt-5.4",
+    "label": "[SQL] Change the default value of spark.sql.hive.convertMetastoreOrc to false.",
+    "pred": "[SQL] Disable metastore ORC conversion by default and mark it internal"
+  },
+  {
+    "task_id": "spark_18350a57004eb87cafa9504ff73affab4b818e06",
+    "model": "gpt-5.4",
+    "label": "[ML] Minor refactoring of basic ML import/export",
+    "pred": "[ML] Refactor Writer save/overwrite handling and add Spark version to metadata."
+  },
+  {
+    "task_id": "spark_002c12384d6ecebbb3e7fc853dbdfbc5aaa3d6a6",
+    "model": "gpt-5.4",
+    "label": "Introduce internal Serializer API for determining if serializers support object relocation",
+    "pred": "[Core][SQL] Enable in-memory serialized map-side shuffle for relocatable serializers"
+  },
+  {
+    "task_id": "spark_7236e759c9856970116bf4dd20813dbf14440462",
+    "model": "gpt-5.4",
+    "label": "[SQL] array_contains, array_position, array_remove and element_at functions deal with Column type",
+    "pred": "[SQL] Allow Column arguments in array_contains, array_position, element_at, and array_remove"
+  },
+  {
+    "task_id": "spark_ab1650d2938db4901b8c28df945d6a0691a19d31",
+    "model": "gpt-5.4",
+    "label": "Update Jackson to 2.9.6",
+    "pred": "[CORE][BUILD] Bump Jackson to 2.9.6 and switch JSON serialization to NON_ABSENT"
+  },
+  {
+    "task_id": "spark_5d4dafe8fdea49dcbd6b0e4c23e3791fa30c8911",
+    "model": "gpt-5.4",
+    "label": "[MLLIB][EXAMPLE] Wrong Data Format - Documentation Issue",
+    "pred": "[MLlib] Fix NaiveBayes examples to use LibSVM sample data."
+  },
+  {
+    "task_id": "spark_b2d022656298c7a39ff3e84b04f813d5f315cb95",
+    "model": "gpt-5.4",
+    "label": "[DOCS][PYTHON] Improve Pandas UDF docs to explain column assignment",
+    "pred": "[PySpark][Docs] Clarify GROUPED_MAP pandas_udf columns are assigned by schema position"
+  },
+  {
+    "task_id": "spark_67595eb8fb563eb26654f056033a01f0199bdf68",
+    "model": "gpt-5.4",
+    "label": "[UI] Add app and driver kill function in master web UI",
+    "pred": "[Core] Add app and driver kill actions to the standalone Master Web UI"
+  },
+  {
+    "task_id": "spark_12e740bba110c6ab017c73c5ef940cce39dd45b7",
+    "model": "gpt-5.4",
+    "label": "[CORE] UTF8String.trim() scans \" \" twice",
+    "pred": "[CORE] Avoid double scan in UTF8String.trim() for whitespace-only strings"
+  },
+  {
+    "task_id": "spark_9f913c4fd6f0f223fd378e453d5b9a87beda1ac4",
+    "model": "gpt-5.4",
+    "label": "[SQL] [PySpark] convert returned object from UDF into internal type",
+    "pred": "[SQL] Convert Python UDF return values to internal types."
+  },
+  {
+    "task_id": "spark_92b9c5edd90f7b89efc687c0cea6778daa1a6b66",
+    "model": "gpt-5.4",
+    "label": "[SQL] Removed unnecessary typecasts in MutableInt, MutableDouble etc.",
+    "pred": "[SQL] Remove redundant asInstanceOf casts in SpecificMutableRow.copy methods"
+  },
+  {
+    "task_id": "spark_d1312fb7edffd6e10c86f69ddfff05f8915856ac",
+    "model": "gpt-5.4",
+    "label": "[TESTS] Fix URI and release resources after opening in tests at ExecutorClassLoaderSuite",
+    "pred": "[REPL][TESTS] Fix Windows file URI handling and close BufferedSource in ExecutorClassLoaderSuite"
+  },
+  {
+    "task_id": "spark_8eac621229b50e15bea550a751593bba0bf8b20c",
+    "model": "gpt-5.4",
+    "label": "[MESOS] remove keytab check in mesos cluster mode at first submit time",
+    "pred": "[Core] Skip local keytab existence check for Mesos cluster mode in SparkSubmit."
+  },
+  {
+    "task_id": "spark_6f6517837ba9934a280b11aba9d9be58bc131f25",
+    "model": "gpt-5.4",
+    "label": "[SQL][FOLLOW-UP] Converting a value of StructType to a DDL string",
+    "pred": "[SQL] Add @since annotations to StructType/StructField DDL methods."
+  },
+  {
+    "task_id": "spark_8ca01a6feb4935b1a3815cfbff1b90ccc6f60984",
+    "model": "gpt-5.4",
+    "label": "[SQL] Disable comments in generated code in order to avoid perf. issues",
+    "pred": "[SQL] Disable generated code comments by default to avoid codegen overhead."
+  },
+  {
+    "task_id": "spark_d5b1dc934a2482886c2c095de90e4c6a49ec42bd",
+    "model": "gpt-5.4",
+    "label": "[SQL] Fix `withSQLConf` to reset `OptionalConfigEntry` correctly",
+    "pred": "[SQL][TESTS] Use spark.conf.contains in withSQLConf to avoid restoring unset confs."
+  },
+  {
+    "task_id": "spark_cad475dcc9376557f882859856286e858002389a",
+    "model": "gpt-5.4",
+    "label": "[YARN] Fix incorrect computation of maxNumExecutorFailures in ApplicationMaster for streaming",
+    "pred": "[STREAMING][YARN] Use spark.streaming.dynamicAllocation.maxExecutors for maxNumExecutorFailures"
+  },
+  {
+    "task_id": "spark_8135e0e5ebdb9c7f5ac41c675dc8979a5127a31a",
+    "model": "gpt-5.4",
+    "label": "[SQL] Should read partition data when reading new files in filestream without globbing",
+    "pred": "[Structured Streaming] Preserve partition columns in file-based readStream."
+  },
+  {
+    "task_id": "spark_03ef6be9ce61a13dcd9d8c71298fb4be39119411",
+    "model": "gpt-5.4",
+    "label": "[SQL] Add conf to enable/disable partition column type inference",
+    "pred": "[SQL] Add config to disable partition column type inference during partition discovery."
+  },
+  {
+    "task_id": "spark_899ebcb1448126f40be784ce42e69218e9a1ead7",
+    "model": "gpt-5.4",
+    "label": "Small rewrite to make the logic more clear in MessageWithHeader.transferTo.",
+    "pred": "[NETWORK] Fix MessageWithHeader transfer accounting for partial writes."
+  },
+  {
+    "task_id": "spark_fa09d91925c07a58dea285d6cf85a751664f89ff",
+    "model": "gpt-5.4",
+    "label": "[BUILD] New linter rule for sparkContext.hadoopConfiguration",
+    "pred": "[SCALASTYLE] Add sparkContext.hadoopConfiguration rule and use newHadoopConf in tests"
+  },
+  {
+    "task_id": "spark_3b68cb0430067059e9c7b9a86dbea4865e29bf78",
+    "model": "gpt-5.4",
+    "label": "[SQL] Fix empty projections of cached data",
+    "pred": "[SQL] Fix cached join results when one side has an empty projection."
+  },
+  {
+    "task_id": "spark_fe317dc74e5fa1509ae9d735485f66724f7292e5",
+    "model": "gpt-5.4",
+    "label": "[SQL] RuleExecutor.dumpTimeSpent should not throw exception when empty",
+    "pred": "[SQL] Handle empty RuleExecutor metrics in dumpTimeSpent"
+  },
+  {
+    "task_id": "spark_478af2f45595913c9b8f560d13e8d88447486f99",
+    "model": "gpt-5.4",
+    "label": "[PYSPARK][BUILD] Fix PyDoc Makefile & highlighting issues",
+    "pred": "[PYTHON] Use ?= in docs Makefile to preserve env vars for linting."
+  },
+  {
+    "task_id": "spark_312ea3f7f65532818e11016d6d780ad47485175f",
+    "model": "gpt-5.4",
+    "label": "[FOLLOW-UP][ML] Reorg variables of WeightedLeastSquares.",
+    "pred": "[ML] Simplify WeightedLeastSquares standardization flow and remove a redundant QuasiNewton test loop."
+  },
+  {
+    "task_id": "spark_e2dfdbb2c0523517880138f214775f9a896f2271",
+    "model": "gpt-5.4",
+    "label": "[YARN] Load `metadata.Hive` class only when `hive.metastore.uris` was set to avoid bootting the database twice",
+    "pred": "[YARN] Avoid booting Derby twice by using HiveConf directly in secure mode"
+  },
+  {
+    "task_id": "spark_7b25dc7b7e5a098552c0d640eee132b83d42db56",
+    "model": "gpt-5.4",
+    "label": "[SQL] Remove projects that become redundant after column pruning rule",
+    "pred": "[SQL] Remove redundant Projects in ColumnPruning via semantic output comparison"
+  },
+  {
+    "task_id": "spark_18bf9d2b2d7eae0574102d4f15ac27dc71dea18a",
+    "model": "gpt-5.4",
+    "label": "[STREAMING][BUILD] Add Kafka 0.10 project to build modules",
+    "pred": "[TESTS] Add streaming-kafka-0-10 module to Spark test support"
+  },
+  {
+    "task_id": "spark_e29176fd7dbcef04a29c4922ba655d58144fed24",
+    "model": "gpt-5.4",
+    "label": "[SQL] Provide isEmpty in Dataset",
+    "pred": "[SPARK-23627][SQL] Add isEmpty() to Dataset."
+  },
+  {
+    "task_id": "spark_dc2da72100811988ee1b31190f219b620f88f8de",
+    "model": "gpt-5.4",
+    "label": "[K8S] Correct placement of ARG declaration",
+    "pred": "[K8S][Docker] Honor spark_uid build arg in Python/R images"
+  },
+  {
+    "task_id": "spark_6735433cde44b3430fb44edfff58ef8149c66c13",
+    "model": "gpt-5.4",
+    "label": "[YARN] Fix client AM not allocating executors after restart.",
+    "pred": "[YARN] Fix hangs after AM re-registration in yarn-client mode"
+  },
+  {
+    "task_id": "spark_0969d7aa0ca7c4b32f4753387db8ad67ac6764b0",
+    "model": "gpt-5.4",
+    "label": "[SQL] : Ensure aggregate buffers are initialized again for So…",
+    "pred": "[SQL] Clarify that aggregate functions should be stateless"
+  },
+  {
+    "task_id": "spark_1c5b19827a091b5aba69a967600e7ca35ed3bcfd",
+    "model": "gpt-5.4",
+    "label": "[PYSPARK] Fix Python 3 pyspark/sql/types module conflict",
+    "pred": "[PYTHON] Rename PySpark modules for static imports and run tests via -m"
+  },
+  {
+    "task_id": "spark_d1d5069aa3744d46abd3889abab5f15e9067382a",
+    "model": "gpt-5.4",
+    "label": "[SQL] Fix persist call on Data frames with more than 200…",
+    "pred": "[SQL] Fix persisted wide DataFrames losing data by eagerly generating column accessors"
+  },
+  {
+    "task_id": "spark_40c4cb2fe79ceac0d656be7b72cb2ee8d7db7258",
+    "model": "gpt-5.4",
+    "label": "[SQL][DataFrame] Support for project/filter using SQL expressions",
+    "pred": "[SQL] Add DataFrame selectExpr/filter(String) support and fix sort varargs."
+  },
+  {
+    "task_id": "spark_f5aba657396bd4e2e03dd06491a2d169a99592a7",
+    "model": "gpt-5.4",
+    "label": "[CORE] Nested spill in ShuffleExternalSorter should not access released memory page",
+    "pred": "[CORE] Prevent nested spill from accessing released memory in ShuffleExternalSorter"
+  },
+  {
+    "task_id": "spark_1008ab0801c192e8f261001eaaf58a6c9f6e747a",
+    "model": "gpt-5.4",
+    "label": "[SQL][FOLLOWUP] Replacing SimpleDateFormat by DateTimeFormatter in comments",
+    "pred": "[SQL] Update CSV/JSON date and timestamp format docs to reference DateTimeFormatter"
+  },
+  {
+    "task_id": "spark_9a75c18290fff7d116cf88a44f9120bf67d8bd27",
+    "model": "gpt-5.4",
+    "label": "[SQL] UDF series UDFXPathXXXX allow users to pass carefully crafted XML to access arbitrary files",
+    "pred": "[SQL] Disable external entity expansion in UDFXPathUtil to prevent arbitrary file access"
+  },
+  {
+    "task_id": "spark_5adec63a922d6f60cd6cb87ebdab61a17131ac1a",
+    "model": "gpt-5.4",
+    "label": "[PROJECT-INFRA] Multiple fixes to dev/test-dependencies.sh script",
+    "pred": "[BUILD] Enable build tests for dependency checks and make test-dependencies.sh deterministic."
+  },
+  {
+    "task_id": "spark_9fba9c8004d2b97549e5456fa7918965bec27336",
+    "model": "gpt-5.4",
+    "label": "[MLLIB] Refine visibility for 1.6 scala API audit",
+    "pred": "[MLlib] Fix doc link and restrict unintended public Scala APIs."
+  },
+  {
+    "task_id": "spark_22be2ae147a111e88896f6fb42ed46bbf108a99b",
+    "model": "gpt-5.4",
+    "label": "[SQL] Fixes ORC predicate push-down",
+    "pred": "[SQL] Fix NoSuchElementException in ORC predicate pushdown filter creation."
+  },
+  {
+    "task_id": "spark_ad0badba1450295982738934da2cc121cde18213",
+    "model": "gpt-5.4",
+    "label": "[Streaming] Handle the case when there is no block in a batch",
+    "pred": "[Streaming] Avoid creating WAL-backed RDDs for empty receiver batches when WAL is disabled"
+  },
+  {
+    "task_id": "spark_0847fe4eb346e3c2060eb0f3680610bec06115e7",
+    "model": "gpt-5.4",
+    "label": "[ML] Remove json4s from mllib-local",
+    "pred": "[MLLIB] Move vector JSON conversion out of mllib-local to remove json4s-jackson dependency"
+  },
+  {
+    "task_id": "spark_8a6f33f0483dcee81467e6374a796b5dbd53ea30",
+    "model": "gpt-5.4",
+    "label": "[SS] Follow up: Refactored BatchCommitLog to simplify logic",
+    "pred": "[SS] Disallow null metadata in HDFSMetadataLog and add no-metadata BatchCommitLog API"
+  },
+  {
+    "task_id": "spark_5207a005cc86618907b8f467abc03eacef485ecd",
+    "model": "gpt-5.4",
+    "label": "[PYSPARK][ML][TRIVIAL] Add impurity param to GBTRegressor & add experimental inside of regression.py",
+    "pred": "[PySpark][ML] Add impurity param to GBTRegressor and mark regression APIs experimental"
+  },
+  {
+    "task_id": "spark_f38ef6586c2980183c983b2aa14a5ddc1856b7b7",
+    "model": "gpt-5.4",
+    "label": "[Examples]Input of the SparkPi  too big causes the emption exception",
+    "pred": "[Examples] Prevent integer overflow in SparkPi for large slice counts"
+  },
+  {
+    "task_id": "spark_9775df67f924663598d51723a878557ddafb8cfd",
+    "model": "gpt-5.4",
+    "label": "[PYSPARK][FOLLOWUP] Replace registerTempTable by createOrReplaceTempView",
+    "pred": "[PYSPARK][SQL] Replace deprecated registerTempTable with createOrReplaceTempView in UDF docs and tests"
+  },
+  {
+    "task_id": "spark_fb718d26cf7fbb9741f4a797b94b46d9d7c7f537",
+    "model": "gpt-5.4",
+    "label": "[SQL][TEST] Add `getLocalDirSize` to SQLTestUtils",
+    "pred": "[SQL] Add getLocalDirSize to SQLTestUtils and reuse DataSourceUtils file filtering."
+  },
+  {
+    "task_id": "spark_645c3a85e2029928d37ec2de9ef5a2d884620b9b",
+    "model": "gpt-5.4",
+    "label": "[HOTFIX] Static analysis fixes for 2.x / fixed for Scala 2.10",
+    "pred": "[CORE][SQL] Replace Option.contains checks with explicit Some equality."
+  },
+  {
+    "task_id": "spark_dadb72028ad4124c14296ece0fa7b2ba2eb532e9",
+    "model": "gpt-5.4",
+    "label": "[CORE] Noisy exceptions when tasks are killed: \"DiskBloc…",
+    "pred": "[CORE] Suppress ClosedByInterruptException stack traces for killed tasks in storage writes/fetches"
+  },
+  {
+    "task_id": "spark_ef3fb801ae971656ed9cd1b0ab95bc5a1548adbd",
+    "model": "gpt-5.4",
+    "label": "[Core] Use 'spark.akka.askTimeout' for the ask timeout",
+    "pred": "[CORE] Use spark.akka.askTimeout for RpcEndpointRef ask timeout"
+  },
+  {
+    "task_id": "spark_a088a801ed8c17171545c196a3f26ce415de0cd1",
+    "model": "gpt-5.4",
+    "label": "[SQL][DOCS] Fix the comment for `SQLContext.tables()` and mention the `database` column",
+    "pred": "[SQL] Fix SQLContext.tables() Scaladoc to include database column"
+  },
+  {
+    "task_id": "spark_b14993e1fcb68e1c946a671c6048605ab4afdf58",
+    "model": "gpt-5.4",
+    "label": "[SQL] Clarify JSON and CSV parser behavior in document",
+    "pred": "[SQL] Clarify PERMISSIVE corrupt record handling for JSON and CSV readers."
+  },
+  {
+    "task_id": "spark_80784a1de8d02536a94f3fd08ef632777478ab14",
+    "model": "gpt-5.4",
+    "label": "[FOLLOW-UP] Use 127.0.0.1 to avoid zookeeper picking up an ipv6 address",
+    "pred": "[KAFKA 0.10] Stabilize KafkaTestUtils teardown and use 127.0.0.1 for test hosts"
+  },
+  {
+    "task_id": "spark_ae253e5a878a0adc2785ae050c49022687ac1d06",
+    "model": "gpt-5.4",
+    "label": "[SQL][FOLLOW-UP] Propagate logical plan stats using visitor pattern and mixin",
+    "pred": "[SQL] Add Window support to stats visitors and remove Range special-casing."
+  },
+  {
+    "task_id": "spark_acfdb46a60fc06dac0af55951492d74b7073f546",
+    "model": "gpt-5.4",
+    "label": "[SQL][FOLLOW-UP] Change doc and error message for SHOW CREATE TABLE",
+    "pred": "[SQL] Suggest `SHOW CREATE TABLE AS SERDE` in Hive DDL errors."
+  },
+  {
+    "task_id": "spark_adaaffa34ef0ef6a7baa5c1fea848cf5bc3987a2",
+    "model": "gpt-5.4",
+    "label": "[SQL] Remove redundant `semanticEquals()` from `SortOrder`",
+    "pred": "[SQL] Use inherited semanticEquals for SortOrder to avoid unnecessary Sorts."
+  },
+  {
+    "task_id": "spark_1e599e5005cdb99fb2e9750f238f0d8812eefba6",
+    "model": "gpt-5.4",
+    "label": "[PYSPARK] Support `TaskContext.get()` in a barrier task from Python side",
+    "pred": "[PYSPARK] Unify TaskContext and BarrierTaskContext get behavior with Spark Core"
+  },
+  {
+    "task_id": "spark_e7c97a3d8606de7702b7590154b709dc848c308b",
+    "model": "gpt-5.4",
+    "label": "[K8S] safe runnable in polling executor source",
+    "pred": "[K8S] Prevent executor pods polling task from dying on non-fatal errors"
+  },
+  {
+    "task_id": "spark_57e9f29e17d97ed9d0f110fb2ce5a075b854a841",
+    "model": "gpt-5.4",
+    "label": "[STREAMING] DStream cleans objects that are not closures",
+    "pred": "[Streaming] Fix DStream transform closure cleaning and skip non-closures in ClosureCleaner"
+  },
+  {
+    "task_id": "spark_0054fc937f804660c6501d9d3f6319f3047a68f8",
+    "model": "gpt-5.4",
+    "label": "[SQL] Respect the `spark.sql.caseSensitive` config while resolving partition spec in v1 `SHOW TABLE EXTENDED`",
+    "pred": "[SQL] Respect spark.sql.caseSensitive in SHOW TABLE EXTENDED partition specs"
+  },
+  {
+    "task_id": "spark_26b603992c4b9b5a58e46e0566c1547b86249709",
+    "model": "gpt-5.4",
+    "label": "[SQL] Cleanup \"unreachable code\" compilation warning",
+    "pred": "[SQL] Remove unreachable NoSuchPermanentFunctionException catch in SessionCatalog"
+  },
+  {
+    "task_id": "spark_960d2d0ac6b5a22242a922f87f745f7d1f736181",
+    "model": "gpt-5.4",
+    "label": "[ML] document LIBSVM source options in public API doc and some minor improvements",
+    "pred": "[MLLIB] Document LIBSVM data source options and improve LibSVMRelation"
+  },
+  {
+    "task_id": "spark_814a61a867ded965433c944c90961df529ac83ab",
+    "model": "gpt-5.4",
+    "label": "[SQL] Display `serde` for `HiveTableScan` node in explained plan",
+    "pred": "[SQL] Include Hive SerDe in compact CatalogTable explain output."
+  },
+  {
+    "task_id": "spark_f87957371dc9c723013849c65b014c0fbf93ed3a",
+    "model": "gpt-5.4",
+    "label": "[K8S] Enforce to use `https` in /etc/apt/sources.list",
+    "pred": "[K8S][Docker] Use HTTPS apt sources in Spark Dockerfile."
+  },
+  {
+    "task_id": "spark_ad238a2238a9d0da89be4424574436cbfaee579d",
+    "model": "gpt-5.4",
+    "label": "[CORE] Trigger speculation for stages with too few tasks",
+    "pred": "[SPARK-29976][CORE] Add speculation task duration threshold for single-task and small stages"
+  },
+  {
+    "task_id": "spark_bbfc16ec9d690c2dfa20896bd6d33f9783b9c109",
+    "model": "gpt-5.4",
+    "label": "[CORE]Reply false when container allocator is not ready and reset target",
+    "pred": "[YARN] Return false when allocator isn't ready and restore executor target on request failure"
+  },
+  {
+    "task_id": "spark_477d6bd7265e255fd43e53edda02019b32f29bb2",
+    "model": "gpt-5.4",
+    "label": "[SQL] Fix complex type simplification rules to apply to entire plan",
+    "pred": "[SQL] Simplify redundant extract-value ops outside aggregates to enable named_struct filter pushdown"
+  },
+  {
+    "task_id": "spark_33f532a9f201fb9c7895d685b3dce82cf042dc61",
+    "model": "gpt-5.4",
+    "label": "[CORE] Fix log message about fetch request size in ShuffleBlockFetcherIterator",
+    "pred": "[CORE] Fix fetch request size logging in ShuffleBlockFetcherIterator"
+  },
+  {
+    "task_id": "spark_52186afd845865c903d39d50a57910b27db93167",
+    "model": "gpt-5.4",
+    "label": "[K8S] Enable SparkR Integration Tests for Kubernetes",
+    "pred": "[SPARK-25152][K8S] Re-enable SparkR integration tests on Kubernetes"
+  },
+  {
+    "task_id": "spark_77696448db5975343cf609b51f42702b49d7b08b",
+    "model": "gpt-5.4",
+    "label": "[PYTHON][TEST] Use check_exact=False to loosen the check precision",
+    "pred": "[pyspark][pandas][test] Use check_exact=False in StatsTest.test_cov_corr_meta"
+  },
+  {
+    "task_id": "spark_28252374482cd212bc9f4c15b9ee4b875d0e7caf",
+    "model": "gpt-5.4",
+    "label": "[K8S][TESTS] Improve spark decommissioning k8s test reliability",
+    "pred": "[K8S][TEST] Improve decommissioning integration test reliability by replacing sleep-based timing with log-based waits."
+  },
+  {
+    "task_id": "spark_0f16ff5b0ec8cd828774ba5ddb276d7b06dbe273",
+    "model": "gpt-5.4",
+    "label": "[SQL][FOLLOWUP] Re-enable Parquet filter tests for binary and string",
+    "pred": "[SPARK-17213][SQL] Enable Parquet filter pushdown tests for string and binary types"
+  },
+  {
+    "task_id": "spark_37b7d32dbd3546c303d31305ed40c6435390bb4d",
+    "model": "gpt-5.4",
+    "label": "Do not upload local pyspark archives for spark-submit on Yarn",
+    "pred": "[YARN] Skip uploading local PySpark archives in spark-submit"
+  },
+  {
+    "task_id": "spark_16e5e79877d9bad73f3f96688efe08c9a052340f",
+    "model": "gpt-5.4",
+    "label": "[SQL] create function should thrown Exception if the resource is not found",
+    "pred": "[SQL] Throw AnalysisException when CREATE FUNCTION resources do not exist"
+  },
+  {
+    "task_id": "spark_5539ecfdac6c06285c7449494196ea3b4eb4cf87",
+    "model": "gpt-5.4",
+    "label": "[CORE][SQL][TESTS] Set America/Los_Angeles time zone and Locale.US in tests by default",
+    "pred": "[TESTS] Move default America/Los_Angeles time zone and Locale.US setup to SparkFunSuite."
+  },
+  {
+    "task_id": "spark_550c1c9cfb5e6439cdd835388fe90a9ca1ebc695",
+    "model": "gpt-5.4",
+    "label": "[DOCS] Add user document about header flag and RDD as path for reading CSV",
+    "pred": "[SQL][PYSPARK] Document CSV header filtering behavior for RDD/Dataset inputs"
+  },
+  {
+    "task_id": "spark_bc23bb78823f4fa02385b7b2a0270cd1b98bce34",
+    "model": "gpt-5.4",
+    "label": "[CORE][TEST] Fix SizeEstimator initialization in tests",
+    "pred": "[CORE][TESTS] Reinitialize SizeEstimator and restore system properties in storage tests"
+  },
+  {
+    "task_id": "spark_830e635e67551be6f1cca019457c8fc79cc179da",
+    "model": "gpt-5.4",
+    "label": "[CORE][FOLLOWUP] Recover the default value to -1 again",
+    "pred": "[Network] Default shuffle/RPC listen backlog to -1 and document SOMAXCONN fallback"
+  },
+  {
+    "task_id": "spark_3ec24fd128c011356b6f872bf1477134ccdf1f07",
+    "model": "gpt-5.4",
+    "label": "[CORE][PYTHON] PythonRDD should respect SparkContext's hadoop configuration",
+    "pred": "[PYTHON] Respect SparkContext Hadoop conf when merging PythonRDD confAsMap"
+  },
+  {
+    "task_id": "spark_ddd8d5f5a0b6db17babc201ba4b73f7df91df1a3",
+    "model": "gpt-5.4",
+    "label": "[SQL][TESTS] Add date/timestamp benchmarks for `HiveResult.hiveResultString()`",
+    "pred": "[SQL] Add date/timestamp toHiveString benchmarks in DateTimeBenchmark"
+  },
+  {
+    "task_id": "spark_b13a4b85d4c6489399f5dbb3563f36b13a3bb9ee",
+    "model": "gpt-5.4",
+    "label": "[SQL] Avoid global locking in SQLConf object for sqlConfEntries map",
+    "pred": "[SQL] Replace SQLConf sqlConfEntries synchronized map with ConcurrentHashMap"
+  },
+  {
+    "task_id": "spark_cc560ea8585d845af9a01ced1c536036f88e7ba7",
+    "model": "gpt-5.4",
+    "label": "[SQL] Clean up the usage of `ParquetLogRedirector` in `ParquetFileFormat`",
+    "pred": "[SQL] Remove obsolete ParquetLogRedirector from ParquetFileFormat."
+  },
+  {
+    "task_id": "spark_cf3b6551ce010a5503d6c624e313690cd2058855",
+    "model": "gpt-5.4",
+    "label": "[SQL] DSv2: REFRESH TABLE should invalidate caches referencing the table",
+    "pred": "[SQL] Invalidate caches referencing DSv2 tables on REFRESH TABLE"
+  },
+  {
+    "task_id": "spark_368ee62a5dce83682ccaec92feeea8428af5a8cf",
+    "model": "gpt-5.4",
+    "label": "[DOC][FOLLOW-UP] Improve documentation for various Scala functions",
+    "pred": "[SQL] Improve Scala higher-order function Scaladoc and rename aggregate zero to initialValue"
+  },
+  {
+    "task_id": "spark_12e1583093bbd8f6b7146969f93bbff09d583561",
+    "model": "gpt-5.4",
+    "label": "[ML] Rethrow block mismatch exception in ALS when input data is nondeterministic",
+    "pred": "[SPARK-28927][ML][ALS] Improve error handling and docs for nondeterministic input data"
+  },
+  {
+    "task_id": "spark_173da5bf11daecbd428add1a5e0aedd58a66fadb",
+    "model": "gpt-5.4",
+    "label": "[WEB-UI] Handle empty ExecutorMetrics in ExecutorMetricsJsonSerializer",
+    "pred": "[CORE] Handle empty peakMemoryMetrics in ExecutorSummary JSON serde"
+  },
+  {
+    "task_id": "spark_ec289252368127f8261eb6a2270362ba0b65db36",
+    "model": "gpt-5.4",
+    "label": "Fast fail the connection while last connection failed in fast fail time window",
+    "pred": "[Shuffle] Fast-fail block fetch client creation after recent connection failures"
+  },
+  {
+    "task_id": "spark_ace85f25d11d6a771ec45493e73bd25c98b22803",
+    "model": "gpt-5.4",
+    "label": "[SS] Add support for tracking pinned blocks memory usage for RocksDB state store",
+    "pred": "[SQL] Track pinned block cache memory usage in RocksDB state store metrics"
+  },
+  {
+    "task_id": "spark_e43b9e8520bd4ea5bc3693beb496893b17e79054",
+    "model": "gpt-5.4",
+    "label": "[SQL] Fix a perf issue in SchemaPruning when a struct has many fields",
+    "pred": "[SQL] Optimize SchemaPruning.sortLeftFieldsByRight for wide structs."
+  },
+  {
+    "task_id": "spark_660d2ab07071238dadfd243cd763bb7706637518",
+    "model": "gpt-5.4",
+    "label": "[SQL] LookupFunctions rule should only look up functions from the scalar function registry",
+    "pred": "[SQL] Differentiate scalar and table function lookup in LookupFunctions."
+  },
+  {
+    "task_id": "spark_c18f849d7667012597fe747448845d80a367b1bb",
+    "model": "gpt-5.4",
+    "label": "[STREAMING][TESTS] StreamingContextSuite: Wait until slow receiver has been initialized, but with hard timeout",
+    "pred": "[Streaming] Fix flaky graceful slow receiver stop test by waiting for receiver initialization"
+  },
+  {
+    "task_id": "spark_3b4e345fa1afa0d4004988f8800b63150c305fd4",
+    "model": "gpt-5.4",
+    "label": "[CORE][TESTS] Skip date 8633 in Kwajalein due to changes in tzdata2018i that only some JDK 8s use",
+    "pred": "[SQL] Exclude both Kwajalein skipped dates in DateTimeUtilsSuite for newer tzdata"
+  },
+  {
+    "task_id": "spark_b5c35d68e430d6ebf92aff9f75f730ca14a68469",
+    "model": "gpt-5.4",
+    "label": "[CORE] HeartbeatReceiver should remove lost executors from CoarseGrainedSchedulerBackend",
+    "pred": "[SPARK-27348][CORE] Remove heartbeat-timed-out executors from CoarseGrainedSchedulerBackend"
+  },
+  {
+    "task_id": "spark_66ba35666a49023cd8da30cf84aff5c6fb1d8799",
+    "model": "gpt-5.4",
+    "label": "[SQL] Increase precision of seconds and fractions of `make_interval`",
+    "pred": "[SQL] Allow larger seconds values in make_interval."
+  },
+  {
+    "task_id": "spark_5651284c3b2f3d5cf3ced1301ab24e3f4d04c09e",
+    "model": "gpt-5.4",
+    "label": "[SQL] Map Oracle's ROWID type to StringType in read via JDBC",
+    "pred": "[SQL][JDBC][Oracle] Map ROWID to StringType and add integration test"
+  },
+  {
+    "task_id": "spark_356eada314e88a4c0a262c6aa28e76045880e38f",
+    "model": "gpt-5.4",
+    "label": "[PYTHON][SQL] More explicit Python type annotations for GroupedData",
+    "pred": "[PySpark] Fix GroupedData method type hints to return DataFrame"
+  },
+  {
+    "task_id": "spark_2e192b6f4546d39986b95603a1aaf2ccce947098",
+    "model": "gpt-5.4",
+    "label": "[CORE][TESTS] Fix deprecated API usage of Apache commons-io",
+    "pred": "[TESTS] Replace deprecated commons-io calls with charset-aware APIs"
+  },
+  {
+    "task_id": "spark_a60c36458d6335e6787edd4d13635227e86927f3",
+    "model": "gpt-5.4",
+    "label": "[SQL][TESTS][FOLLOWUP] Fix test failure under Scala 2.13",
+    "pred": "[SQL] Make V2 scalar function test objects non-private in DataSourceV2FunctionSuite"
+  },
+  {
+    "task_id": "spark_dc96f2f8d6e08c4bc30bc11d6b29109d2aeb604b",
+    "model": "gpt-5.4",
+    "label": "[SQL] Get table names directly from Hive tables",
+    "pred": "[SQL][Hive] Avoid table deserialization in listTablesByType fallback for SHOW VIEWS"
+  },
+  {
+    "task_id": "spark_c97a4b55e1d2f29e576463dbc822f53e9f86a251",
+    "model": "gpt-5.4",
+    "label": "[SQL][TESTS] When formatting `error-classes.json` file with `SparkThrowableSuite` , the last line of the file should be empty line",
+    "pred": "[CORE] Preserve trailing newline when regenerating error-classes.json"
+  },
+  {
+    "task_id": "spark_77a4aa05720982464d987182d58b9341e9c4dbad",
+    "model": "gpt-5.4",
+    "label": "[PROTOBUF] Any fields set to 'Any.getDefaultInstance' cause parse errors",
+    "pred": "[PROTOBUF] Use built-in Any descriptor to fix Any.getDefaultInstance JSON conversion"
+  },
+  {
+    "task_id": "spark_3249c7ab49fe9c30c1b7cefff149b490f6211770",
+    "model": "gpt-5.4",
+    "label": "[SQL] Allow cast null type to any types",
+    "pred": "[SQL] Allow upcast from NullType to any type in Cast.canUpCast"
+  },
+  {
+    "task_id": "spark_0ba1d3852b3e6f89128403e988d6ca8772d1706c",
+    "model": "gpt-5.4",
+    "label": "[SQL] Use copy-on-write semantics for SQLConf registered configurations",
+    "pred": "[SQL] Reduce contention in SQLConf config registries with copy-on-write updates"
+  },
+  {
+    "task_id": "spark_3819d39607392aa968595e3d97b84fedf83d08d9",
+    "model": "gpt-5.4",
+    "label": "[BUILD] Add ability to override default remote repos with internal one",
+    "pred": "[BUILD][CORE][SQL] Allow overriding default remote repos via DEFAULT_ARTIFACT_REPOSITORY."
+  },
+  {
+    "task_id": "spark_a744fea3be12f1a53ab553040b95da730210bc88",
+    "model": "gpt-5.4",
+    "label": "[SQL] Fix NPE issue on 'In' filter when one of values contains null",
+    "pred": "[SPARK-33267][SQL] Fix NPE in In.hashCode for null values during V2 filter pushdown"
+  },
+  {
+    "task_id": "spark_9b2e0d6191003f7477266667b164497c248579d9",
+    "model": "gpt-5.4",
+    "label": "[SQL][CORE] --verbose should be passed to Spark SQL CLI too",
+    "pred": "[SPARK-35086][CORE][SQL] Pass --verbose to SparkSQLCliDriver"
+  },
+  {
+    "task_id": "spark_c29494377badd182e587246954d5bb661b58a61f",
+    "model": "gpt-5.4",
+    "label": "[PYSPARK][DOC] Pandas Cogroup udf usage guide",
+    "pred": "[PYSPARK][DOCS] Add usage guide and examples for cogrouped map Pandas UDF"
+  },
+  {
+    "task_id": "spark_d72f39897b00d0bbd7a4db9de281a1256fcf908d",
+    "model": "gpt-5.4",
+    "label": "[SS] Cleanup complete but invalid output files in ManifestFileCommitProtocol if job is aborted",
+    "pred": "[SQL][Streaming] Clean up pending output files when ManifestFileCommitProtocol aborts a job"
+  },
+  {
+    "task_id": "spark_3b540ad822a53a8cb94159dc8aa3c66d34085e3e",
+    "model": "gpt-5.4",
+    "label": "[SS] Fix flaky test StreamingAggregationSuite.changing schema of state when restarting query",
+    "pred": "[SQL][TESTS] Fix flaky StreamingAggregationSuite state schema restart tests by setting shuffle partitions to 1"
+  },
+  {
+    "task_id": "spark_72b55ccf8327c00e173ab6130fdb428ad0d5aacc",
+    "model": "gpt-5.4",
+    "label": "[SQL][TESTS][FOLLOW-UP] Increase the number of partitions in TPC-DS build to avoid out-of-memory",
+    "pred": "[SQL] Increase TPC-DS test shuffle partitions to 32 to avoid OOM with SMJ"
+  },
+  {
+    "task_id": "spark_86c42275baff3c38c3edc51f34be8f70b2a5963a",
+    "model": "gpt-5.4",
+    "label": "[K8S] Add a new conf to allow K8s API server-side caching for pod listing",
+    "pred": "[SPARK-36334][K8S] Add config for executor pod polling with resourceVersion 0"
+  },
+  {
+    "task_id": "spark_11ea255283509a9f016f378df4865235a25b1851",
+    "model": "gpt-5.4",
+    "label": "[SQL] Support Cast string to year-month interval",
+    "pred": "[SQL] Support cast from string to YearMonthIntervalType."
+  },
+  {
+    "task_id": "spark_815c7929c290d6eed86dc5c924f9f7d48cff179d",
+    "model": "gpt-5.4",
+    "label": "[SQL] Match schema_of_json to the schema inference of JSON data source",
+    "pred": "[SQL] Canonicalize schema_of_json inferred types to match JSON datasource"
+  },
+  {
+    "task_id": "spark_e00afd31a72350f388c4473704d5dd58f79ffa29",
+    "model": "gpt-5.4",
+    "label": "[FOLLOW-UP][SQL] Manage ExecutionListenerBus register inside itself",
+    "pred": "[SQL] Fix memory leak when cloning SparkSession by cleaning ExecutionListenerBus"
+  },
+  {
+    "task_id": "spark_44e2657f3d511c25135c95dc3d584c540d227b5b",
+    "model": "gpt-5.4",
+    "label": "[SQL] Support timestamp in seconds for TimeTravel using Dataframe options",
+    "pred": "[SQL] Support numeric `timestampAsOf` values in DataSource V2 time travel options"
+  },
+  {
+    "task_id": "spark_c5c6f48de40a4e012a35ecc78f8db41654d2c8bd",
+    "model": "gpt-5.4",
+    "label": "[PYTHON] Use NamedTuple with variable type hints instead of namedtuple",
+    "pred": "[PYTHON] Replace collections.namedtuple with typing.NamedTuple in catalog"
+  },
+  {
+    "task_id": "spark_38c41cce5850b641824b25becbd5331bf7f79f00",
+    "model": "gpt-5.4",
+    "label": "[SQL] Remove useless `getRowFormatSQL`, `inputRowFormatSQL`, `outputRowFormatSQL` method",
+    "pred": "[SQL] Remove unused row format SQL helpers from ScriptInputOutputSchema"
+  },
+  {
+    "task_id": "spark_e6839ad7340bc9eb5df03df2a62110bdda805e6b",
+    "model": "gpt-5.4",
+    "label": "[SQL][FOLLOWUP] Check overflow when DS V2 partial aggregate push-down `AVG`",
+    "pred": "[SQL] Support partial aggregate push-down for AVG in DS V2."
+  },
+  {
+    "task_id": "spark_ca861eb4bf4a6d6ea38bc531ba57e976f1c3839f",
+    "model": "gpt-5.4",
+    "label": "[SQL] Forbid `%0$` usage explicitly to ensure `format_string` has same behavior when using Java 8 and Java 17",
+    "pred": "[SQL] Reject \"%0$\" in format_string/printf for consistent Java behavior"
+  },
+  {
+    "task_id": "spark_3946b243284fbd3bd98b456115ae194ad49fe8fe",
+    "model": "gpt-5.4",
+    "label": "[CORE] Log better message if SIGPWR is not supported while setting up decommission",
+    "pred": "[CORE] Log decommission disablement when SIGPWR handler registration fails"
+  },
+  {
+    "task_id": "spark_628a1ca5a4d14397a90e9e96a7e03e8f63531b20",
+    "model": "gpt-5.4",
+    "label": "[BUILD] Upgrade json4s to 3.5.3",
+    "pred": "[BUILD] Upgrade json4s-jackson to 3.5.3 and update JSON tests for changed \\ behavior"
+  },
+  {
+    "task_id": "spark_2c64b731ae6a976b0d75a95901db849b4a0e2393",
+    "model": "gpt-5.4",
+    "label": "[SS] Disable streaming query with possible correctness issue by default",
+    "pred": "[SS] Fail chained stateful streaming queries with possible watermark correctness issues by default"
+  },
+  {
+    "task_id": "spark_fe507139b4a2e14f06a8bf2f792ebe6d8fe1fb3d",
+    "model": "gpt-5.4",
+    "label": "[CONNECT][PYTHON][FOLLOWUP] Make `createDataFrame` accept `Decimal('NaN')`",
+    "pred": "[SPARK-41855][CONNECT] Convert Decimal('NaN') to null in createDataFrame"
+  },
+  {
+    "task_id": "spark_240706600dbf257dfcf378acaadd608348d666aa",
+    "model": "gpt-5.4",
+    "label": "[SQL] Compile regex pattern in SparkDateTimeUtils.getZoneId outside the hot loop",
+    "pred": "[SQL] Precompile timezone regex patterns in SparkDateTimeUtils.getZoneId"
+  },
+  {
+    "task_id": "spark_16037759343902108e6196babacb002628e82e24",
+    "model": "gpt-5.4",
+    "label": "[SQL][FOLLOWUP] Handle Currying Product while serializing TreeNode to JSON",
+    "pred": "[SQL] Fix missing fields in TreeNode JSON for curried Product classes"
+  },
+  {
+    "task_id": "spark_c09675779b5669119ed225bd4eb69c9c12c9be51",
+    "model": "gpt-5.4",
+    "label": "[ML] Use log1p(x) over log(1+x) and expm1(x) over exp(x)-1 for accuracy",
+    "pred": "[MLlib][Sketch] Replace log(1+x)/exp(x)-1 patterns with log1p/expm1 for better numerical accuracy"
+  },
+  {
+    "task_id": "spark_007a42b8511b005aabdf45955e504d1f71eb1d25",
+    "model": "gpt-5.4",
+    "label": "[YARN] Modify yarn client application report logging frequency to reduce noise",
+    "pred": "[YARN] Add report.loggingFrequency to reduce client application report log noise"
+  },
+  {
+    "task_id": "spark_fa378567105ec9d9bbe30edf4b74b09c3df27658",
+    "model": "gpt-5.4",
+    "label": "[DOCS] update rand() function documentation to indicate exclusive upper bound",
+    "pred": "[SQL][PYTHON][R] Clarify rand() docs to use [0.0, 1.0) range"
+  },
+  {
+    "task_id": "spark_c72f88b0ba20727e831ba9755d9628d0347ee3cb",
+    "model": "gpt-5.4",
+    "label": "[SQL] Fix ClassCastException when querying partitioned JSON table",
+    "pred": "[SPARK-17398][SQL] Synchronize Hive Deserializer.initialize in TableReader."
+  },
+  {
+    "task_id": "spark_558b395880673ec45bf9514c98983e50e21d9398",
+    "model": "gpt-5.4",
+    "label": "[AVRO] add ByteBuffer#rewind after ByteBuffer#get in Avr…",
+    "pred": "[AVRO] Rewind ByteBuffer after binary deserialization in AvroDeserializer"
+  },
+  {
+    "task_id": "spark_072575c9e6fc304f09e01ad0ee180c8f309ede91",
+    "model": "gpt-5.4",
+    "label": "[CONNECT] Update generated proto files for Spark Connect",
+    "pred": "[CONNECT] Re-generate Spark Connect Python protos and remove Databricks Go package refs"
+  },
+  {
+    "task_id": "spark_471a5b55b80256ccd253c93623ff363add5f1985",
+    "model": "gpt-5.4",
+    "label": "[SQL][TESTS] Make UT more stable",
+    "pred": "[SQL][TEST] Stabilize DataWritingCommand job commit duration metrics test in SQLMetricsSuite"
+  },
+  {
+    "task_id": "spark_844f10c7426a76fb29ee91223c8af43825e147c5",
+    "model": "gpt-5.4",
+    "label": "Fix memory leak in ExecutorAllocationListener",
+    "pred": "[CORE] Fix ExecutorAllocationManager cleanup to prevent dynamic allocation memory leaks"
+  },
+  {
+    "task_id": "spark_6d4ed13c465ae7f35753a1f2b67f78c690881a9e",
+    "model": "gpt-5.4",
+    "label": "[SQL][FOLLOWUP] Add comment about copying steam-side variables",
+    "pred": "[SQL] Copy stream-side ExprCode in JoinCodegenSupport to fix full outer join codegen errors."
+  },
+  {
+    "task_id": "spark_96c1a4401d96688a3142082f89864ded9bd22f7a",
+    "model": "gpt-5.4",
+    "label": "[SQL][PYSPARK] Fix SQLContext.getOrCreate() when SparkContext is restarted",
+    "pred": "[SPARK-30856][PYSPARK][SQL] Clear stale SQLContext after SparkContext restart"
+  },
+  {
+    "task_id": "spark_7f3b5987de1f79434a861408e6c8bf55c5598031",
+    "model": "gpt-5.4",
+    "label": "[K8S] Resource name prefix should not start with a hyphen",
+    "pred": "[SPARK-40869][K8S] Prevent resource name prefixes from starting with a hyphen"
+  },
+  {
+    "task_id": "spark_c4cd193b4d43d951255d9914f9b6f099d140fe1c",
+    "model": "gpt-5.4",
+    "label": "[SQL] Don't push non-deterministic filters to V2 file sources",
+    "pred": "[SQL] Prevent non-deterministic filter pushdown for V2 file sources"
+  },
+  {
+    "task_id": "spark_ca0001345d0b501f706857b820bf9904fbf6c274",
+    "model": "gpt-5.4",
+    "label": "[K8S] Use Java `21` instead of `21-jre` image in K8s Dockerfile",
+    "pred": "[Kubernetes] Use Java 21 base image instead of 21-jre in Spark Dockerfile"
+  },
+  {
+    "task_id": "spark_548e66c98a5503e0d7567d688878e1612fe8ed51",
+    "model": "gpt-5.4",
+    "label": "[SQL][FOLLOWUP] Add INSET to ReplaceNullWithFalseInPredicate's pattern",
+    "pred": "[SQL] Support null propagation for Not(InSet) in ReplaceNullWithFalseInPredicate."
+  },
+  {
+    "task_id": "spark_610acb2fe4e2d8f76c4a863e3872d94299b88c4c",
+    "model": "gpt-5.4",
+    "label": "[BUILD][FOLLOWUP] Make Spark's guava version configurable from the command line for sbt",
+    "pred": "[BUILD] Make Guava dependency override configurable via -Dguava.version"
+  },
+  {
+    "task_id": "spark_c4d5390dd032d17a40ad50e38f0ed7bd9bbd4698",
+    "model": "gpt-5.4",
+    "label": "[SQL] Handle null struct in `Inline.eval`",
+    "pred": "[SQL] Handle null structs in Inline eval path"
+  },
+  {
+    "task_id": "spark_a3357dfccacadfb40ab103ba1ff3c0927e806dd2",
+    "model": "gpt-5.4",
+    "label": "[BUILD] Upgrade the version of Genjavadoc to 0.15",
+    "pred": "[BUILD] Upgrade genjavadoc from 0.14 to 0.15 for Scala 2.13 support"
+  },
+  {
+    "task_id": "spark_e05959e1900cc687f61b794da47a1516d9baf66b",
+    "model": "gpt-5.4",
+    "label": "[PYTHON][PS] Respect TimestampNTZ in resampling",
+    "pred": "[PYTHON][PANDAS] Fix resample binning for TIMESTAMP_NTZ across DST"
+  },
+  {
+    "task_id": "spark_70964e741a715945052df4122b5e66fc39431b1a",
+    "model": "gpt-5.4",
+    "label": "[CORE][FOLLOW-UP] Only calculate executorKillTime when speculation is enabled",
+    "pred": "[CORE] Only set executor decommission kill times when speculation is enabled"
+  },
+  {
+    "task_id": "spark_fdf86fd6e795474afb78d1917369fec288d06b24",
+    "model": "gpt-5.4",
+    "label": "[ML][FOLLOWUP] softmax support offset and step",
+    "pred": "[ML] Add shared Utils.softmax and reuse it across models"
+  },
+  {
+    "task_id": "spark_12beadbc0525b473575f83d01c962f7238f9069b",
+    "model": "gpt-5.4",
+    "label": "[CONNECT][INFRA] Introduce `dev/connect-jvm-client-mima-check` instead of `CompatibilitySuite`",
+    "pred": "[CONNECT] Convert CompatibilitySuite into a dev tool for JVM client MiMa checks"
+  },
+  {
+    "task_id": "spark_cbd09346d406f89758bf6e295368521080ae31dd",
+    "model": "gpt-5.4",
+    "label": "[CORE] Send TaskEnd event when task failed with NotSerializableException or TaskOutputFileAlreadyExistException",
+    "pred": "[CORE] Send TaskEnd for NotSerializable and output file exists failures"
+  },
+  {
+    "task_id": "spark_bf2e25459fe46ca2b1d26e1c98c873923fc135e1",
+    "model": "gpt-5.4",
+    "label": "[SQL][FOLLOWUP] Use primitive arrays over object arrays when nulls exist",
+    "pred": "[SQL] Preserve nulls when copying primitive ColumnarArray to UnsafeArrayData"
+  },
+  {
+    "task_id": "spark_9cac2bb608c65f7fec19927711aff6dd1c54005a",
+    "model": "gpt-5.4",
+    "label": "[SQL][XML] Fix schema inference issues in XML",
+    "pred": "[XML] Fix schema inference for empty tags and NullType merging"
+  },
+  {
+    "task_id": "spark_f2f6272dd97755760b28e623efa4cd258513f5cb",
+    "model": "gpt-5.4",
+    "label": "[PYTHON] Add autocomplete support for `df[|]` in `pyspark.sql.dataframe.DataFrame`",
+    "pred": "[PYTHON] Add DataFrame _ipython_key_completions_ for column autocomplete"
+  },
+  {
+    "task_id": "spark_f3c2583cc3ad6a2a24bfb09e2ee7af4e63e5bf66",
+    "model": "gpt-5.4",
+    "label": "[YARN][FOLLOW-ON] Leverage RM's RPC API instead of REST to fetch driver log links in yarn.Client",
+    "pred": "[YARN] Print direct driver log links in cluster mode via RM RPC"
+  },
+  {
+    "task_id": "spark_58583f7c3fdcac1232607a7ab4b0d052320ac3ea",
+    "model": "gpt-5.4",
+    "label": "[SQL] Fix GetMapValueUtil code generation error",
+    "pred": "[SQL] Fix GetMapValueUtil ANSI codegen error and validate exceptions in both codegen modes"
+  },
+  {
+    "task_id": "spark_443eea97578c41870c343cdb88cf69bfdf27033a",
+    "model": "gpt-5.4",
+    "label": "[SQL] Fix column names in \"arrays_zip\" function when arrays are referenced from nested structs",
+    "pred": "[SQL] Preserve nested struct field names in arrays_zip output schema"
+  },
+  {
+    "task_id": "spark_31555f777971197f31279ce4cff22de11670255a",
+    "model": "gpt-5.4",
+    "label": "[PYTHON][FOLLOWUP] Add __version__ into pyspark init __all__",
+    "pred": "[PYTHON] Add pyspark.__version__ to exports and type stubs"
+  },
+  {
+    "task_id": "spark_2e4f4abf553cedec1fa8611b9494a01d24e6238a",
+    "model": "gpt-5.4",
+    "label": "[SQL] Avoid `NullPointerException` when evaluating date_trunc/trunc format as a bound reference",
+    "pred": "[SQL] Fix trunc/date_trunc NPE when format is read from a column."
+  },
+  {
+    "task_id": "spark_829f118f98ef0732c8dd784f06298465e47ee3a0",
+    "model": "gpt-5.4",
+    "label": "[SQL] Instant and LocalDate values aren't handled when generating SQL queries",
+    "pred": "[SQL][JDBC] Handle java.time.LocalDate and Instant in JdbcDialect.compileValue"
+  },
+  {
+    "task_id": "spark_e187bb3940a465613b31e5a5d6b75b469d0423ec",
+    "model": "gpt-5.4",
+    "label": "[SQL] Avoid unnecessary sort in v1 write if it's not dynamic partition",
+    "pred": "[SPARK-37194][SQL] Avoid unnecessary sort in FileFormatWriter for static partitions"
+  },
+  {
+    "task_id": "spark_9b739d415cd51c8dd3f9332bae225196bab17d48",
+    "model": "gpt-5.4",
+    "label": "[SQL] Support IDENTIFIER expression in SET CATALOG statement",
+    "pred": "[SQL] Support IDENTIFIER clause in SET CATALOG"
+  },
+  {
+    "task_id": "spark_a31da6a37ef6369c271c4144dafc723a57c480c8",
+    "model": "gpt-5.4",
+    "label": "[PYTHON][CONNECT] Switch to use logger instead of warnings module in client",
+    "pred": "[PYTHON][CONNECT] Use logger instead of warnings for informational messages"
+  },
+  {
+    "task_id": "spark_161cf2a12698bfebba94e0d406e0b110e4429b6b",
+    "model": "gpt-5.4",
+    "label": "[WEBUI][FOLLOWUP] Quick fix on test failure on missing when statements",
+    "pred": "[CORE] Fix HistoryServerDiskManager disk usage tracking for committed app store paths"
+  },
+  {
+    "task_id": "spark_7e5ee50d3d5220047c8141ff1f3e7fb595193b85",
+    "model": "gpt-5.4",
+    "label": "[BUILD][FOLLOWUP] Reduce mvn -Xmx option to 2g in publish_snapshot workflow",
+    "pred": "[INFRA] Make snapshot publish Maven heap configurable and lower it to 2g"
+  },
+  {
+    "task_id": "spark_0f8218c4324e0a901a21a9076c6c3d80f5c0ecea",
+    "model": "gpt-5.4",
+    "label": "[SQL] JDBCTableCatalog Keeps Char/Varchar meta on the read-side",
+    "pred": "[SQL][JDBC] Preserve Char/Varchar metadata on the JDBC read side"
+  },
+  {
+    "task_id": "spark_242ee22c00394c29e21bc3de0a93cb6d9746d93c",
+    "model": "gpt-5.4",
+    "label": "[SQL] Update to_number and try_to_number functions to restrict S and MI sequence to start or end only",
+    "pred": "[SQL] Enforce to_number/try_to_number format string structure and sign placement."
+  },
+  {
+    "task_id": "spark_0a4de08566eb38bf2c5ddb5d6312195d503fa7d7",
+    "model": "gpt-5.4",
+    "label": "[PYTHON][FOLLOWUP] Add test_timedelta_ops to modules",
+    "pred": "[PYTHON][PANDAS_ON_SPARK] Add test_timedelta_ops to Spark test support."
+  },
+  {
+    "task_id": "spark_b377ea26e2f03e263f317caeabbf8ec866e890c3",
+    "model": "gpt-5.4",
+    "label": "[SHUFFLE] When state is remove will throw NPE, and we should improve the error message",
+    "pred": "[NETWORK] Improve getChunk error message for closed streams in OneForOneStreamManager"
+  },
+  {
+    "task_id": "spark_91fda1844790fd4b5b918e3fbfd09a304a8104e5",
+    "model": "gpt-5.4",
+    "label": "[CONNECT][PYTHON][TESTS] Enable tests `test_fillna` and `test_replace`",
+    "pred": "[SPARK-41872][CONNECT][PYTHON] Enable fillna and replace DataFrame parity tests"
+  },
+  {
+    "task_id": "spark_c3d81fbe79014f693cf93c02e31af401727761d7",
+    "model": "gpt-5.4",
+    "label": "[SQL][FOLLOWUP] Preserve serializability of canonicalized CatalogTable",
+    "pred": "[SQL] Materialize filtered CatalogTable properties to avoid uncaching Hive tables on DROP PARTITION stats updates"
+  },
+  {
+    "task_id": "spark_a40a2f83383337ee1e4628b2a0b64d7c67ef0f89",
+    "model": "gpt-5.4",
+    "label": "[SQL][FOLLOWUP] Rename 'spark.sql.legacy.useHashOnMapType' to 'spark.sql.legacy.allowHashOnMapType'",
+    "pred": "[SQL] Rename legacy hash-on-MapType config to allowHashOnMapType"
+  },
+  {
+    "task_id": "spark_004430054c2a1c1599f9451e6c77b64d02de4171",
+    "model": "gpt-5.4",
+    "label": "[SQL][FOLLOWUP] InMemoryCatalog should keep the catalog field when renaming tables",
+    "pred": "[SQL] Preserve session catalog-qualified v1 table and function identifiers in InMemoryCatalog."
+  },
+  {
+    "task_id": "spark_d3d8fdc2882f5c084897ca9b2af9a063358f3a21",
+    "model": "gpt-5.4",
+    "label": "[WEBUI] Fix /api/v1/applications to return total uptime instead of 0 for the duration field",
+    "pred": "[UI] Report uptime as duration for running apps in /api/v1/applications"
+  },
+  {
+    "task_id": "spark_e9c4e7ebd5959a0195a359ec9c27ec588e5b2dc8",
+    "model": "gpt-5.4",
+    "label": "[PYTHON][CONNECT] Function `sha2` should raise `PySparkValueError` for invalid `numBits`",
+    "pred": "[PYTHON][CONNECT] Validate sha2 numBits in PySpark and align exception tests"
+  },
+  {
+    "task_id": "spark_0329479acb6758c4d3e53d514ea832a181d31065",
+    "model": "gpt-5.4",
+    "label": "[SQL] Support TRANSLATE function to work with collated strings",
+    "pred": "[SQL] Add collation support for StringTranslate/translate."
+  },
+  {
+    "task_id": "spark_27abb6ab5674b8663440dc738a0ba79c185fb063",
+    "model": "gpt-5.4",
+    "label": "[SQL] Resolve temporary functions and views in views with CTEs",
+    "pred": "[SQL] Fix temporary object resolution in views with CTEs."
+  },
+  {
+    "task_id": "spark_3f380b9ecc8b27f6965b554061572e0990f05132",
+    "model": "gpt-5.4",
+    "label": "[UI] Remove unnecessary right curly brace at the end of the thread locks info",
+    "pred": "[CORE] Remove extra curly braces from thread lock info in Utils."
+  },
+  {
+    "task_id": "spark_1e194d26ead8857c2b2d7737a932e86ca0897e40",
+    "model": "gpt-5.4",
+    "label": "[SQL] Add the `EQUAL_NULL()` function",
+    "pred": "[SQL] Implement equal_null function"
+  },
+  {
+    "task_id": "spark_1c1216f18f3008b410a601516b2fde49a9e27f7d",
+    "model": "gpt-5.4",
+    "label": "[PYTHON] Fix usage logger attachment to handle static methods properly",
+    "pred": "[PYTHON] Preserve static methods when attaching usage logger wrappers."
+  },
+  {
+    "task_id": "spark_d150b7ee7f035650cd190058375dbef5df74201f",
+    "model": "gpt-5.4",
+    "label": "[SQL][FOLLOWUP] Quote the column name of view if needed",
+    "pred": "[SQL] Quote view column names in SHOW CREATE TABLE only when needed."
+  },
+  {
+    "task_id": "spark_a056f694386cc074219914debf7023f5935bc37d",
+    "model": "gpt-5.4",
+    "label": "[SQL] IntegralDivide use decimal(1, 0) to represent 0",
+    "pred": "[SPARK-41219][SQL] Fix IntegralDivide returning null for zero decimal results"
+  },
+  {
+    "task_id": "spark_aab0c2bf66edcfdd455168af59d91db1516a1576",
+    "model": "gpt-5.4",
+    "label": "[SQL][FOLLOWUP] Move a common logic to DayTimeIntervalType",
+    "pred": "[SQL] Use DayTimeIntervalType.stringToField when parsing day-time interval types."
+  },
+  {
+    "task_id": "spark_0d08e22bc72a4e964937d95df9bce9857b84d7c6",
+    "model": "gpt-5.4",
+    "label": "[SQL] Fix table stats calculation by `TRUNCATE TABLE`",
+    "pred": "[SQL] Fix TRUNCATE TABLE stats update for non-empty V1 tables."
+  },
+  {
+    "task_id": "spark_4cc39cfe153aca70c97dc8702b3b55cf22f3ce80",
+    "model": "gpt-5.4",
+    "label": "[CORE] Grouping exception in core/api",
+    "pred": "[CORE] Group Py4J and Python API exception messages in SparkCoreErrors"
+  },
+  {
+    "task_id": "spark_9d6221b9368ab3d23c63a9f24a2ba42a6f709d54",
+    "model": "gpt-5.4",
+    "label": "[ML][FOLLOWUP] LSH approxNearestNeighbors optimization 2",
+    "pred": "[ML] Ignore null and NaN hash distances in LSH approxNearestNeighbors quantiles."
+  },
+  {
+    "task_id": "spark_0865c0db923eadb840dd9af5834dc72ba19e43c4",
+    "model": "gpt-5.4",
+    "label": "[SQL][FOLLOWUP] Directly leverage `UnresolvedFunction` for functions `startswith`/`endswith`/`contains`",
+    "pred": "[SQL] Resolve contains, startswith, and endswith via UnresolvedFunction in Scala API"
+  },
+  {
+    "task_id": "spark_d2a1a31a3800c2b64f1e45793267e84ef046e888",
+    "model": "gpt-5.4",
+    "label": "[PYTHON][CONNECT] Improve error messages when Spark Connect mode is enabled but remote URL is not set",
+    "pred": "[PYTHON][CONNECT] Raise clear error when Spark Connect remote URL is missing"
+  },
+  {
+    "task_id": "spark_43b64635ac1a018fa32f7150478deb63955ee8be",
+    "model": "gpt-5.4",
+    "label": "[CONNECT] Add client_type to AddArtifactsRequest protobuf message",
+    "pred": "[CONNECT] Add missing client_type field to AddArtifactsRequest proto"
+  },
+  {
+    "task_id": "spark_a61911c50c391e61038cf01611629d2186d17a76",
+    "model": "gpt-5.4",
+    "label": "[CORE][PYTHON] Fix UnionRDD of PairRDDs",
+    "pred": "[SPARK-31788][PYTHON] Fix SparkContext.union for PairRDDs in PySpark"
+  },
+  {
+    "task_id": "spark_f78d8394dcf19891141e353ea3b6a76020faf844",
+    "model": "gpt-5.4",
+    "label": "[SQL] Fix regression in AQEShuffleReadExec",
+    "pred": "[SQL] Fix AQEShuffleReadExec regression by returning UnknownPartitioning for custom partitioning."
+  },
+  {
+    "task_id": "spark_a72d05c7e632fbb0d8a6082c3cacdf61f36518b4",
+    "model": "gpt-5.4",
+    "label": "[CORE][SQL] Avoid failing rename caused by destination directory not exist",
+    "pred": "[SPARK-35106][CORE][SQL] Create parent dirs and fail on false renames for partition commits"
+  },
+  {
+    "task_id": "spark_7274e3a4d24b85c99c42c115a227df42074ea739",
+    "model": "gpt-5.4",
+    "label": "[SQL][FOLLOWUP] Do not fail Spark startup with a broken FileSystem",
+    "pred": "[SPARK-33944][SQL] Fall back to unqualified warehouse path when qualification fails"
+  },
+  {
+    "task_id": "spark_59ce0a706cb52a54244a747d0a070b61f5cddd1c",
+    "model": "gpt-5.4",
+    "label": "[SQL] Fix union deduplication correctness bug",
+    "pred": "[SQL] Preserve duplicate output columns in Union by uniquifying duplicate exprIds"
+  },
+  {
+    "task_id": "spark_54aabb012e85b5c46773b57960d57de580fa8bba",
+    "model": "gpt-5.4",
+    "label": "[SQL] Add flag to control breaking change process for: DESC NAMESPACE EXTENDED should redact properties",
+    "pred": "[SQL] Redact DESC NAMESPACE EXTENDED properties with legacy fallback config"
+  },
+  {
+    "task_id": "spark_fa3db73d7a96cc31f17ae76e8b69010147b9925a",
+    "model": "gpt-5.4",
+    "label": "[ML][PYTHON] Migrate _java2py from SQLContext to SparkSession",
+    "pred": "[PYTHON] Use SparkSession in ML/MLlib _java2py Dataset conversion"
+  },
+  {
+    "task_id": "spark_171251518b469824589c498c5f202cc55dacb128",
+    "model": "gpt-5.4",
+    "label": "[PYTHON][DOCS][FOLLOWUP] Upgrade `pydata_sphinx_theme` to 0.8.0 in `spark-rm` Dockerfile",
+    "pred": "[DOCS] Upgrade pydata_sphinx_theme to 0.8.0 for PySpark doc version dropdown"
+  },
+  {
+    "task_id": "spark_f86dc2b7e5c3aa4a94888feb499bc495877f36a9",
+    "model": "gpt-5.4",
+    "label": "[SS] Fix thread safety issue around access to loadedMaps in close function for hdfs store provider",
+    "pred": "[SQL] Synchronize loadedMaps access in HDFSBackedStateStoreProvider.close"
+  },
+  {
+    "task_id": "spark_2953d4f5005705d0e08f457156fcfe4e7e4ffa17",
+    "model": "gpt-5.4",
+    "label": "[PYTHON][DOCS][FOLLOW-UP] Fix unexpected section title for Examples in docstring",
+    "pred": "[PYTHON][DOCS] Fix doctest examples for octet_length and bit_length."
+  },
+  {
+    "task_id": "spark_2b2d7227878034331c38d6ca84ea8305b872533b",
+    "model": "gpt-5.4",
+    "label": "[PYTHON] Remove unnecessary 'noqa: F401' comments",
+    "pred": "[PYTHON] Remove unnecessary F401 noqa comments from pyspark.pandas._typing imports."
+  },
+  {
+    "task_id": "spark_379ef50d142537d01e31dc1c1402632de09388ee",
+    "model": "gpt-5.4",
+    "label": "[CORE][TEST] Remove writePartitionedFile in ExternalSorter",
+    "pred": "[CORE][SQL] Remove unused writePartitionedFile from ExternalSorter"
+  },
+  {
+    "task_id": "spark_9d5e48ea95d1c3017a51ff69584f32a18901b2b5",
+    "model": "gpt-5.4",
+    "label": "[SQL] Return SQL schema instead of Catalog string from the `SchemaOfJson` expression",
+    "pred": "[SQL] Make schema_of_json return quoted SQL schema for from_json compatibility"
+  },
+  {
+    "task_id": "spark_3bb8cd918dca338228cdf644056299a104d037fe",
+    "model": "gpt-5.4",
+    "label": "[SQL] Better FileScan statistics estimation",
+    "pred": "[SQL] Account for read schema in V2 FileScan size estimation"
+  },
+  {
+    "task_id": "spark_ec1fb6b4e18ec36452e451021168ae4ae5a12e44",
+    "model": "gpt-5.4",
+    "label": "[SQL][FOLLOWUP] Add `.enabled` in the suffix of the ADD FILE legacy option",
+    "pred": "[SQL] Rename legacy ADD FILE directory conf to spark.sql.legacy.addDirectory.recursive.enabled"
+  },
+  {
+    "task_id": "spark_c4f720dfb41919dade7002b49462b3ff6b91eb22",
+    "model": "gpt-5.4",
+    "label": "[SS] Update config docs to indicate possibility of data loss/corruption issue if skip nulls for stream-stream joins config is enabled",
+    "pred": "[SQL] Add caution note to stream-stream join null-skipping config doc"
+  },
+  {
+    "task_id": "spark_ac105ccebf5f144f2d506cbe102c362a195afa9a",
+    "model": "gpt-5.4",
+    "label": "[SQL] Fallback to previous codegen code path for complex expr with CAST",
+    "pred": "[SQL] Fix CheckOverflowInTableInsert for CASE WHEN expressions in table inserts"
+  },
+  {
+    "task_id": "spark_06997d6eb73f271aede5b159d86d1db80a73b89f",
+    "model": "gpt-5.4",
+    "label": "[SQL][TESTS] Move tests from SplitPart to elementAt",
+    "pred": "[SQL] Fix codegen compilation error for split_part and add ElementAt coverage."
+  },
+  {
+    "task_id": "spark_931eb938c70d6c6707e93f164255ac3c7dba63b0",
+    "model": "gpt-5.4",
+    "label": "[SQL] Do not convert array type string retrieved from jdbc driver",
+    "pred": "[SQL][JDBC] Stop lowercasing array element type names in JdbcUtils"
+  },
+  {
+    "task_id": "spark_3e12e9d2ee2a0d6d0137a956356dfe888412d16a",
+    "model": "gpt-5.4",
+    "label": "[SQL][FOLLOW_UP] SHOW PARTITIONS Keep consistence with other `SHOW` command",
+    "pred": "[SQL] Unify SHOW PARTITIONS output and pass attributes properly."
+  },
+  {
+    "task_id": "spark_52958d9c34d9e7b1bbb23958e29258c6bb1a9322",
+    "model": "gpt-5.4",
+    "label": "[FOLLOWUP][PYTHON][SS] Catch Cancelled Job Group wrapped by Py4JJavaError in StreamExecution",
+    "pred": "[SQL] Treat cancelled job group Py4J errors as interruption exceptions in StreamExecution"
+  },
+  {
+    "task_id": "spark_71f4ee38c71734128c5653b8f18a7d0bf1014b6b",
+    "model": "gpt-5.4",
+    "label": "[SQL] Allow ANSI intervals in v2 `ALTER TABLE .. REPLACE COLUMNS`",
+    "pred": "[SQL] Allow ALTER TABLE REPLACE COLUMNS with ANSI intervals"
+  },
+  {
+    "task_id": "spark_c8fa821a873b9abc500e17b9c5bbb95d77364c5f",
+    "model": "gpt-5.4",
+    "label": "[SQL] Add `SnowflakeDialect` to handle BOOLEAN type correctly",
+    "pred": "[SQL] Add Snowflake JDBC dialect for BOOLEAN type mapping"
+  },
+  {
+    "task_id": "spark_5664403bb960b91e2f0fa87f2630b96e4c124701",
+    "model": "gpt-5.4",
+    "label": "[SQL][FOLLOWUP] Fix exception message and add a test case",
+    "pred": "[SQL] Fix Parquet missing field-id hint and add nested-schema read coverage."
+  },
+  {
+    "task_id": "spark_d025ddbaa7e7b9746d8e47aeed61ed39d2f09f0e",
+    "model": "gpt-5.4",
+    "label": "[TEST][FOLLOWUP] Fix readResourceOrcFile to create a local file from resource",
+    "pred": "[SQL][TESTS] Copy ORC resource files to temp files before reading to avoid URISyntaxException"
+  },
+  {
+    "task_id": "spark_73e3c36ec89242e4c586a5328e813310f82de728",
+    "model": "gpt-5.4",
+    "label": "[SQL] Fix interpreted path for companion object constructor",
+    "pred": "[SQL] Fix interpreted encoder for classes with only a companion object constructor"
+  },
+  {
+    "task_id": "spark_4510c0624209349cc68d6486da3746ef0ed3b5d4",
+    "model": "gpt-5.4",
+    "label": "[SQL][FOLLOWUP] Fix `AnsiTypeCoercion` to handle ArrayType",
+    "pred": "[SQL] Support collated strings in array type coercion and array_join."
+  },
+  {
+    "task_id": "spark_116f6a719eaf1220d8eed98433f724fca672acc6",
+    "model": "gpt-5.4",
+    "label": "[CONNECT][FOLLOW-UP] Support all join types in python client",
+    "pred": "[Connect] Extend Join relation to support join type variants."
+  },
+  {
+    "task_id": "spark_28e0a0e21ea6481865592d18a874fee916a73339",
+    "model": "gpt-5.4",
+    "label": "[K8S][FOLLOWUP] Allow equal resource version to update snapshot",
+    "pred": "[K8S] Accept equal resourceVersion for executor pod snapshot updates"
+  },
+  {
+    "task_id": "spark_8dfecc1463ff0c2a3a18e7a4409736344c2dc3b8",
+    "model": "gpt-5.4",
+    "label": "[CONNECT][SQL] Move aggregators to sql/api",
+    "pred": "[SQL] Move typed expression helpers and aggregators to sql/api/internal"
+  },
+  {
+    "task_id": "spark_564a51b64e71f7402c2674de073b3b18001df56f",
+    "model": "gpt-5.4",
+    "label": "Fix race condition at the handling of ExecutorMetricsPoller's stageTCMP entries",
+    "pred": "[CORE] Fix negative task count race in ExecutorMetricsPoller"
+  },
+  {
+    "task_id": "spark_f7c8ac768e48dd5a8fd9ccc8c2642562b2b29226",
+    "model": "gpt-5.4",
+    "label": "[CONNECT][TEST][FOLLOWUP] Fix jar finding bug and use better env vars and time measurement",
+    "pred": "[CONNECT][TESTS] Stabilize Scala client E2E tests with explicit Spark home lookup"
+  },
+  {
+    "task_id": "spark_91df046e0825c8916107de1cdf7c4a022fb1a53d",
+    "model": "gpt-5.4",
+    "label": "[PYTHON][CONNECT][TESTS] Enable doctest for `DataFrame.observe`",
+    "pred": "[SPARK-41888][PYTHON][CONNECT] Re-enable DataFrame.observe doctest"
+  },
+  {
+    "task_id": "spark_d5f2539f83f6dded5c014bb354d01afa8f4c2c5d",
+    "model": "gpt-5.4",
+    "label": "[FOLLOWUP][TESTS] Only test Python data source when Python and PySpark environments are available",
+    "pred": "[SQL][TESTS] Guard PythonDataSourceSuite partition read tests with shouldTestPythonUDFs"
+  },
+  {
+    "task_id": "spark_9fe78e3d33499060467ecdc0c2631beae0b0316c",
+    "model": "gpt-5.4",
+    "label": "[SQL] Support TIME in off-heap column vectors",
+    "pred": "[SQL] Add TimeType support in off-heap column vectors"
+  },
+  {
+    "task_id": "spark_9756bbe8026c2f9863046f01949a8d6e6d647f2f",
+    "model": "gpt-5.4",
+    "label": "[SQL] Support ordering UDTs in interpreted mode",
+    "pred": "[SQL] Fix interpreted ordering for UDT columns"
+  },
+  {
+    "task_id": "spark_5ef0eb5f4bb9925bf1a7ba6cb26890415c7d3892",
+    "model": "gpt-5.4",
+    "label": "[SQL][FOLLOWUP] Replace `ScalaObjectMapper` with `ClassTagExtensions` to fix compilation warning",
+    "pred": "[SQL] Use ClassTagExtensions in UserDefinedFunction object mapper."
+  }
+]

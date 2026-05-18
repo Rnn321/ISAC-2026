@@ -1,0 +1,42 @@
+[
+  {
+    "model": "chatgpt-5.4-none",
+    "file": "with_full_issue_363_collection\\chatgpt-5.4-none_with_full_issue_363.json",
+    "count": 363,
+    "BLEU": 23.360255613739238,
+    "ROUGE-L": 36.59636438928795,
+    "METEOR": 42.883742220009545,
+    "CIDEr": 15.91410116612429,
+    "SBERT Cosine": 65.33989906311035
+  },
+  {
+    "model": "chatgpt-5.4",
+    "file": "with_full_issue_363_collection\\chatgpt-5.4_with_full_issue_363.json",
+    "count": 363,
+    "BLEU": 23.786915236518862,
+    "ROUGE-L": 37.06778449249233,
+    "METEOR": 43.03550435757289,
+    "CIDEr": 16.12429146656805,
+    "SBERT Cosine": 64.93300795555115
+  },
+  {
+    "model": "deepseek-chat",
+    "file": "with_full_issue_363_collection\\deepseek-chat_with_full_issue_363.json",
+    "count": 363,
+    "BLEU": 23.245871405817756,
+    "ROUGE-L": 37.28681724546949,
+    "METEOR": 42.72296989299203,
+    "CIDEr": 16.990440095580034,
+    "SBERT Cosine": 65.45982956886292
+  },
+  {
+    "model": "deepseek-reasoner",
+    "file": "with_full_issue_363_collection\\deepseek-reasoner_with_full_issue_363.json",
+    "count": 363,
+    "BLEU": 22.036551315678146,
+    "ROUGE-L": 36.96649728478836,
+    "METEOR": 43.00674148555341,
+    "CIDEr": 16.09263002832203,
+    "SBERT Cosine": 65.30815958976746
+  }
+]

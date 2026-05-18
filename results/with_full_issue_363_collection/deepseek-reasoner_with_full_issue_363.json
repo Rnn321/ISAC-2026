@@ -1,0 +1,2180 @@
+[
+  {
+    "task_id": "spark_259860d23d1740954b739b639c5bdc3ede65ed25",
+    "model": "deepseek-reasoner",
+    "label": "Add support for IS [NOT] DISTINCT FROM.",
+    "pred": "[SQL] Add support for IS [NOT] DISTINCT FROM predicate."
+  },
+  {
+    "task_id": "spark_e965a798d09a9fba61b104c5cc0b65cdc28d27f6",
+    "model": "deepseek-reasoner",
+    "label": "Fix Scala 2.11 build break in UnsafeExternalRowSorter",
+    "pred": "[SQL] Make AbstractScalaRowIterator concrete to fix Scala 2.11 build break."
+  },
+  {
+    "task_id": "spark_57566d0af3008982a1e24a763ed2f6a700b40f8f",
+    "model": "deepseek-reasoner",
+    "label": "[Yarn] Add volatile to ApplicationMaster's reporterThread and allocator",
+    "pred": "[YARN] Add volatile to reporterThread and allocator in ApplicationMaster."
+  },
+  {
+    "task_id": "spark_6da1069696186572c66cbd83947c1a1dbd2bc827",
+    "model": "deepseek-reasoner",
+    "label": "[ML] Fix definition of residual in LinearRegressionSummary, EnsembleTestHelper, and SquaredError",
+    "pred": "Fix residual definition to label - prediction in LinearRegressionSummary and SquaredError loss."
+  },
+  {
+    "task_id": "spark_9df08e218cfd4dd91bc407b98528b74f452f34f8",
+    "model": "deepseek-reasoner",
+    "label": "[CORE] ExternalShuffleClient.close() should check clientFactory null",
+    "pred": "[Network Shuffle] Add null check in ExternalShuffleClient.close()"
+  },
+  {
+    "task_id": "spark_d2d438d1d549628a0183e468ed11d6e85b5d6061",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Add debug code for SQLQuerySuite flakiness when metastore partition pruning is enabled",
+    "pred": "[SQL] Add error handling and retry logic for getPartitionsByFilter to investigate flaky hive partition pruning test."
+  },
+  {
+    "task_id": "spark_7e8e62aec11c43c983055adc475b96006412199a",
+    "model": "deepseek-reasoner",
+    "label": "[mllib] Random seed for GMM + make test suite deterministic",
+    "pred": "[MLlib] Add random seed parameter to GaussianMixtureEM"
+  },
+  {
+    "task_id": "spark_e4aef91fe70d6c9765d530b913a9d79103fc27ce",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Support Intersect/Except in Catalyst DSL.",
+    "pred": "[SQL] Add support for Intersect and Except in Catalyst DSL."
+  },
+  {
+    "task_id": "spark_86430cc4e8dbc65a091a532fc9c5ec12b7be04f4",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Fixed Exception Messages when Hitting an Invocation Exception of Function Lookup",
+    "pred": "[SQL] Fix null error message for invocation exceptions in function lookup."
+  },
+  {
+    "task_id": "spark_742e0fea5391857964e90d396641ecf95cac4248",
+    "model": "deepseek-reasoner",
+    "label": "Improve doc for rangeBetween and rowsBetween",
+    "pred": "[SQL] Add examples to rowsBetween and rangeBetween documentation."
+  },
+  {
+    "task_id": "spark_857ecff1d8268b28bb287e47cda370c87afe9d41",
+    "model": "deepseek-reasoner",
+    "label": "[DOC] remove package grouping in Java docs",
+    "pred": "Remove package grouping in genjavadoc."
+  },
+  {
+    "task_id": "spark_f72743d971a38d3d08984ef4b66e0955945d2f58",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] fast serialization for collecting DataFrame/Dataset",
+    "pred": "[SQL] Optimize DataFrame collect with fast serialization using UnsafeRow byte array packing."
+  },
+  {
+    "task_id": "spark_90c606925e7ec8f65f28e2290a0048f64af8c6a6",
+    "model": "deepseek-reasoner",
+    "label": "[MLLIB] User guide for VectorAssembler",
+    "pred": "[ML] Add documentation and Java tests for VectorAssembler."
+  },
+  {
+    "task_id": "spark_db801cf3f26a5452b341dafbcd3efea64d177d83",
+    "model": "deepseek-reasoner",
+    "label": "[CORE] Treat timeouts as fatal in SASL fallback path.",
+    "pred": "[Network] Fix misleading exceptions in SASL fallback by handling timeouts appropriately in AuthClientBootstrap."
+  },
+  {
+    "task_id": "spark_ad0dadaa251b031a480fc2080f792a54ed7dfc5f",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] the offset of short should be 2 in OffHeapColumn",
+    "pred": "[SQL] Fix short offset increment in OffHeapColumnVector.putShorts and add test."
+  },
+  {
+    "task_id": "spark_f7135ed7194d4f936f6f58e14f02b1ed93f68ad1",
+    "model": "deepseek-reasoner",
+    "label": "[CORE] Register DAGScheduler metrics source after app id is known.",
+    "pred": "[CORE] Delay DAGScheduler metrics registration to SparkContext to fix early registration warning."
+  },
+  {
+    "task_id": "spark_6ea8a56ca26a7e02e6574f5f763bb91059119a80",
+    "model": "deepseek-reasoner",
+    "label": "[LAUNCHER] Fix race condition in LauncherServer#acceptConnections",
+    "pred": "[LAUNCHER] Schedule timeout before starting client thread to fix race condition under high load."
+  },
+  {
+    "task_id": "spark_3bb217750ada18a49c40d974ac57050ef2abfd2c",
+    "model": "deepseek-reasoner",
+    "label": "[MLLIB] added verification results from R for FPGrowthSuite",
+    "pred": "[MLlib] Add R code verification to FPGrowthSuite tests."
+  },
+  {
+    "task_id": "spark_f9705d461350c6fccf8022e933ea909f40c53576",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Make the WHERE clause with timestamp show consistent result",
+    "pred": "[SQL] Fix inconsistent Timestamp behavior in WHERE clauses by adjusting type coercion."
+  },
+  {
+    "task_id": "spark_10c27a6559803797e89c28ced11c1087127b82eb",
+    "model": "deepseek-reasoner",
+    "label": "[ML] Add JSON support for Matrix parameters (LR with coefficients bound)",
+    "pred": "[ML] Add JSON serialization support for Matrix parameters to fix saving LogisticRegressionModel with bounds on coefficients."
+  },
+  {
+    "task_id": "spark_aa88b8dbbb7e71b282f31ae775140c783e83b4d6",
+    "model": "deepseek-reasoner",
+    "label": "[DOC] Add PySpark doc for SparkSession.builder",
+    "pred": "[PYTHON][DOCS] Fix misleading documentation for SparkSession.builder"
+  },
+  {
+    "task_id": "spark_f9b397f54d1c491680d70aba210bb8211fd249c1",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Add logs to record the progress of HiveSparkSubmitSuite.",
+    "pred": "[SQL] Add logging and ensure SparkContext cleanup in HiveSparkSubmitSuite to fix flaky timeouts."
+  },
+  {
+    "task_id": "spark_1824cbfa39c92d999e24173f2337f518aa5e3e9b",
+    "model": "deepseek-reasoner",
+    "label": "[ML] Fix the log format of ml.util.Instrumentation.logFai…",
+    "pred": "[ML] Fix logFailure in Instrumentation to include error message."
+  },
+  {
+    "task_id": "spark_2727304660663fcf1e41f7b666978c1443262e4e",
+    "model": "deepseek-reasoner",
+    "label": "[ML] Simplify LogisticRegression suite to use Vector Vector comparision",
+    "pred": "[ML] Follow-up on SPARK-8700: Clean up logistic regression test assertions."
+  },
+  {
+    "task_id": "spark_c1b3eebf97b986439f71afd3c4eccf47b90da2cd",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Literal in agg grouping expressions leads to incorrect result",
+    "pred": "[SQL] Exclude literals from grouping expressions in PartialAggregation to fix incorrect results."
+  },
+  {
+    "task_id": "spark_a7c8f0c8cb144a026ea21e8780107e363ceacb8d",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Resolve self-join condition ambiguity for EqualNullSafe",
+    "pred": "[SQL] Handle trivially-true EqualNullSafe in Dataset.join for self-joins."
+  },
+  {
+    "task_id": "spark_b44d1b8fcf00b238df434cf70ad09460b27adf07",
+    "model": "deepseek-reasoner",
+    "label": "[HOTFIX] Add new resource-managers directories to SparkLauncher.",
+    "pred": "[Launcher] Move cluster managers into their own sub-directory."
+  },
+  {
+    "task_id": "spark_cde5483884068b0ae1470b9b9b3ee54ab944ab12",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Avoid row copying in exchange when sort.serializeMapOutputs takes effect",
+    "pred": "[SQL] Avoid defensive copying in Exchange when sort-based shuffle uses serialized form."
+  },
+  {
+    "task_id": "spark_8be4d24a27a1e9995a53d4efb3a13a47813d1f77",
+    "model": "deepseek-reasoner",
+    "label": "[SQL][FOLLOWUP] Dumping truncated plans and generated code to a file",
+    "pred": "[SQL] Finalize treeString methods for efficient dumping of truncated plans."
+  },
+  {
+    "task_id": "spark_f75f633b21faaf911f04aeff847f25749b1ecd89",
+    "model": "deepseek-reasoner",
+    "label": "[MLLIB] use wrapper in MatrixFactorizationModel.load",
+    "pred": "[MLlib] Fix predictAll for loaded MatrixFactorizationModel by adding wrapper support."
+  },
+  {
+    "task_id": "spark_7703b46d2843db99e28110c4c7ccf60934412504",
+    "model": "deepseek-reasoner",
+    "label": "[SS] Added config for registering streamingQueryListeners",
+    "pred": "[SQL] Add STREAMING_QUERY_LISTENERS configuration for registering StreamingQueryListener."
+  },
+  {
+    "task_id": "spark_9bb798f2e6eefd9edb7b6d9980a894557c107bd3",
+    "model": "deepseek-reasoner",
+    "label": "[PYTHON] lint-python: Upgrade pycodestyle to v2.4.0",
+    "pred": "Upgrade pycodestyle to 2.4.0 and fix linting issues for new warnings."
+  },
+  {
+    "task_id": "spark_150f6a89b79f0e5bc31aa83731429dc7ac5ea76b",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Fixes ADD JAR when the input path contains URL scheme",
+    "pred": "[SQL] Fix ADD JAR to handle paths with URL schemes."
+  },
+  {
+    "task_id": "spark_a78fbfa619a13421b294328b80c82510ca7efed0",
+    "model": "deepseek-reasoner",
+    "label": "[ML] Explicitly tell user initial coefficients is ignored when size mismatch happened in LogisticRegression",
+    "pred": "[ML] Explicitly warn that initial coefficients are ignored on size mismatch in LogisticRegression."
+  },
+  {
+    "task_id": "spark_d2a879762a2b4f3c4d703cc183275af12b3c7de1",
+    "model": "deepseek-reasoner",
+    "label": "[PYTHON][ML] Correct OneHotEncoder doc string to say dropLast",
+    "pred": "[ML] Fix OneHotEncoder __init__ doc string to use dropLast."
+  },
+  {
+    "task_id": "spark_bdd537164dcfeec5e9c51d54791ef16997ff2597",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Rebuild Table Comment when Retrieving Metadata from Hive Metastore",
+    "pred": "[SQL] Fix comment handling in HiveClientImpl."
+  },
+  {
+    "task_id": "spark_20b239845b695fe6a893ebfe97b49ef05fae773d",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] SQL write job should also set Spark task output metrics",
+    "pred": "[SQL] Report bytesWritten and recordsWritten to output metrics in BasicWriteStatsTracker for DataFrame writes."
+  },
+  {
+    "task_id": "spark_e71c07557c39e2f74bd20d2ab3a2fca88aa5dfbb",
+    "model": "deepseek-reasoner",
+    "label": "[ML] flaky spark.ml read/write tests",
+    "pred": "[ML][TEST] Enable ignored read/write tests and add SQLContext cleanup to fix flakiness."
+  },
+  {
+    "task_id": "spark_93338807aafdb2db9fb036ceadee1467cd367cdd",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Addendum: Fix Python API",
+    "pred": "[SQL] Add maxMalformedLogPerPartition option to limit logging of malformed records in CSV reading."
+  },
+  {
+    "task_id": "spark_793841c6b8b98b918dcf241e29f60ef125914db9",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] remove useless hive client in SparkSQLEnv",
+    "pred": "[SQL] Avoid creating useless meta hive client in SparkSQLEnv."
+  },
+  {
+    "task_id": "spark_8c911adac56a1b1d95bc19915e0070ce7305257c",
+    "model": "deepseek-reasoner",
+    "label": "[CORE] Throws a proper exception when any temp directory could not be got",
+    "pred": "[Core] Throw IOException instead of ArrayIndexOutOfBoundsException in Utils.getLocalDir."
+  },
+  {
+    "task_id": "spark_7bca62f79056e592cf07b49d8b8d04c59dea25fc",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Check invalid characters for Parquet schema and show error messages",
+    "pred": "[SQL] Add validation for special characters in attribute names during Parquet schema conversion."
+  },
+  {
+    "task_id": "spark_01440395176bdbb2662480f03b27851cb860f385",
+    "model": "deepseek-reasoner",
+    "label": "[DOCUMENTATION, MLLIB, PYSPARK] Added documentation for few APIs",
+    "pred": "[MLlib] Add missing API documentation in pyspark.mllib.linalg.Vector."
+  },
+  {
+    "task_id": "spark_0f80990bfac1e9969644952d1d8edaf7d26fb436",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Add \"deterministic\" attribute to Expression to avoid collapsing nondeterministic projects.",
+    "pred": "[SQL] Fix inconsistent random number generation in projections by preventing collapse of non-deterministic expressions."
+  },
+  {
+    "task_id": "spark_6c5827c72391d5a55afdc089bbad00ba9b19a7ff",
+    "model": "deepseek-reasoner",
+    "label": "[R][DOCS] Use https URL for CRAN repo",
+    "pred": "[INFRA] Use secure HTTPS URLs for downloading CRAN artifacts and Scala."
+  },
+  {
+    "task_id": "spark_50e3644d00c75de8273cce191debde68061e6e13",
+    "model": "deepseek-reasoner",
+    "label": "[SQL][STRING] Dataset.toJSON should return Dataset",
+    "pred": "[SQL] Change Dataset.toJSON to return Dataset[String] instead of RDD."
+  },
+  {
+    "task_id": "spark_431542765785304edb76a19885fbc5f9b8ae7d64",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Disables writing Parquet summary files by default",
+    "pred": "[SQL] Disable writing Parquet summary files by default."
+  },
+  {
+    "task_id": "spark_9fed6abfdcb7afcf92be56e5ccbed6599fe66bc4",
+    "model": "deepseek-reasoner",
+    "label": "Add message processing time metric to DAGScheduler",
+    "pred": "[CORE] Add internal metrics for DAGScheduler event processing time to detect long pauses."
+  },
+  {
+    "task_id": "spark_e3eb393961051a48ed1cac756ac1928156aa161f",
+    "model": "deepseek-reasoner",
+    "label": "Launch Spark using assembly jar instead of a separate launcher jar",
+    "pred": "[Launcher] Fix backward compatibility by making assembly jar detection independent of 'hadoop' string."
+  },
+  {
+    "task_id": "spark_62fd133f744ab2d1aa3c409165914b5940e4d328",
+    "model": "deepseek-reasoner",
+    "label": "[SQL][WEBUI] onJobStart happens after onExecutionEnd shouldn't overwrite kvstore",
+    "pred": "[SQL] Fix SQL UI inconsistencies by preventing kvstore overwrite on late job events in SQLAppStatusListener."
+  },
+  {
+    "task_id": "spark_65b75e66e89075e23ccaa3813648397b3ec010fe",
+    "model": "deepseek-reasoner",
+    "label": "[WEBUI] Limit the max number of acceptors and selectors for Jetty",
+    "pred": "[SPARK-13776] Adjust Jetty thread pool to prevent insufficient threads warning and ensure Web UI availability."
+  },
+  {
+    "task_id": "spark_24ffa85c002a095ffb270175ec838995d3ed5469",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] A direct write API for testing Parquet",
+    "pred": "[SQL] Add direct write API for testing Parquet compatibility"
+  },
+  {
+    "task_id": "spark_2d76cb11f51b20a57af7bdefb7a74fdfe41060aa",
+    "model": "deepseek-reasoner",
+    "label": "[CORE][TEST] Stop env params output on Jenkins job page",
+    "pred": "[TEST] Use ProcessLogger to mute process output and prevent environment parameters from flooding Jenkins logs."
+  },
+  {
+    "task_id": "spark_6900f0173790ad2fa4c79a426bd2dec2d149daa2",
+    "model": "deepseek-reasoner",
+    "label": "[YARN][CORE] Fix AM failure situation for dynamic allocation",
+    "pred": "[CORE] Reset dynamic allocation state on AM re-registration in yarn-client mode."
+  },
+  {
+    "task_id": "spark_69a739c7f5fd002432ece203957e1458deb2f4c3",
+    "model": "deepseek-reasoner",
+    "label": "[STREAMING] Fix the race conditions in StreamingListenerSuite",
+    "pred": "[Streaming] Synchronize buffers to fix flaky test in StreamingListenerSuite."
+  },
+  {
+    "task_id": "spark_9808052b5adfed7dafd6c1b3971b998e45b2799a",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Add decimal support for floor and ceil",
+    "pred": "[SQL] Add decimal support for Ceil and Floor."
+  },
+  {
+    "task_id": "spark_6a734575a80e6b4ec4963206254451f05d64b742",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Tests for the samplingRatio option of JSON datasource",
+    "pred": "[SQL] Add tests for samplingRatio in JSON schema inferring."
+  },
+  {
+    "task_id": "spark_600031ebe27473d8fffe6ea436c2149223b82896",
+    "model": "deepseek-reasoner",
+    "label": "[STREAMING] [BUILD] Updated streaming kinesis SBT project name to be more consistent",
+    "pred": "[BUILD] Rename Kinesis project to streaming-kinesis-asl for consistency."
+  },
+  {
+    "task_id": "spark_eafe37236c56b41ab32adf6610743e1e9a0f230f",
+    "model": "deepseek-reasoner",
+    "label": "[STREAMING] Reload appId and attemptId when app starts with checkpoint file in cluster mode",
+    "pred": "[Streaming] Add spark.yarn.app.id and spark.yarn.app.attemptId to checkpoint reload properties for YARN cluster mode."
+  },
+  {
+    "task_id": "spark_dc6c5ea4c91c387deb87764c86c4f40ea71657b7",
+    "model": "deepseek-reasoner",
+    "label": "[WEB UI] Fix a corner case where the Stage UI page should show DAG but it doesn't show",
+    "pred": "[WEBUI] Fix DAG graph expansion inconsistency when opening multiple Stage pages from Job UI"
+  },
+  {
+    "task_id": "spark_ae14f362355b131fcb3e3633da7bb14bdd2b6893",
+    "model": "deepseek-reasoner",
+    "label": "[SCHEDULER] Allow for underscores in TaskLocation in the Executor ID",
+    "pred": "[Core] Fix TaskLocation parsing for executor IDs with underscores."
+  },
+  {
+    "task_id": "spark_78ecb6d457970b136a2e0e0e27d170c84ea28eac",
+    "model": "deepseek-reasoner",
+    "label": "[YARN] Properly quote library path for YARN.",
+    "pred": "[SPARK-24446] Fix library path quoting in YARN to handle special characters."
+  },
+  {
+    "task_id": "spark_b484490824527bd036b94bba86972d7c0bad26c8",
+    "model": "deepseek-reasoner",
+    "label": "[CORE] Progress bar should be enabled by default for spark-shell",
+    "pred": "[CORE] Remove log.isInfoEnabled check from console progress bar initialization."
+  },
+  {
+    "task_id": "spark_9e01fe2ed1e834710f4ee6a02864ab0fcc528fef",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Fix Analysis Exceptions when Using Backticks in Transform Clause",
+    "pred": "[SQL] Clean identifiers in HiveQl to support backticks in Script Transformation output."
+  },
+  {
+    "task_id": "spark_4329eb2e73181819bb712f57ca9c7feac0d640ea",
+    "model": "deepseek-reasoner",
+    "label": "[Mesos] Improve data locality when launching new executors when dynamic allocation is enabled",
+    "pred": "[MESOS] Add data locality support for dynamic allocation in Mesos scheduler."
+  },
+  {
+    "task_id": "spark_3c6198c86ef36e7e5814d74ede00672d0eeb7f32",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] fix a compatibility issue of sql event logs",
+    "pred": "[SQL] Add @JsonIgnoreProperties to SparkPlanInfo for backward compatibility with Spark 2.2 event logs."
+  },
+  {
+    "task_id": "spark_f27d96b9f35799bf7ecc850effbfdb0bf7b237ab",
+    "model": "deepseek-reasoner",
+    "label": "[TEST] Reduce DateExpressionsSuite test time costs in Jenkins",
+    "pred": "[TEST] Increase iteration steps in DateExpressionsSuite to reduce test execution time."
+  },
+  {
+    "task_id": "spark_ecfb3127670c7f15e3a15e7f51fa578532480cda",
+    "model": "deepseek-reasoner",
+    "label": "[Documentation] null -> zero in crosstab doc",
+    "pred": "[SQL] Update crosstab documentation to use zero for no occurrences."
+  },
+  {
+    "task_id": "spark_7d16776d28da5bcf656f0d8556b15ed3a5edca44",
+    "model": "deepseek-reasoner",
+    "label": "[SQL][WIP] Fixed NPE when creating encoder for enum",
+    "pred": "[SQL] Fix NPE and support Java enums in type inference."
+  },
+  {
+    "task_id": "spark_6cbc61d1070584ffbc34b1f53df352c9162f414a",
+    "model": "deepseek-reasoner",
+    "label": "[SQL][PYSPARK] Add fill functions for nulls in bool fields of datasets",
+    "pred": "Support boolean types in DataFrame.fillna() and add fill methods for bool"
+  },
+  {
+    "task_id": "spark_dffeac3691daa620446ae949c5b147518d128e08",
+    "model": "deepseek-reasoner",
+    "label": "[STREAMING] Spark Streaming backpressure generates batch with large number of records",
+    "pred": "[SPARK-STREAMING] Fix backpressure calculation to prevent oversized batches and ensure min messages per partition in Kafka Direct streams."
+  },
+  {
+    "task_id": "spark_9b33dfc408de986f4203bb0ac0c3f5c56effd69d",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] fix aggregation after dropDuplicates on empty data frames",
+    "pred": "[SQL] Fix count() after dropDuplicates on empty DataFrame by adding dummy grouping key in ReplaceDeduplicateWithAggregate."
+  },
+  {
+    "task_id": "spark_75934457d75996be71ffd0d4b448497d656c0d40",
+    "model": "deepseek-reasoner",
+    "label": "[GRAPHX][FOLLOWUP] Add param checking for runParallelPersonalizedPageRank",
+    "pred": "[GraphX] Add input validation for parallel personalized PageRank parameters."
+  },
+  {
+    "task_id": "spark_b79071910e61a851931b8b96d4acb66e0576caa7",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] objects functions should not use unneeded global variables",
+    "pred": "[SQL][SPARK-22696] Remove useless mutable states in objects functions to avoid constant pool issues."
+  },
+  {
+    "task_id": "spark_272a2f78f3ff801b94a81fa8fcc6633190eaa2f4",
+    "model": "deepseek-reasoner",
+    "label": "[YARN] Add rolling log aggregation support for Spark on yarn",
+    "pred": "[YARN] Support rolling log aggregation"
+  },
+  {
+    "task_id": "spark_8de080d9f9d3deac7745f9b3428d97595975701d",
+    "model": "deepseek-reasoner",
+    "label": "[YARN] Fix the YarnAllocator allocates more Resource",
+    "pred": "[YARN] Add tracking for launching executors to prevent over-allocation in YarnAllocator."
+  },
+  {
+    "task_id": "spark_f1e223bfa37d7b42666af22c5ced38923807ef0a",
+    "model": "deepseek-reasoner",
+    "label": "[CORE] Remove stale HTTP auth code.",
+    "pred": "Remove HTTP URI authentication code to prevent failures with secure URIs."
+  },
+  {
+    "task_id": "spark_6f62e9d9b9fa9b5adb461f0de7f176e4589a4d66",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Fix throwing a Java exception at df.fliter() due to 64KB bytecode size limit",
+    "pred": "[SQL] Implement interpreted fallback for filter predicates when codegen exceeds JVM size limit."
+  },
+  {
+    "task_id": "spark_215281d88ed664547088309cb432da2fed18b8b7",
+    "model": "deepseek-reasoner",
+    "label": "[PYSPARK][SQL] Add posexplode and posexplode_outer",
+    "pred": "Add PySpark wrappers for explode_outer and posexplode_outer."
+  },
+  {
+    "task_id": "spark_310454be3b0ce5ff6b6ef0070c5daadf6fb16927",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Cast expression should initialize timezoneId when it is called statically to convert something into TimestampType",
+    "pred": "[SPARK-21739] Fix timestamp partition failure by initializing timezone in Cast expressions."
+  },
+  {
+    "task_id": "spark_990f05c80347c6eec2ee06823cff587c9ea90b49",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] AnalysisBarrier should override innerChildren to print correct explain output",
+    "pred": "[SQL] Fix AnalysisBarrier to prevent cutoff in parsed logical plan explain output."
+  },
+  {
+    "task_id": "spark_139da116f130ed21481d3e9bdee5df4b8d7760ac",
+    "model": "deepseek-reasoner",
+    "label": "[PYSPARK][ML] Expose numPartitions (expert) param of PySpark FPGrowth.",
+    "pred": "[ML] Expose numPartitions param in FPGrowth"
+  },
+  {
+    "task_id": "spark_986a3b8b5bedb1d64e2cf7c95bfdf5505f3e8c69",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Support wildcard character in filename for LOAD DATA LOCAL INPATH",
+    "pred": "[SQL] Support wildcard character in filename for LOAD DATA LOCAL INPATH."
+  },
+  {
+    "task_id": "spark_ed775042cceb61a0566502e1306ac3c70f4a6a5f",
+    "model": "deepseek-reasoner",
+    "label": "[DOCS] Add source links to scaladoc generation",
+    "pred": "[DOCS] Add source URLs to Scaladoc for non-snapshot releases."
+  },
+  {
+    "task_id": "spark_c4bb02abf2c5b1724f2f848c79da5ebbf2584e45",
+    "model": "deepseek-reasoner",
+    "label": "[CORE][NETWORK] avoid significant memory copy in netty's transferTo",
+    "pred": "[NETWORK] Limit I/O buffer size in MessageWithHeader to avoid large memory copies for Netty RPC."
+  },
+  {
+    "task_id": "spark_dba2ca2c129b6d2597f1707e0315d4e238c40ed6",
+    "model": "deepseek-reasoner",
+    "label": "SCALA_VERSION in _config.yml should be consistent with pom.xml",
+    "pred": "[BUILD] Update Scala version to 2.11.8 in LICENSE, _config.yml, and Dockerfile for consistency with pom.xml."
+  },
+  {
+    "task_id": "spark_31b391019ff6eb5a483f4b3e62fd082de7ff8416",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] add convenient show functions",
+    "pred": "[SQL] Add public showString methods to DataFrame."
+  },
+  {
+    "task_id": "spark_39dfaf2fd167cafc84ec9cc637c114ed54a331e3",
+    "model": "deepseek-reasoner",
+    "label": "Make the threshold for highly compressed map status configurable",
+    "pred": "[SPARK-24519] Make MapStatus threshold for highly compressed configurable."
+  },
+  {
+    "task_id": "spark_191bf2689d127a9dd328b9cc517362fd51eaed3d",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] cleanup generated UnsafeRowJoiner and fix bug",
+    "pred": "[SQL] Clean up and refactor bitset copying in GenerateUnsafeRowJoiner."
+  },
+  {
+    "task_id": "spark_31c4fab3fb0343edf971de9070a319c6b3094647",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Prevent empty files for empty partitions in Text datasources",
+    "pred": "[SQL] Prevent empty files in text-based datasources by lazy initializing output streams."
+  },
+  {
+    "task_id": "spark_5572ccf86b084eb5938fe62fd5d9973ec14d555d",
+    "model": "deepseek-reasoner",
+    "label": "[SQL][FOLLOWUP] Change statement `SHOW TABLES EXTENDED` to `SHOW TABLE EXTENDED`",
+    "pred": "[SQL] Fix parsing of SHOW TABLE EXTENDED command by separating it from SHOW TABLES."
+  },
+  {
+    "task_id": "spark_43717dee570dc41d71f0b27b8939f6297a029a02",
+    "model": "deepseek-reasoner",
+    "label": "[CORE] Allocate a bit less than Int.MaxValue",
+    "pred": "[CORE] Fix replication of >2GB blocks by using safe array length for chunk size."
+  },
+  {
+    "task_id": "spark_8079424763c2043264f30a6898ce964379bd9b56",
+    "model": "deepseek-reasoner",
+    "label": "[MLLIB] Optimize MLLIB ALS recommendForAll",
+    "pred": "[MLlib] Optimize ALS recommendAll to reduce GC pressure by using BoundedPriorityQueue and dot products"
+  },
+  {
+    "task_id": "spark_4af37812915763ac3bfd91a600a7f00a4b84d29a",
+    "model": "deepseek-reasoner",
+    "label": "[CORE] Make spark-submit download remote files to local in client mode",
+    "pred": "[CORE] Support remote file download in SparkSubmit client mode."
+  },
+  {
+    "task_id": "spark_4901086fea969a34ec312ef4a8f83d84e1bf21fb",
+    "model": "deepseek-reasoner",
+    "label": "[TESTS] Fix ReplSuite for Scala 2.10.",
+    "pred": "[REPL] Fix ReplSuite test for Scala 2.10 by replacing groupBy with groupByKey."
+  },
+  {
+    "task_id": "spark_5e7bc2acef4a1e11d0d8056ef5c12cd5c8f220da",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Skipping chars disallowed in UTF-8",
+    "pred": "[SQL] Fix ArrayIndexOutOfBoundsException in UTF8String for invalid UTF-8 bytes."
+  },
+  {
+    "task_id": "spark_af0e3125cb1d48b1fc0e44c42b6880d67a9f1a85",
+    "model": "deepseek-reasoner",
+    "label": "[SPARKR] support Unicode characters in collect()",
+    "pred": "[SparkR] Support CJK characters in collect() via UTF-8 SerDe."
+  },
+  {
+    "task_id": "spark_001d3095385626e329b3853364a4feeb811aac5a",
+    "model": "deepseek-reasoner",
+    "label": "[ML] Add training cost to BisectingKMeans summary",
+    "pred": "[ML] Add trainingCost to BisectingKMeans summary."
+  },
+  {
+    "task_id": "spark_fb90273212dc7241c9a0c3446e25e0e0b9377750",
+    "model": "deepseek-reasoner",
+    "label": "[ML] ml.Model optional parent support",
+    "pred": "[ML] Add hasParent method and make parent transient in Model."
+  },
+  {
+    "task_id": "spark_bfd73a7c48b87456d1b84d826e04eca938a1be64",
+    "model": "deepseek-reasoner",
+    "label": "[CORE] Don't try to connect to launcher in standalone cluster mode.",
+    "pred": "[Scheduler] Fix SPARK-21159: Avoid connecting to launcher backend in cluster mode."
+  },
+  {
+    "task_id": "spark_a634d66ce767bd5e1d8553d1a2c32e2b1a80f642",
+    "model": "deepseek-reasoner",
+    "label": "[PYSPARK] Use build-specific temp directory for pyspark tests.",
+    "pred": "[PySpark Tests] Fix temp file cleanup by using mkdtemp and setting temp directories under build target to avoid garbage in /tmp"
+  },
+  {
+    "task_id": "spark_87c98de8b23f0e978958fc83677fdc4c339b7e6a",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Fix NullPointerException when DESC a database with NULL description",
+    "pred": "[SQL][HIVE] Fix SPARK-23001: Handle null database description to prevent NullPointerException in desc command."
+  },
+  {
+    "task_id": "spark_fbc269252a1c99e04bd08906ad8404c031e9a097",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] AggregationIterator does not initialize the generated result projection before using it",
+    "pred": "[SQL] Fix NullPointerException in aggregation by initializing result projection with partition index."
+  },
+  {
+    "task_id": "spark_7374e518e2641fddfe57003340db410224b37581",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Data Source API: Enable Extending RelationProvider and CreatableRelationProvider without Extending SchemaRelationProvider",
+    "pred": "[SQL] Fix DataSource to handle schemas for providers without SchemaRelationProvider."
+  },
+  {
+    "task_id": "spark_e82cb68349b785c1b35bcfb85bff3a8ec2c93fee",
+    "model": "deepseek-reasoner",
+    "label": "[ML] Add pmml export for k-means in Spark ML",
+    "pred": "[ML] Add PMML export for KMeans clustering model."
+  },
+  {
+    "task_id": "spark_658547974915ebcaae83e13e4c3bdf68d5426fda",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Extracts method for preparing arguments from StaticInvoke, Invoke and NewInstance and modify to short circuit if arguments have null when `needNullCheck == true`.",
+    "pred": "[SQL] Refactor StaticInvoke, Invoke, and NewInstance with InvokeLike trait."
+  },
+  {
+    "task_id": "spark_1742c3ab86d75ce3d352f7cddff65e62fb7c8dd4",
+    "model": "deepseek-reasoner",
+    "label": "[CORE] Fix memory leak in Memory store when unable to cache the whole RDD in memory",
+    "pred": "[SPARK-17503] Fix memory leak in PartiallyUnrolledIterator by early releasing unrolled memory"
+  },
+  {
+    "task_id": "spark_27d3b0a51cfd1caf05c242b45db9a78ef5868685",
+    "model": "deepseek-reasoner",
+    "label": "[K8S] Improve container status logging",
+    "pred": "[Kubernetes] Improve pod status logging with human-readable formatting"
+  },
+  {
+    "task_id": "spark_2b1ac6cea882246ef0e655bb2c134ef1656a5068",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] DROP TABLE throw exception if table doesn't exist",
+    "pred": "[SQL] Replace logError with AnalysisException in DROP TABLE command."
+  },
+  {
+    "task_id": "spark_37526aca2430e36a931fbe6e01a152e701a1b94e",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] fix bug in create Decimal",
+    "pred": "[SQL] Fix decimal scaling for large unscaled values with positive scale."
+  },
+  {
+    "task_id": "spark_652c4703099c1e5b17732fa019318358dc99ad50",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Fix same result of Union",
+    "pred": "[SQL] Fix sameResult on Union by correcting cleanArgs in QueryPlan."
+  },
+  {
+    "task_id": "spark_1b6e938be836786bac542fa430580248161e5403",
+    "model": "deepseek-reasoner",
+    "label": "Remove spark.driver.allowMultipleContexts override in tests",
+    "pred": "[Test] Remove spark.driver.allowMultipleContexts from test configurations"
+  },
+  {
+    "task_id": "spark_8a545822d0cc3a866ef91a94e58ea5c8b1014007",
+    "model": "deepseek-reasoner",
+    "label": "[SS] Prevent InMemoryFileIndex from failing if file path doesn't exist",
+    "pred": "[SQL] Handle missing files gracefully in InMemoryFileIndex to prevent Structured Streaming job failures."
+  },
+  {
+    "task_id": "spark_23e39cc7b1bb7f1087c4706234c9b5165a571357",
+    "model": "deepseek-reasoner",
+    "label": "[MLLIB] use first 128 nonzeros to compute Vector.hashCode",
+    "pred": "[MLlib] Modify Vector.hashCode to use first 128 nonzero entries for better hash distribution."
+  },
+  {
+    "task_id": "spark_b67d36957287c1fbefa1996e6a4a009a75c4c3f8",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Add 'xxhash64' for hashing arbitrary columns to Long",
+    "pred": "Expose xxhash64 as a 64-bit column hash function."
+  },
+  {
+    "task_id": "spark_91575cac32e470d7079a55fb86d66332aba599d0",
+    "model": "deepseek-reasoner",
+    "label": "[YARN][CORE] Avoid adding jars twice for Spark running on yarn",
+    "pred": "[CORE][REPL] Fix duplicate jar addition in YARN shell mode by adding isShell parameter to getUserJars."
+  },
+  {
+    "task_id": "spark_572b62cafe4bc7b1d464c9dcfb449c9d53456826",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Fix HiveContext in Spark Shell",
+    "pred": "[SQL][HIVE] Fix jar loading and configuration order to resolve ClassNotFoundException for SparkSQL."
+  },
+  {
+    "task_id": "spark_c971aee40d806ed02d3d6a5cc478b63654052e54",
+    "model": "deepseek-reasoner",
+    "label": "[SQL][TEST] Drop Partition Does Not Delete Data of External Tables",
+    "pred": "[HIVE] Add test to verify drop partitions on external tables do not delete data."
+  },
+  {
+    "task_id": "spark_01a8e46278dbfde916a74b6fd51e08804602e1cf",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Add a table-specific option for always respecting schemas inferred/controlled by Spark SQL",
+    "pred": "[SQL] Add respectSparkSchema table option for Hive-serde tables."
+  },
+  {
+    "task_id": "spark_35319d326488b3bf9235dfcf9ac4533ce846f21f",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] When creating a CatalogColumn, we should use the catalogString of a DataType object.",
+    "pred": "[SQL] Replace simpleString with catalogString in CatalogColumn."
+  },
+  {
+    "task_id": "spark_2a53fbfce72b3faef020e39a1e8628d68bc95beb",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] limit logging of Janino code",
+    "pred": "[SQL] Limit logged Janino code lines on compilation errors via CODEGEN_LOGGING_MAX_LINES."
+  },
+  {
+    "task_id": "spark_9215ee7a16b57c56ae927d65e024cf7afe542cbb",
+    "model": "deepseek-reasoner",
+    "label": "[CORE] Detect length overflow in UTF8String.concat()/ByteArray.concat()",
+    "pred": "[CORE] Fix integer overflow in ByteArray.concat and UTF8String.concat."
+  },
+  {
+    "task_id": "spark_cb8ea9e1f34b9af287b3d10e47f24de4307c63ba",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Fixed error in reading json file stream inside a partitioned directory",
+    "pred": "[SQL] Fix unintended partition column capture in streaming from partitioned directories."
+  },
+  {
+    "task_id": "spark_0e821ec6fa98f4b0aa6e2eb6fecd18cc1ee6f3f2",
+    "model": "deepseek-reasoner",
+    "label": "[ML][MLLIB] GaussianMixture should limit the number of features",
+    "pred": "[ML] Limit number of features in GaussianMixture to prevent integer overflow"
+  },
+  {
+    "task_id": "spark_bfa3d32f7719cd4bfb2c161fe4a6bd3eea148158",
+    "model": "deepseek-reasoner",
+    "label": "[FOLLOW-UP][SQL] throw SparkOutOfMemoryError intead of SparkException in UnsafeHashedRelation",
+    "pred": "[SQL] Replace SparkException with SparkOutOfMemoryError in HashedRelation for memory allocation failures."
+  },
+  {
+    "task_id": "spark_12d20dd75b1620da362dbb5345bed58e47ddacb9",
+    "model": "deepseek-reasoner",
+    "label": "[PYSPARK][SQL][FOLLOW-UP] Modify error messages to show actual versions.",
+    "pred": "[SQL] Enhance import error messages to include installed version in version checks."
+  },
+  {
+    "task_id": "spark_163a6e298213f216f74f4764e241ee6298ea30b6",
+    "model": "deepseek-reasoner",
+    "label": "Skip collapsing windows with empty window expressions",
+    "pred": "[SQL] Add non-empty check for window expressions in CollapseWindow rule."
+  },
+  {
+    "task_id": "spark_55c96858107739dd768abea1dff88bd970e47e9f",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Track optimization phase for streaming queries",
+    "pred": "[SQL] Add optimization phase timeline tracking in IncrementalExecution."
+  },
+  {
+    "task_id": "spark_45ad97df87c89cb94ce9564e5773897b6d9326f5",
+    "model": "deepseek-reasoner",
+    "label": "[PYTHON][ML] Run doctests in ml.image when testing",
+    "pred": "[ML] Run ml.image doctests and update example."
+  },
+  {
+    "task_id": "spark_d6ddfdf60e77340256873b5acf08e85f95cf3bc2",
+    "model": "deepseek-reasoner",
+    "label": "[PYSPARK] Jenkins Python Conda based test.",
+    "pred": "Update test scripts to support Conda environments"
+  },
+  {
+    "task_id": "spark_1ce6428907b4ddcf52dbf0c86196d82ab7392442",
+    "model": "deepseek-reasoner",
+    "label": "[CORE] Restore INFO level after log4j test.",
+    "pred": "[CORE] Improve UtilsSuite log level test by restoring original log level in finally block."
+  },
+  {
+    "task_id": "spark_5864e8e47496c3a841b97632e5137de87a91efea",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Executor accidentally exit because ScriptTransformationWriterThread throw Exception.",
+    "pred": "[SPARK-25158][SQL] Log exceptions in ScriptTransformationWriterThread to prevent executor shutdown"
+  },
+  {
+    "task_id": "spark_e65b6b7ca1a7cff1b91ad2262bb7941e6bf057cd",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Refresh Persistent Views by REFRESH TABLE Command",
+    "pred": "[SQL] Fix REFRESH TABLE to refresh persistent views in CatalogImpl."
+  },
+  {
+    "task_id": "spark_3ab48f985c7f96bc9143caad99bf3df7cc984583",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Adding of isModifiable() to RuntimeConfig",
+    "pred": "[SQL] Add isModifiable method to RuntimeConfig for checking config parameter modifiability."
+  },
+  {
+    "task_id": "spark_10396d9505c752cc18b6424f415d4ff0f460ad65",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Cache the statistics for logical plans",
+    "pred": "[SQL] Make statistics lazy val to cache computation and improve planning performance on large queries."
+  },
+  {
+    "task_id": "spark_a8340fa7df17e3f0a3658f8b8045ab840845a72a",
+    "model": "deepseek-reasoner",
+    "label": "Add logLikelihood to LocalLDAModel",
+    "pred": "[MLlib] Add logLikelihood method to LocalLDAModel."
+  },
+  {
+    "task_id": "spark_1d5d2a9d0940d05444b76005f3548f96ecfbde95",
+    "model": "deepseek-reasoner",
+    "label": "[ML][PYTHON][DOC] Minor doc fixes for ML Python Params and LinearSVC",
+    "pred": "[ML] Fix minor documentation issues and remove since tags in Python Params."
+  },
+  {
+    "task_id": "spark_22df953f6bb191858053eafbabaa5b3ebca29f56",
+    "model": "deepseek-reasoner",
+    "label": "[MESOS] add support for local:// scheme for the app jar",
+    "pred": "[MESOS] Add local:// scheme support for app jar in cluster mode."
+  },
+  {
+    "task_id": "spark_0996b7c95a79fb018169ed1da7a8e3e482260838",
+    "model": "deepseek-reasoner",
+    "label": "[SQL][FOLLOWUP][TEST] Test Sort metrics while Sort is missing",
+    "pred": "[SQL] Enhance SQL metrics testing with predicate-based verification for Sort operations."
+  },
+  {
+    "task_id": "spark_4633a87b86a6ef01fa724d31763dcb97cb5bc746",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Add a test case for SPARK-6330",
+    "pred": "[SQL] Add regression test for SPARK-6330 in ParquetDataSourceOnIOSuite."
+  },
+  {
+    "task_id": "spark_2ae7b88a07140e012b6c60db3c4a2a8ca360c684",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Change the default value of spark.sql.hive.convertMetastoreOrc to false.",
+    "pred": "[SQL] Fix ORC schema reading from metastore by defaulting convertMetastoreOrc to false."
+  },
+  {
+    "task_id": "spark_18350a57004eb87cafa9504ff73affab4b818e06",
+    "model": "deepseek-reasoner",
+    "label": "[ML] Minor refactoring of basic ML import/export",
+    "pred": "[ML] Refactor Writer to handle overwrite and add Spark version to metadata."
+  },
+  {
+    "task_id": "spark_002c12384d6ecebbb3e7fc853dbdfbc5aaa3d6a6",
+    "model": "deepseek-reasoner",
+    "label": "Introduce internal Serializer API for determining if serializers support object relocation",
+    "pred": "Enable in-memory serialized map-side shuffle for serializers with relocation support"
+  },
+  {
+    "task_id": "spark_7236e759c9856970116bf4dd20813dbf14440462",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] array_contains, array_position, array_remove and element_at functions deal with Column type",
+    "pred": "[SQL] Allow column inputs in array functions such as array_contains."
+  },
+  {
+    "task_id": "spark_ab1650d2938db4901b8c28df945d6a0691a19d31",
+    "model": "deepseek-reasoner",
+    "label": "Update Jackson to 2.9.6",
+    "pred": "Bump Jackson version to 2.9.6"
+  },
+  {
+    "task_id": "spark_5d4dafe8fdea49dcbd6b0e4c23e3791fa30c8911",
+    "model": "deepseek-reasoner",
+    "label": "[MLLIB][EXAMPLE] Wrong Data Format - Documentation Issue",
+    "pred": "[MLlib] Fix NaiveBayes examples to use correct LibSVM data format."
+  },
+  {
+    "task_id": "spark_b2d022656298c7a39ff3e84b04f813d5f315cb95",
+    "model": "deepseek-reasoner",
+    "label": "[DOCS][PYTHON] Improve Pandas UDF docs to explain column assignment",
+    "pred": "[SQL] Document column position in pandas UDF GROUPED_MAP."
+  },
+  {
+    "task_id": "spark_67595eb8fb563eb26654f056033a01f0199bdf68",
+    "model": "deepseek-reasoner",
+    "label": "[UI] Add app and driver kill function in master web UI",
+    "pred": "Add kill functionality for applications and drivers in standalone master web UI."
+  },
+  {
+    "task_id": "spark_12e740bba110c6ab017c73c5ef940cce39dd45b7",
+    "model": "deepseek-reasoner",
+    "label": "[CORE] UTF8String.trim() scans \" \" twice",
+    "pred": "Optimize UTF8String.trim() to avoid redundant scanning for all-white-space strings."
+  },
+  {
+    "task_id": "spark_9f913c4fd6f0f223fd378e453d5b9a87beda1ac4",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] [PySpark] convert returned object from UDF into internal type",
+    "pred": "Convert returned value to internal type in Python UDF."
+  },
+  {
+    "task_id": "spark_92b9c5edd90f7b89efc687c0cea6778daa1a6b66",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Removed unnecessary typecasts in MutableInt, MutableDouble etc.",
+    "pred": "[SQL] Remove redundant asInstanceOf casts in MutableValue copy methods."
+  },
+  {
+    "task_id": "spark_d1312fb7edffd6e10c86f69ddfff05f8915856ac",
+    "model": "deepseek-reasoner",
+    "label": "[TESTS] Fix URI and release resources after opening in tests at ExecutorClassLoaderSuite",
+    "pred": "[REPL] Fix ExecutorClassLoaderSuite tests on Windows by correcting URI handling and closing BufferedSource."
+  },
+  {
+    "task_id": "spark_8eac621229b50e15bea550a751593bba0bf8b20c",
+    "model": "deepseek-reasoner",
+    "label": "[MESOS] remove keytab check in mesos cluster mode at first submit time",
+    "pred": "[Core] Exclude mesos cluster mode from local keytab requirement in SparkSubmit."
+  },
+  {
+    "task_id": "spark_6f6517837ba9934a280b11aba9d9be58bc131f25",
+    "model": "deepseek-reasoner",
+    "label": "[SQL][FOLLOW-UP] Converting a value of StructType to a DDL string",
+    "pred": "[SQL] Add @since annotations to DDL methods in StructType and StructField."
+  },
+  {
+    "task_id": "spark_8ca01a6feb4935b1a3815cfbff1b90ccc6f60984",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Disable comments in generated code in order to avoid perf. issues",
+    "pred": "[SQL] Disable comments in generated code by default to avoid performance issues."
+  },
+  {
+    "task_id": "spark_d5b1dc934a2482886c2c095de90e4c6a49ec42bd",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Fix `withSQLConf` to reset `OptionalConfigEntry` correctly",
+    "pred": "[SQL] Fix garbage files in test cleanup by improving configuration handling in SQLTestUtils.withSQLConf."
+  },
+  {
+    "task_id": "spark_cad475dcc9376557f882859856286e858002389a",
+    "model": "deepseek-reasoner",
+    "label": "[YARN] Fix incorrect computation of maxNumExecutorFailures in ApplicationMaster for streaming",
+    "pred": "[STREAMING] Fix maxNumExecutorFailures in ApplicationMaster and add streaming dynamic allocation configuration."
+  },
+  {
+    "task_id": "spark_8135e0e5ebdb9c7f5ac41c675dc8979a5127a31a",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Should read partition data when reading new files in filestream without globbing",
+    "pred": "[SQL] Fix partition column reading in structured streaming queries"
+  },
+  {
+    "task_id": "spark_03ef6be9ce61a13dcd9d8c71298fb4be39119411",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Add conf to enable/disable partition column type inference",
+    "pred": "[SQL] Allow disabling partition column type inference via spark.sql.sources.partitionColumnTypeInference.enabled."
+  },
+  {
+    "task_id": "spark_899ebcb1448126f40be784ce42e69218e9a1ead7",
+    "model": "deepseek-reasoner",
+    "label": "Small rewrite to make the logic more clear in MessageWithHeader.transferTo.",
+    "pred": "[NETWORK] Fix thread-safety in MessageWithHeader.transferTo to prevent fetch failures."
+  },
+  {
+    "task_id": "spark_fa09d91925c07a58dea285d6cf85a751664f89ff",
+    "model": "deepseek-reasoner",
+    "label": "[BUILD] New linter rule for sparkContext.hadoopConfiguration",
+    "pred": "[CORE] Add scalastyle rule to enforce sessionState.newHadoopConf usage and refactor tests"
+  },
+  {
+    "task_id": "spark_3b68cb0430067059e9c7b9a86dbea4865e29bf78",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Fix empty projections of cached data",
+    "pred": "[SQL] Fix SPARK-6743: handle empty projection in InMemoryColumnarTableScan to prevent incorrect results."
+  },
+  {
+    "task_id": "spark_fe317dc74e5fa1509ae9d735485f66724f7292e5",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] RuleExecutor.dumpTimeSpent should not throw exception when empty",
+    "pred": "[SQL] Fix exception in RuleExecutor.dumpTimeSpent for empty rule execution."
+  },
+  {
+    "task_id": "spark_478af2f45595913c9b8f560d13e8d88447486f99",
+    "model": "deepseek-reasoner",
+    "label": "[PYSPARK][BUILD] Fix PyDoc Makefile & highlighting issues",
+    "pred": "[PYTHON] Fix docs Makefile variable assignments and minor code issues."
+  },
+  {
+    "task_id": "spark_312ea3f7f65532818e11016d6d780ad47485175f",
+    "model": "deepseek-reasoner",
+    "label": "[FOLLOW-UP][ML] Reorg variables of WeightedLeastSquares.",
+    "pred": "[MLlib] Refactor WeightedLeastSquares to support L1/elastic-net penalties and handle singular covariance matrices with Quasi-Newton solver."
+  },
+  {
+    "task_id": "spark_e2dfdbb2c0523517880138f214775f9a896f2271",
+    "model": "deepseek-reasoner",
+    "label": "[YARN] Load `metadata.Hive` class only when `hive.metastore.uris` was set to avoid bootting the database twice",
+    "pred": "[YARN] Prevent Derby double boot by refactoring Hive configuration initialization in Client."
+  },
+  {
+    "task_id": "spark_7b25dc7b7e5a098552c0d640eee132b83d42db56",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Remove projects that become redundant after column pruning rule",
+    "pred": "[SQL] Fix ColumnPruning to eliminate redundant projects using semantic output equality."
+  },
+  {
+    "task_id": "spark_18bf9d2b2d7eae0574102d4f15ac27dc71dea18a",
+    "model": "deepseek-reasoner",
+    "label": "[STREAMING][BUILD] Add Kafka 0.10 project to build modules",
+    "pred": "Add streaming-kafka-0-10 module to address flaky Kafka 010 test."
+  },
+  {
+    "task_id": "spark_e29176fd7dbcef04a29c4922ba655d58144fed24",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Provide isEmpty in Dataset",
+    "pred": "[SPARK-23627][SQL] Add isEmpty method to Dataset."
+  },
+  {
+    "task_id": "spark_dc2da72100811988ee1b31190f219b620f88f8de",
+    "model": "deepseek-reasoner",
+    "label": "[K8S] Correct placement of ARG declaration",
+    "pred": "[K8S] Fix spark_uid build argument scope in Dockerfiles for Python and R images."
+  },
+  {
+    "task_id": "spark_6735433cde44b3430fb44edfff58ef8149c66c13",
+    "model": "deepseek-reasoner",
+    "label": "[YARN] Fix client AM not allocating executors after restart.",
+    "pred": "[YARN] Fix AM re-registration hang in client mode by updating reset logic"
+  },
+  {
+    "task_id": "spark_0969d7aa0ca7c4b32f4753387db8ad67ac6764b0",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] : Ensure aggregate buffers are initialized again for So…",
+    "pred": "[SQL] Add note about stateless requirement for aggregate functions in documentation."
+  },
+  {
+    "task_id": "spark_1c5b19827a091b5aba69a967600e7ca35ed3bcfd",
+    "model": "deepseek-reasoner",
+    "label": "[PYSPARK] Fix Python 3 pyspark/sql/types module conflict",
+    "pred": "[SQL] Fix pylint validation by making pyspark.sql.types a static module."
+  },
+  {
+    "task_id": "spark_d1d5069aa3744d46abd3889abab5f15e9067382a",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Fix persist call on Data frames with more than 200…",
+    "pred": "[SQL] Fix SPARK-16664 by replacing map with foreach in GenerateColumnAccessor to handle many columns."
+  },
+  {
+    "task_id": "spark_40c4cb2fe79ceac0d656be7b72cb2ee8d7db7258",
+    "model": "deepseek-reasoner",
+    "label": "[SQL][DataFrame] Support for project/filter using SQL expressions",
+    "pred": "[SQL] Add DataFrame.selectExpr and filter with SQL expression support."
+  },
+  {
+    "task_id": "spark_f5aba657396bd4e2e03dd06491a2d169a99592a7",
+    "model": "deepseek-reasoner",
+    "label": "[CORE] Nested spill in ShuffleExternalSorter should not access released memory page",
+    "pred": "[CORE] Fix ShuffleInMemorySorter.reset to prevent nested spills from accessing released memory"
+  },
+  {
+    "task_id": "spark_1008ab0801c192e8f261001eaaf58a6c9f6e747a",
+    "model": "deepseek-reasoner",
+    "label": "[SQL][FOLLOWUP] Replacing SimpleDateFormat by DateTimeFormatter in comments",
+    "pred": "[SQL] Update documentation to use java.time.format.DateTimeFormatter for date and timestamp formats."
+  },
+  {
+    "task_id": "spark_9a75c18290fff7d116cf88a44f9120bf67d8bd27",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] UDF series UDFXPathXXXX allow users to pass carefully crafted XML to access arbitrary files",
+    "pred": "[SQL] Fix XXE vulnerability in UDFXPathUtil by disabling external entities."
+  },
+  {
+    "task_id": "spark_5adec63a922d6f60cd6cb87ebdab61a17131ac1a",
+    "model": "deepseek-reasoner",
+    "label": "[PROJECT-INFRA] Multiple fixes to dev/test-dependencies.sh script",
+    "pred": "[Build] Enable build tests and improve test-dependencies script consistency."
+  },
+  {
+    "task_id": "spark_9fba9c8004d2b97549e5456fa7918965bec27336",
+    "model": "deepseek-reasoner",
+    "label": "[MLLIB] Refine visibility for 1.6 scala API audit",
+    "pred": "[ML] Make internal APIs private and fix documentation link."
+  },
+  {
+    "task_id": "spark_22be2ae147a111e88896f6fb42ed46bbf108a99b",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Fixes ORC predicate push-down",
+    "pred": "[SQL] Fix NoSuchElementException in ORC predicate pushdown by refactoring OrcFilters."
+  },
+  {
+    "task_id": "spark_ad0badba1450295982738934da2cc121cde18213",
+    "model": "deepseek-reasoner",
+    "label": "[Streaming] Handle the case when there is no block in a batch",
+    "pred": "[Streaming] Fix flaky test by handling empty blockInfos in ReceiverInputDStream."
+  },
+  {
+    "task_id": "spark_0847fe4eb346e3c2060eb0f3680610bec06115e7",
+    "model": "deepseek-reasoner",
+    "label": "[ML] Remove json4s from mllib-local",
+    "pred": "[ML] Remove json4s dependency and move vector JSON conversion to mllib"
+  },
+  {
+    "task_id": "spark_8a6f33f0483dcee81467e6374a796b5dbd53ea30",
+    "model": "deepseek-reasoner",
+    "label": "[SS] Follow up: Refactored BatchCommitLog to simplify logic",
+    "pred": "[Streaming] Refactor batch commit log to enforce non-null metadata and support OneTime trigger."
+  },
+  {
+    "task_id": "spark_5207a005cc86618907b8f467abc03eacef485ecd",
+    "model": "deepseek-reasoner",
+    "label": "[PYSPARK][ML][TRIVIAL] Add impurity param to GBTRegressor & add experimental inside of regression.py",
+    "pred": "[ML] Add impurity parameter to GBTRegressor and mark regression classes as experimental."
+  },
+  {
+    "task_id": "spark_f38ef6586c2980183c983b2aa14a5ddc1856b7b7",
+    "model": "deepseek-reasoner",
+    "label": "[Examples]Input of the SparkPi  too big causes the emption exception",
+    "pred": "[EXAMPLES] Fix integer overflow in SparkPi for large input slices."
+  },
+  {
+    "task_id": "spark_9775df67f924663598d51723a878557ddafb8cfd",
+    "model": "deepseek-reasoner",
+    "label": "[PYSPARK][FOLLOWUP] Replace registerTempTable by createOrReplaceTempView",
+    "pred": "[SQL][PySpark] Replace registerTempTable with createOrReplaceTempView in UDF examples and tests as part of deprecating register* methods."
+  },
+  {
+    "task_id": "spark_fb718d26cf7fbb9741f4a797b94b46d9d7c7f537",
+    "model": "deepseek-reasoner",
+    "label": "[SQL][TEST] Add `getLocalDirSize` to SQLTestUtils",
+    "pred": "[SQL] Add getLocalDirSize utility method to SQLTestUtils and refactor tests to use it."
+  },
+  {
+    "task_id": "spark_645c3a85e2029928d37ec2de9ef5a2d884620b9b",
+    "model": "deepseek-reasoner",
+    "label": "[HOTFIX] Static analysis fixes for 2.x / fixed for Scala 2.10",
+    "pred": "[CORE][SQL] Replace Option.contains with == Some(...) for better static analysis"
+  },
+  {
+    "task_id": "spark_dadb72028ad4124c14296ece0fa7b2ba2eb532e9",
+    "model": "deepseek-reasoner",
+    "label": "[CORE] Noisy exceptions when tasks are killed: \"DiskBloc…",
+    "pred": "[Storage] Handle ClosedByInterruptException to reduce noisy logs when tasks are killed."
+  },
+  {
+    "task_id": "spark_ef3fb801ae971656ed9cd1b0ab95bc5a1548adbd",
+    "model": "deepseek-reasoner",
+    "label": "[Core] Use 'spark.akka.askTimeout' for the ask timeout",
+    "pred": "[RPC] Fix wrong configuration key for ask timeout in RpcEnv"
+  },
+  {
+    "task_id": "spark_a088a801ed8c17171545c196a3f26ce415de0cd1",
+    "model": "deepseek-reasoner",
+    "label": "[SQL][DOCS] Fix the comment for `SQLContext.tables()` and mention the `database` column",
+    "pred": "[SQL] Update comments for SQLContext.tables() to include database column."
+  },
+  {
+    "task_id": "spark_b14993e1fcb68e1c946a671c6048605ab4afdf58",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Clarify JSON and CSV parser behavior in document",
+    "pred": "[SQL] Clarify PERMISSIVE mode behavior for corrupt records in JSON and CSV readers."
+  },
+  {
+    "task_id": "spark_80784a1de8d02536a94f3fd08ef632777478ab14",
+    "model": "deepseek-reasoner",
+    "label": "[FOLLOW-UP] Use 127.0.0.1 to avoid zookeeper picking up an ipv6 address",
+    "pred": "[KAFKA] Prevent JVM termination in test teardown and update host configurations."
+  },
+  {
+    "task_id": "spark_ae253e5a878a0adc2785ae050c49022687ac1d06",
+    "model": "deepseek-reasoner",
+    "label": "[SQL][FOLLOW-UP] Propagate logical plan stats using visitor pattern and mixin",
+    "pred": "[SQL][Catalyst] Add Window support to stats visitors and remove explicit Range handling for decoupling."
+  },
+  {
+    "task_id": "spark_acfdb46a60fc06dac0af55951492d74b7073f546",
+    "model": "deepseek-reasoner",
+    "label": "[SQL][FOLLOW-UP] Change doc and error message for SHOW CREATE TABLE",
+    "pred": "[SQL] Add SHOW CREATE TABLE AS SERDE command and improve error handling for Hive table conversion."
+  },
+  {
+    "task_id": "spark_adaaffa34ef0ef6a7baa5c1fea848cf5bc3987a2",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Remove redundant `semanticEquals()` from `SortOrder`",
+    "pred": "[SQL] Remove semanticEquals from SortOrder to fix planner bug with unnecessary SORT operations."
+  },
+  {
+    "task_id": "spark_1e599e5005cdb99fb2e9750f238f0d8812eefba6",
+    "model": "deepseek-reasoner",
+    "label": "[PYSPARK] Support `TaskContext.get()` in a barrier task from Python side",
+    "pred": "[PYTHON] Unify TaskContext behavior with Spark Core"
+  },
+  {
+    "task_id": "spark_e7c97a3d8606de7702b7590154b709dc848c308b",
+    "model": "deepseek-reasoner",
+    "label": "[K8S] safe runnable in polling executor source",
+    "pred": "[K8S] Add error handling to executor pods polling source to prevent task death."
+  },
+  {
+    "task_id": "spark_57e9f29e17d97ed9d0f110fb2ce5a075b854a841",
+    "model": "deepseek-reasoner",
+    "label": "[STREAMING] DStream cleans objects that are not closures",
+    "pred": "[SPARK-STREAMING] Fix DStream closure cleaning by cleaning transformFunc directly."
+  },
+  {
+    "task_id": "spark_0054fc937f804660c6501d9d3f6319f3047a68f8",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Respect the `spark.sql.caseSensitive` config while resolving partition spec in v1 `SHOW TABLE EXTENDED`",
+    "pred": "[SQL] Fix SHOW TABLE EXTENDED to respect spark.sql.caseSensitive for partition specs."
+  },
+  {
+    "task_id": "spark_26b603992c4b9b5a58e46e0566c1547b86249709",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Cleanup \"unreachable code\" compilation warning",
+    "pred": "[SQL] Remove unreachable catch block in SessionCatalog to fix compilation warning"
+  },
+  {
+    "task_id": "spark_960d2d0ac6b5a22242a922f87f745f7d1f736181",
+    "model": "deepseek-reasoner",
+    "label": "[ML] document LIBSVM source options in public API doc and some minor improvements",
+    "pred": "[ML] Document LIBSVM data source options and enhance LibSVMRelation."
+  },
+  {
+    "task_id": "spark_814a61a867ded965433c944c90961df529ac83ab",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Display `serde` for `HiveTableScan` node in explained plan",
+    "pred": "[SQL] Include serde in simple string for CatalogTable in TreeNode for explain plans."
+  },
+  {
+    "task_id": "spark_f87957371dc9c723013849c65b014c0fbf93ed3a",
+    "model": "deepseek-reasoner",
+    "label": "[K8S] Enforce to use `https` in /etc/apt/sources.list",
+    "pred": "[Docker] Switch apt sources to HTTPS to fix mirror sync errors."
+  },
+  {
+    "task_id": "spark_ad238a2238a9d0da89be4424574436cbfaee579d",
+    "model": "deepseek-reasoner",
+    "label": "[CORE] Trigger speculation for stages with too few tasks",
+    "pred": "[SPARK-29976] Add speculation threshold config to allow speculative execution for single tasks"
+  },
+  {
+    "task_id": "spark_bbfc16ec9d690c2dfa20896bd6d33f9783b9c109",
+    "model": "deepseek-reasoner",
+    "label": "[CORE]Reply false when container allocator is not ready and reset target",
+    "pred": "[SPARK] Fix executor request hang when container allocator not ready"
+  },
+  {
+    "task_id": "spark_477d6bd7265e255fd43e53edda02019b32f29bb2",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Fix complex type simplification rules to apply to entire plan",
+    "pred": "[SQL] Consolidate complex type simplification rules and enable filter pushdown in joins."
+  },
+  {
+    "task_id": "spark_33f532a9f201fb9c7895d685b3dce82cf042dc61",
+    "model": "deepseek-reasoner",
+    "label": "[CORE] Fix log message about fetch request size in ShuffleBlockFetcherIterator",
+    "pred": "Fix log error of curRequestSize in ShuffleBlockFetcherIterator."
+  },
+  {
+    "task_id": "spark_52186afd845865c903d39d50a57910b27db93167",
+    "model": "deepseek-reasoner",
+    "label": "[K8S] Enable SparkR Integration Tests for Kubernetes",
+    "pred": "[K8S] Re-enable R integration tests."
+  },
+  {
+    "task_id": "spark_77696448db5975343cf609b51f42702b49d7b08b",
+    "model": "deepseek-reasoner",
+    "label": "[PYTHON][TEST] Use check_exact=False to loosen the check precision",
+    "pred": "[PySpark] Use check_exact=False in StatsTest.test_cov_corr_meta to loosen precision check."
+  },
+  {
+    "task_id": "spark_28252374482cd212bc9f4c15b9ee4b875d0e7caf",
+    "model": "deepseek-reasoner",
+    "label": "[K8S][TESTS] Improve spark decommissioning k8s test reliability",
+    "pred": "[K8S] Improve reliability of decommissioning tests by removing timing dependencies"
+  },
+  {
+    "task_id": "spark_0f16ff5b0ec8cd828774ba5ddb276d7b06dbe273",
+    "model": "deepseek-reasoner",
+    "label": "[SQL][FOLLOWUP] Re-enable Parquet filter tests for binary and string",
+    "pred": "[SQL] Enable Parquet filter pushdown tests for string and binary comparisons to address SPARK-17213."
+  },
+  {
+    "task_id": "spark_37b7d32dbd3546c303d31305ed40c6435390bb4d",
+    "model": "deepseek-reasoner",
+    "label": "Do not upload local pyspark archives for spark-submit on Yarn",
+    "pred": "[YARN] Skip uploading local PySpark archives in spark-submit by adding URI scheme check."
+  },
+  {
+    "task_id": "spark_16e5e79877d9bad73f3f96688efe08c9a052340f",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] create function should thrown Exception if the resource is not found",
+    "pred": "[UDF] Throw AnalysisException when creating function with non-existent resources."
+  },
+  {
+    "task_id": "spark_5539ecfdac6c06285c7449494196ea3b4eb4cf87",
+    "model": "deepseek-reasoner",
+    "label": "[CORE][SQL][TESTS] Set America/Los_Angeles time zone and Locale.US in tests by default",
+    "pred": "Set default time zone to America/Los_Angeles and locale to US in SparkFunSuite for test consistency."
+  },
+  {
+    "task_id": "spark_550c1c9cfb5e6439cdd835388fe90a9ca1ebc695",
+    "model": "deepseek-reasoner",
+    "label": "[DOCS] Add user document about header flag and RDD as path for reading CSV",
+    "pred": "[SQL] Add documentation about header option removing duplicate lines in CSV reader."
+  },
+  {
+    "task_id": "spark_bc23bb78823f4fa02385b7b2a0270cd1b98bce34",
+    "model": "deepseek-reasoner",
+    "label": "[CORE][TEST] Fix SizeEstimator initialization in tests",
+    "pred": "[TESTS] Fix SizeEstimator initialization in test suites by adding reinitializeSizeEstimator helper."
+  },
+  {
+    "task_id": "spark_830e635e67551be6f1cca019457c8fc79cc179da",
+    "model": "deepseek-reasoner",
+    "label": "[CORE][FOLLOWUP] Recover the default value to -1 again",
+    "pred": "[NETWORK] Update backlog default to -1 and document system fallback for RPC/shuffle servers."
+  },
+  {
+    "task_id": "spark_3ec24fd128c011356b6f872bf1477134ccdf1f07",
+    "model": "deepseek-reasoner",
+    "label": "[CORE][PYTHON] PythonRDD should respect SparkContext's hadoop configuration",
+    "pred": "[PYTHON] Fix configuration merge in PythonRDD to respect SparkContext's hadoop settings."
+  },
+  {
+    "task_id": "spark_ddd8d5f5a0b6db17babc201ba4b73f7df91df1a3",
+    "model": "deepseek-reasoner",
+    "label": "[SQL][TESTS] Add date/timestamp benchmarks for `HiveResult.hiveResultString()`",
+    "pred": "[SQL] Add date/timestamp benchmarks for toHiveString"
+  },
+  {
+    "task_id": "spark_b13a4b85d4c6489399f5dbb3563f36b13a3bb9ee",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Avoid global locking in SQLConf object for sqlConfEntries map",
+    "pred": "[SQL] Replace synchronized map with ConcurrentHashMap in SQLConf to avoid lock contention on reads"
+  },
+  {
+    "task_id": "spark_cc560ea8585d845af9a01ced1c536036f88e7ba7",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Clean up the usage of `ParquetLogRedirector` in `ParquetFileFormat`",
+    "pred": "[SQL] Remove ParquetLogRedirector as it's no longer needed with parquet 1.12.2."
+  },
+  {
+    "task_id": "spark_cf3b6551ce010a5503d6c624e313690cd2058855",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] DSv2: REFRESH TABLE should invalidate caches referencing the table",
+    "pred": "[SPARK-33435][SQL] Invalidate caches on DSv2 REFRESH TABLE"
+  },
+  {
+    "task_id": "spark_368ee62a5dce83682ccaec92feeea8428af5a8cf",
+    "model": "deepseek-reasoner",
+    "label": "[DOC][FOLLOW-UP] Improve documentation for various Scala functions",
+    "pred": "[SQL] Improve documentation and rename parameter in higher-order functions."
+  },
+  {
+    "task_id": "spark_12e1583093bbd8f6b7146969f93bbff09d583561",
+    "model": "deepseek-reasoner",
+    "label": "[ML] Rethrow block mismatch exception in ALS when input data is nondeterministic",
+    "pred": "[ML][ALS] Improve error handling for nondeterministic input data and add warnings to prevent ArrayIndexOutOfBoundsException."
+  },
+  {
+    "task_id": "spark_173da5bf11daecbd428add1a5e0aedd58a66fadb",
+    "model": "deepseek-reasoner",
+    "label": "[WEB-UI] Handle empty ExecutorMetrics in ExecutorMetricsJsonSerializer",
+    "pred": "[CORE] Handle null peakMemoryMetrics in ExecutorSummary serialization to avoid JsonGenerationException."
+  },
+  {
+    "task_id": "spark_ec289252368127f8261eb6a2270362ba0b65db36",
+    "model": "deepseek-reasoner",
+    "label": "Fast fail the connection while last connection failed in fast fail time window",
+    "pred": "[Network] Fast fail connections after recent failure to avoid wasted retries."
+  },
+  {
+    "task_id": "spark_ace85f25d11d6a771ec45493e73bd25c98b22803",
+    "model": "deepseek-reasoner",
+    "label": "[SS] Add support for tracking pinned blocks memory usage for RocksDB state store",
+    "pred": "[SQL] Add tracking for block cache pinned usage in RocksDB state store."
+  },
+  {
+    "task_id": "spark_e43b9e8520bd4ea5bc3693beb496893b17e79054",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Fix a perf issue in SchemaPruning when a struct has many fields",
+    "pred": "[SQL] Optimize schema pruning performance for large structs using HashMap."
+  },
+  {
+    "task_id": "spark_660d2ab07071238dadfd243cd763bb7706637518",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] LookupFunctions rule should only look up functions from the scalar function registry",
+    "pred": "[SQL] Differentiate scalar and table function lookup in Analyzer"
+  },
+  {
+    "task_id": "spark_c18f849d7667012597fe747448845d80a367b1bb",
+    "model": "deepseek-reasoner",
+    "label": "[STREAMING][TESTS] StreamingContextSuite: Wait until slow receiver has been initialized, but with hard timeout",
+    "pred": "[Streaming] Fix flaky test in StreamingContextSuite by ensuring receiver initialization."
+  },
+  {
+    "task_id": "spark_3b4e345fa1afa0d4004988f8800b63150c305fd4",
+    "model": "deepseek-reasoner",
+    "label": "[CORE][TESTS] Skip date 8633 in Kwajalein due to changes in tzdata2018i that only some JDK 8s use",
+    "pred": "[SQL] Update skipped_days in DateTimeUtilsSuite for Kwajalein timezone to handle tzdata2018i update."
+  },
+  {
+    "task_id": "spark_b5c35d68e430d6ebf92aff9f75f730ca14a68469",
+    "model": "deepseek-reasoner",
+    "label": "[CORE] HeartbeatReceiver should remove lost executors from CoarseGrainedSchedulerBackend",
+    "pred": "[SPARK-27348] Fix HeartbeatReceiver to remove lost executors from CoarseGrainedSchedulerBackend."
+  },
+  {
+    "task_id": "spark_66ba35666a49023cd8da30cf84aff5c6fb1d8799",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Increase precision of seconds and fractions of `make_interval`",
+    "pred": "[SQL] Increase Decimal precision for seconds in make_interval to support larger values."
+  },
+  {
+    "task_id": "spark_5651284c3b2f3d5cf3ced1301ab24e3f4d04c09e",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Map Oracle's ROWID type to StringType in read via JDBC",
+    "pred": "SPARK-32992: Map Oracle ROWID type to StringType in OracleDialect."
+  },
+  {
+    "task_id": "spark_356eada314e88a4c0a262c6aa28e76045880e38f",
+    "model": "deepseek-reasoner",
+    "label": "[PYTHON][SQL] More explicit Python type annotations for GroupedData",
+    "pred": "[PYSPARK] Fix type hints for GroupedData methods to return DataFrame instead of Any."
+  },
+  {
+    "task_id": "spark_2e192b6f4546d39986b95603a1aaf2ccce947098",
+    "model": "deepseek-reasoner",
+    "label": "[CORE][TESTS] Fix deprecated API usage of Apache commons-io",
+    "pred": "Fix deprecated commons-io API usage in test suites by specifying UTF-8 charset."
+  },
+  {
+    "task_id": "spark_a60c36458d6335e6787edd4d13635227e86927f3",
+    "model": "deepseek-reasoner",
+    "label": "[SQL][TESTS][FOLLOWUP] Fix test failure under Scala 2.13",
+    "pred": "[SQL] Remove private modifiers from V2 function test objects in DataSourceV2FunctionSuite."
+  },
+  {
+    "task_id": "spark_dc96f2f8d6e08c4bc30bc11d6b29109d2aeb604b",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Get table names directly from Hive tables",
+    "pred": "[SQL] Fix SHOW VIEWS failure by using getRawTablesByName in listTablesByType fallback to avoid deserialization."
+  },
+  {
+    "task_id": "spark_c97a4b55e1d2f29e576463dbc822f53e9f86a251",
+    "model": "deepseek-reasoner",
+    "label": "[SQL][TESTS] When formatting `error-classes.json` file with `SparkThrowableSuite` , the last line of the file should be empty line",
+    "pred": "[CORE] Append line separator to ensure empty last line in error-classes.json formatting."
+  },
+  {
+    "task_id": "spark_77a4aa05720982464d987182d58b9341e9c4dbad",
+    "model": "deepseek-reasoner",
+    "label": "[PROTOBUF] Any fields set to 'Any.getDefaultInstance' cause parse errors",
+    "pred": "[Protobuf] Fix JsonFormat errors when Any fields are set to default instance."
+  },
+  {
+    "task_id": "spark_3249c7ab49fe9c30c1b7cefff149b490f6211770",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Allow cast null type to any types",
+    "pred": "[SQL] Allow upcast from NullType to any types."
+  },
+  {
+    "task_id": "spark_0ba1d3852b3e6f89128403e988d6ca8772d1706c",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Use copy-on-write semantics for SQLConf registered configurations",
+    "pred": "[SQL] Reduce contention on SQLConf by implementing copy-on-write for config entries and static keys."
+  },
+  {
+    "task_id": "spark_3819d39607392aa968595e3d97b84fedf83d08d9",
+    "model": "deepseek-reasoner",
+    "label": "[BUILD] Add ability to override default remote repos with internal one",
+    "pred": "Add ability to override default remote repos with internal repos via DEFAULT_ARTIFACT_REPOSITORY."
+  },
+  {
+    "task_id": "spark_a744fea3be12f1a53ab553040b95da730210bc88",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Fix NPE issue on 'In' filter when one of values contains null",
+    "pred": "[SQL] Fix NPE in In filter hashCode for null values"
+  },
+  {
+    "task_id": "spark_9b2e0d6191003f7477266667b164497c248579d9",
+    "model": "deepseek-reasoner",
+    "label": "[SQL][CORE] --verbose should be passed to Spark SQL CLI too",
+    "pred": "[SPARK-35086] Pass --verbose flag to Spark SQL CLI in SparkSubmit and add test."
+  },
+  {
+    "task_id": "spark_c29494377badd182e587246954d5bb661b58a61f",
+    "model": "deepseek-reasoner",
+    "label": "[PYSPARK][DOC] Pandas Cogroup udf usage guide",
+    "pred": "[SQL] Add usage guide for cogrouped map Pandas UDF."
+  },
+  {
+    "task_id": "spark_d72f39897b00d0bbd7a4db9de281a1256fcf908d",
+    "model": "deepseek-reasoner",
+    "label": "[SS] Cleanup complete but invalid output files in ManifestFileCommitProtocol if job is aborted",
+    "pred": "[SQL] Clean up complete but invalid output files in ManifestFileCommitProtocol on job abort."
+  },
+  {
+    "task_id": "spark_3b540ad822a53a8cb94159dc8aa3c66d34085e3e",
+    "model": "deepseek-reasoner",
+    "label": "[SS] Fix flaky test StreamingAggregationSuite.changing schema of state when restarting query",
+    "pred": "[SQL] Make StreamingAggregationSuite tests deterministic by setting shuffle partitions to 1."
+  },
+  {
+    "task_id": "spark_72b55ccf8327c00e173ab6130fdb428ad0d5aacc",
+    "model": "deepseek-reasoner",
+    "label": "[SQL][TESTS][FOLLOW-UP] Increase the number of partitions in TPC-DS build to avoid out-of-memory",
+    "pred": "[SQL] Set shuffle partitions to 32 in TPCDSQueryTestSuite to avoid OOM."
+  },
+  {
+    "task_id": "spark_86c42275baff3c38c3edc51f34be8f70b2a5963a",
+    "model": "deepseek-reasoner",
+    "label": "[K8S] Add a new conf to allow K8s API server-side caching for pod listing",
+    "pred": "[K8S] Add configuration to enable K8s API server-side cache for executor pod polling."
+  },
+  {
+    "task_id": "spark_11ea255283509a9f016f378df4865235a25b1851",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Support Cast string to year-month interval",
+    "pred": "[SQL] Add cast support for string to YearMonthIntervalType."
+  },
+  {
+    "task_id": "spark_815c7929c290d6eed86dc5c924f9f7d48cff179d",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Match schema_of_json to the schema inference of JSON data source",
+    "pred": "[SQL] Fix schema_of_json to handle null and empty strings correctly by canonicalizing inferred types."
+  },
+  {
+    "task_id": "spark_e00afd31a72350f388c4473704d5dd58f79ffa29",
+    "model": "deepseek-reasoner",
+    "label": "[FOLLOW-UP][SQL] Manage ExecutionListenerBus register inside itself",
+    "pred": "[SQL] Fix memory leak in ExecutionListenerBus when cloning Spark sessions."
+  },
+  {
+    "task_id": "spark_44e2657f3d511c25135c95dc3d584c540d227b5b",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Support timestamp in seconds for TimeTravel using Dataframe options",
+    "pred": "[SQL] Respect numeric timestamps in dataframe timestampAsOf option."
+  },
+  {
+    "task_id": "spark_c5c6f48de40a4e012a35ecc78f8db41654d2c8bd",
+    "model": "deepseek-reasoner",
+    "label": "[PYTHON] Use NamedTuple with variable type hints instead of namedtuple",
+    "pred": "[SQL] Replace collections.namedtuple with typing.NamedTuple in catalog classes."
+  },
+  {
+    "task_id": "spark_38c41cce5850b641824b25becbd5331bf7f79f00",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Remove useless `getRowFormatSQL`, `inputRowFormatSQL`, `outputRowFormatSQL` method",
+    "pred": "[SQL] Remove unused methods in ScriptInputOutputSchema."
+  },
+  {
+    "task_id": "spark_e6839ad7340bc9eb5df03df2a62110bdda805e6b",
+    "model": "deepseek-reasoner",
+    "label": "[SQL][FOLLOWUP] Check overflow when DS V2 partial aggregate push-down `AVG`",
+    "pred": "[SQL] Add partial aggregate push-down support for AVG in Data Source V2."
+  },
+  {
+    "task_id": "spark_ca861eb4bf4a6d6ea38bc531ba57e976f1c3839f",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Forbid `%0$` usage explicitly to ensure `format_string` has same behavior when using Java 8 and Java 17",
+    "pred": "[SQL] Disallow '%0$' in format_string for consistent behavior across Java versions."
+  },
+  {
+    "task_id": "spark_3946b243284fbd3bd98b456115ae194ad49fe8fe",
+    "model": "deepseek-reasoner",
+    "label": "[CORE] Log better message if SIGPWR is not supported while setting up decommission",
+    "pred": "[CORE] Add custom error messages for PWR signal registration failures"
+  },
+  {
+    "task_id": "spark_628a1ca5a4d14397a90e9e96a7e03e8f63531b20",
+    "model": "deepseek-reasoner",
+    "label": "[BUILD] Upgrade json4s to 3.5.3",
+    "pred": "[CORE] Upgrade json4s-jackson to 3.5.3 and adjust for API changes in tests."
+  },
+  {
+    "task_id": "spark_2c64b731ae6a976b0d75a95901db849b4a0e2393",
+    "model": "deepseek-reasoner",
+    "label": "[SS] Disable streaming query with possible correctness issue by default",
+    "pred": "[SQL] Add correctness check for stateful operators in Structured Streaming."
+  },
+  {
+    "task_id": "spark_fe507139b4a2e14f06a8bf2f792ebe6d8fe1fb3d",
+    "model": "deepseek-reasoner",
+    "label": "[CONNECT][PYTHON][FOLLOWUP] Make `createDataFrame` accept `Decimal('NaN')`",
+    "pred": "[SPARK CONNECT] Fix NaN handling for DecimalType in createDataFrame."
+  },
+  {
+    "task_id": "spark_240706600dbf257dfcf378acaadd608348d666aa",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Compile regex pattern in SparkDateTimeUtils.getZoneId outside the hot loop",
+    "pred": "[SQL] Precompile regex patterns in SparkDateTimeUtils.getZoneId."
+  },
+  {
+    "task_id": "spark_16037759343902108e6196babacb002628e82e24",
+    "model": "deepseek-reasoner",
+    "label": "[SQL][FOLLOWUP] Handle Currying Product while serializing TreeNode to JSON",
+    "pred": "[SQL] Fix JSON serialization for currying products in TreeNode."
+  },
+  {
+    "task_id": "spark_c09675779b5669119ed225bd4eb69c9c12c9be51",
+    "model": "deepseek-reasoner",
+    "label": "[ML] Use log1p(x) over log(1+x) and expm1(x) over exp(x)-1 for accuracy",
+    "pred": "[MLlib] Use log1p and expm1 functions for improved numerical accuracy in MLlib components."
+  },
+  {
+    "task_id": "spark_007a42b8511b005aabdf45955e504d1f71eb1d25",
+    "model": "deepseek-reasoner",
+    "label": "[YARN] Modify yarn client application report logging frequency to reduce noise",
+    "pred": "[YARN] Reduce logging noise in Yarn client by adding report logging frequency."
+  },
+  {
+    "task_id": "spark_fa378567105ec9d9bbe30edf4b74b09c3df27658",
+    "model": "deepseek-reasoner",
+    "label": "[DOCS] update rand() function documentation to indicate exclusive upper bound",
+    "pred": "[SPARK] Fix rand() documentation to specify [0.0, 1.0) range."
+  },
+  {
+    "task_id": "spark_c72f88b0ba20727e831ba9755d9628d0347ee3cb",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Fix ClassCastException when querying partitioned JSON table",
+    "pred": "[SQL] Synchronize Deserializer.initialize calls to fix thread-safety bug in Hive JsonSerDe."
+  },
+  {
+    "task_id": "spark_558b395880673ec45bf9514c98983e50e21d9398",
+    "model": "deepseek-reasoner",
+    "label": "[AVRO] add ByteBuffer#rewind after ByteBuffer#get in Avr…",
+    "pred": "[Avro] Fix ByteBuffer not rewound after get in AvroDeserializer."
+  },
+  {
+    "task_id": "spark_072575c9e6fc304f09e01ad0ee180c8f309ede91",
+    "model": "deepseek-reasoner",
+    "label": "[CONNECT] Update generated proto files for Spark Connect",
+    "pred": "[Spark Connect] Remove Databricks Go package references from Python protos"
+  },
+  {
+    "task_id": "spark_471a5b55b80256ccd253c93623ff363add5f1985",
+    "model": "deepseek-reasoner",
+    "label": "[SQL][TESTS] Make UT more stable",
+    "pred": "[SQL] Stabilize test for job commit duration metrics by synchronizing listener bus and using deterministic sleep."
+  },
+  {
+    "task_id": "spark_844f10c7426a76fb29ee91223c8af43825e147c5",
+    "model": "deepseek-reasoner",
+    "label": "Fix memory leak in ExecutorAllocationListener",
+    "pred": "[CORE] Fix memory leak in ExecutorAllocationListener by cleaning up resource profile data and correcting getOrElseUpdate to getOrElse."
+  },
+  {
+    "task_id": "spark_6d4ed13c465ae7f35753a1f2b67f78c690881a9e",
+    "model": "deepseek-reasoner",
+    "label": "[SQL][FOLLOWUP] Add comment about copying steam-side variables",
+    "pred": "[SQL] Fix full outer join codegen error with duplicate stream-side column references by copying streamVars."
+  },
+  {
+    "task_id": "spark_96c1a4401d96688a3142082f89864ded9bd22f7a",
+    "model": "deepseek-reasoner",
+    "label": "[SQL][PYSPARK] Fix SQLContext.getOrCreate() when SparkContext is restarted",
+    "pred": "[SQL] Fix SQLContext to not retain invalid references after SparkContext restart."
+  },
+  {
+    "task_id": "spark_7f3b5987de1f79434a861408e6c8bf55c5598031",
+    "model": "deepseek-reasoner",
+    "label": "[K8S] Resource name prefix should not start with a hyphen",
+    "pred": "[K8s] Fix SPARK-40869: Ensure resource name prefix does not start with hyphen."
+  },
+  {
+    "task_id": "spark_c4cd193b4d43d951255d9914f9b6f099d140fe1c",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Don't push non-deterministic filters to V2 file sources",
+    "pred": "[SQL] Prevent pushdown of non-deterministic filters to V2 file sources."
+  },
+  {
+    "task_id": "spark_ca0001345d0b501f706857b820bf9904fbf6c274",
+    "model": "deepseek-reasoner",
+    "label": "[K8S] Use Java `21` instead of `21-jre` image in K8s Dockerfile",
+    "pred": "[K8s] Update Dockerfile to use Java 21 instead of 21-jre to fix jmap error"
+  },
+  {
+    "task_id": "spark_548e66c98a5503e0d7567d688878e1612fe8ed51",
+    "model": "deepseek-reasoner",
+    "label": "[SQL][FOLLOWUP] Add INSET to ReplaceNullWithFalseInPredicate's pattern",
+    "pred": "[SQL] Introduce INSET TreePattern for null propagation in Not(InSet)"
+  },
+  {
+    "task_id": "spark_610acb2fe4e2d8f76c4a863e3872d94299b88c4c",
+    "model": "deepseek-reasoner",
+    "label": "[BUILD][FOLLOWUP] Make Spark's guava version configurable from the command line for sbt",
+    "pred": "[BUILD] Make guava version configurable via system property in SparkBuild.scala."
+  },
+  {
+    "task_id": "spark_c4d5390dd032d17a40ad50e38f0ed7bd9bbd4698",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Handle null struct in `Inline.eval`",
+    "pred": "[SQL] Fix null struct handling in Inline eval path."
+  },
+  {
+    "task_id": "spark_a3357dfccacadfb40ab103ba1ff3c0927e806dd2",
+    "model": "deepseek-reasoner",
+    "label": "[BUILD] Upgrade the version of Genjavadoc to 0.15",
+    "pred": "[BUILD] Upgrade Genjavadoc to 0.15"
+  },
+  {
+    "task_id": "spark_e05959e1900cc687f61b794da47a1516d9baf66b",
+    "model": "deepseek-reasoner",
+    "label": "[PYTHON][PS] Respect TimestampNTZ in resampling",
+    "pred": "[PYTHON] Support TimestampNTZType in resample to fix DST overlap"
+  },
+  {
+    "task_id": "spark_70964e741a715945052df4122b5e66fc39431b1a",
+    "model": "deepseek-reasoner",
+    "label": "[CORE][FOLLOW-UP] Only calculate executorKillTime when speculation is enabled",
+    "pred": "[CORE] Add speculation check to executor decommission handling"
+  },
+  {
+    "task_id": "spark_fdf86fd6e795474afb78d1917369fec288d06b24",
+    "model": "deepseek-reasoner",
+    "label": "[ML][FOLLOWUP] softmax support offset and step",
+    "pred": "[ML] Add common softmax function in Utils and refactor usage."
+  },
+  {
+    "task_id": "spark_12beadbc0525b473575f83d01c962f7238f9069b",
+    "model": "deepseek-reasoner",
+    "label": "[CONNECT][INFRA] Introduce `dev/connect-jvm-client-mima-check` instead of `CompatibilitySuite`",
+    "pred": "Convert CompatibilitySuite to standalone tool for Connect JVM client MiMa check and update GitHub workflow."
+  },
+  {
+    "task_id": "spark_cbd09346d406f89758bf6e295368521080ae31dd",
+    "model": "deepseek-reasoner",
+    "label": "[CORE] Send TaskEnd event when task failed with NotSerializableException or TaskOutputFileAlreadyExistException",
+    "pred": "[SPARK-40094] Send TaskEnd event for NotSerializableException and TaskOutputFileAlreadyExistException to fix dynamic allocation."
+  },
+  {
+    "task_id": "spark_bf2e25459fe46ca2b1d26e1c98c873923fc135e1",
+    "model": "deepseek-reasoner",
+    "label": "[SQL][FOLLOWUP] Use primitive arrays over object arrays when nulls exist",
+    "pred": "[SQL] Fix null handling in ColumnarArray.copy()"
+  },
+  {
+    "task_id": "spark_9cac2bb608c65f7fec19927711aff6dd1c54005a",
+    "model": "deepseek-reasoner",
+    "label": "[SQL][XML] Fix schema inference issues in XML",
+    "pred": "[XML] Fix schema inference for empty tags and NullType merging."
+  },
+  {
+    "task_id": "spark_f2f6272dd97755760b28e623efa4cd258513f5cb",
+    "model": "deepseek-reasoner",
+    "label": "[PYTHON] Add autocomplete support for `df[|]` in `pyspark.sql.dataframe.DataFrame`",
+    "pred": "[PySpark] Add _ipython_key_completions_ method to DataFrame for column autocompletion."
+  },
+  {
+    "task_id": "spark_f3c2583cc3ad6a2a24bfb09e2ee7af4e63e5bf66",
+    "model": "deepseek-reasoner",
+    "label": "[YARN][FOLLOW-ON] Leverage RM's RPC API instead of REST to fetch driver log links in yarn.Client",
+    "pred": "[YARN] Use YARN client RPC to fetch and display driver log links in cluster mode."
+  },
+  {
+    "task_id": "spark_58583f7c3fdcac1232607a7ab4b0d052320ac3ea",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Fix GetMapValueUtil code generation error",
+    "pred": "[SQL] Fix GetMapValueUtil codegen error and improve expression evaluation tests."
+  },
+  {
+    "task_id": "spark_443eea97578c41870c343cdb88cf69bfdf27033a",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Fix column names in \"arrays_zip\" function when arrays are referenced from nested structs",
+    "pred": "[SQL] Fix arrays_zip to retain field names in nested structs."
+  },
+  {
+    "task_id": "spark_31555f777971197f31279ce4cff22de11670255a",
+    "model": "deepseek-reasoner",
+    "label": "[PYTHON][FOLLOWUP] Add __version__ into pyspark init __all__",
+    "pred": "Add type hint for pyspark.__version__"
+  },
+  {
+    "task_id": "spark_2e4f4abf553cedec1fa8611b9494a01d24e6238a",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Avoid `NullPointerException` when evaluating date_trunc/trunc format as a bound reference",
+    "pred": "[SQL] Fix NPE in date_trunc and trunc by evaluating format expressions with input row in TruncInstant"
+  },
+  {
+    "task_id": "spark_829f118f98ef0732c8dd784f06298465e47ee3a0",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Instant and LocalDate values aren't handled when generating SQL queries",
+    "pred": "[SQL] Handle java.time.Instant and LocalDate in JdbcDialect.compileValue"
+  },
+  {
+    "task_id": "spark_e187bb3940a465613b31e5a5d6b75b469d0423ec",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Avoid unnecessary sort in v1 write if it's not dynamic partition",
+    "pred": "[SQL] Avoid sort for static partitions in FileFormatWriter."
+  },
+  {
+    "task_id": "spark_9b739d415cd51c8dd3f9332bae225196bab17d48",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Support IDENTIFIER expression in SET CATALOG statement",
+    "pred": "[SQL] Add IDENTIFIER clause support for SET CATALOG statement."
+  },
+  {
+    "task_id": "spark_a31da6a37ef6369c271c4144dafc723a57c480c8",
+    "model": "deepseek-reasoner",
+    "label": "[PYTHON][CONNECT] Switch to use logger instead of warnings module in client",
+    "pred": "[PySpark Connect] Replace warnings with logger for informational messages."
+  },
+  {
+    "task_id": "spark_161cf2a12698bfebba94e0d406e0b110e4429b6b",
+    "model": "deepseek-reasoner",
+    "label": "[WEBUI][FOLLOWUP] Quick fix on test failure on missing when statements",
+    "pred": "[HISTORY] Expose appStorePath and update tests to fix negative disk usage in HistoryServerDiskManager."
+  },
+  {
+    "task_id": "spark_7e5ee50d3d5220047c8141ff1f3e7fb595193b85",
+    "model": "deepseek-reasoner",
+    "label": "[BUILD][FOLLOWUP] Reduce mvn -Xmx option to 2g in publish_snapshot workflow",
+    "pred": "Add MAVEN_MXM_OPT environment variable to control memory usage and fix snapshot publication."
+  },
+  {
+    "task_id": "spark_0f8218c4324e0a901a21a9076c6c3d80f5c0ecea",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] JDBCTableCatalog Keeps Char/Varchar meta on the read-side",
+    "pred": "[SQL] Keep CHAR/VARCHAR metadata on JDBC read-side"
+  },
+  {
+    "task_id": "spark_242ee22c00394c29e21bc3de0a93cb6d9746d93c",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Update to_number and try_to_number functions to restrict S and MI sequence to start or end only",
+    "pred": "[SQL] Implement new format specification in ToNumberParser for to_number functions."
+  },
+  {
+    "task_id": "spark_0a4de08566eb38bf2c5ddb5d6312195d503fa7d7",
+    "model": "deepseek-reasoner",
+    "label": "[PYTHON][FOLLOWUP] Add test_timedelta_ops to modules",
+    "pred": "[Test] Add timedelta ops test module to support TimedeltaIndex creation and astype."
+  },
+  {
+    "task_id": "spark_b377ea26e2f03e263f317caeabbf8ec866e890c3",
+    "model": "deepseek-reasoner",
+    "label": "[SHUFFLE] When state is remove will throw NPE, and we should improve the error message",
+    "pred": "[NETWORK] Add null check in OneForOneStreamManager.getChunk to prevent NPE and improve error message"
+  },
+  {
+    "task_id": "spark_91fda1844790fd4b5b918e3fbfd09a304a8104e5",
+    "model": "deepseek-reasoner",
+    "label": "[CONNECT][PYTHON][TESTS] Enable tests `test_fillna` and `test_replace`",
+    "pred": "Enable fillna and replace tests by fixing None handling in DataFrame createDataframe."
+  },
+  {
+    "task_id": "spark_c3d81fbe79014f693cf93c02e31af401727761d7",
+    "model": "deepseek-reasoner",
+    "label": "[SQL][FOLLOWUP] Preserve serializability of canonicalized CatalogTable",
+    "pred": "[SQL] Fix Hive table uncaching on ALTER TABLE DROP PARTITION by ensuring property map immutability in CatalogTable."
+  },
+  {
+    "task_id": "spark_a40a2f83383337ee1e4628b2a0b64d7c67ef0f89",
+    "model": "deepseek-reasoner",
+    "label": "[SQL][FOLLOWUP] Rename 'spark.sql.legacy.useHashOnMapType' to 'spark.sql.legacy.allowHashOnMapType'",
+    "pred": "[SQL] Rename legacy configuration flag for hash on MapType to allowHashOnMapType."
+  },
+  {
+    "task_id": "spark_004430054c2a1c1599f9451e6c77b64d02de4171",
+    "model": "deepseek-reasoner",
+    "label": "[SQL][FOLLOWUP] InMemoryCatalog should keep the catalog field when renaming tables",
+    "pred": "[SQL] Add session catalog name support for table and function identifiers in InMemoryCatalog."
+  },
+  {
+    "task_id": "spark_d3d8fdc2882f5c084897ca9b2af9a063358f3a21",
+    "model": "deepseek-reasoner",
+    "label": "[WEBUI] Fix /api/v1/applications to return total uptime instead of 0 for the duration field",
+    "pred": "[UI] Fix duration calculation to show uptime in /api/v1/applications"
+  },
+  {
+    "task_id": "spark_e9c4e7ebd5959a0195a359ec9c27ec588e5b2dc8",
+    "model": "deepseek-reasoner",
+    "label": "[PYTHON][CONNECT] Function `sha2` should raise `PySparkValueError` for invalid `numBits`",
+    "pred": "[SQL] Validate numBits in sha2 to raise PySparkValueError for invalid values."
+  },
+  {
+    "task_id": "spark_0329479acb6758c4d3e53d514ea832a181d31065",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Support TRANSLATE function to work with collated strings",
+    "pred": "[SQL] Enable collation support for StringTranslate."
+  },
+  {
+    "task_id": "spark_27abb6ab5674b8663440dc738a0ba79c185fb063",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Resolve temporary functions and views in views with CTEs",
+    "pred": "[SQL] Resolve temporary objects in views with CTEs."
+  },
+  {
+    "task_id": "spark_3f380b9ecc8b27f6965b554061572e0990f05132",
+    "model": "deepseek-reasoner",
+    "label": "[UI] Remove unnecessary right curly brace at the end of the thread locks info",
+    "pred": "[CORE] Fix extra closing braces in thread lock string representation."
+  },
+  {
+    "task_id": "spark_1e194d26ead8857c2b2d7737a932e86ca0897e40",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Add the `EQUAL_NULL()` function",
+    "pred": "[SQL] Add EQUAL_NULL function for null-safe equality."
+  },
+  {
+    "task_id": "spark_1c1216f18f3008b410a601516b2fde49a9e27f7d",
+    "model": "deepseek-reasoner",
+    "label": "[PYTHON] Fix usage logger attachment to handle static methods properly",
+    "pred": "[PYSPARK] Fix static method handling in usage logger attachment."
+  },
+  {
+    "task_id": "spark_d150b7ee7f035650cd190058375dbef5df74201f",
+    "model": "deepseek-reasoner",
+    "label": "[SQL][FOLLOWUP] Quote the column name of view if needed",
+    "pred": "[SQL] Use quoteIfNeeded instead of quoteIdentifier for column names in SHOW CREATE TABLE."
+  },
+  {
+    "task_id": "spark_a056f694386cc074219914debf7023f5935bc37d",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] IntegralDivide use decimal(1, 0) to represent 0",
+    "pred": "[SQL][SPARK-41219] Fix IntegralDivide regression by handling zero precision with decimal(1,0) to avoid null returns."
+  },
+  {
+    "task_id": "spark_aab0c2bf66edcfdd455168af59d91db1516a1576",
+    "model": "deepseek-reasoner",
+    "label": "[SQL][FOLLOWUP] Move a common logic to DayTimeIntervalType",
+    "pred": "[SQL] Refactor interval parsing to use centralized stringToField map."
+  },
+  {
+    "task_id": "spark_0d08e22bc72a4e964937d95df9bce9857b84d7c6",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Fix table stats calculation by `TRUNCATE TABLE`",
+    "pred": "[SQL] Fix TRUNCATE TABLE stats reset for non-empty v1 tables."
+  },
+  {
+    "task_id": "spark_4cc39cfe153aca70c97dc8702b3b55cf22f3ce80",
+    "model": "deepseek-reasoner",
+    "label": "[CORE] Grouping exception in core/api",
+    "pred": "[Core] Group exception messages in core/api by centralizing error handling in SparkCoreErrors."
+  },
+  {
+    "task_id": "spark_9d6221b9368ab3d23c63a9f24a2ba42a6f709d54",
+    "model": "deepseek-reasoner",
+    "label": "[ML][FOLLOWUP] LSH approxNearestNeighbors optimization 2",
+    "pred": "[ML] Use QuantileSummaries in LSH approxNearestNeighbors."
+  },
+  {
+    "task_id": "spark_0865c0db923eadb840dd9af5834dc72ba19e43c4",
+    "model": "deepseek-reasoner",
+    "label": "[SQL][FOLLOWUP] Directly leverage `UnresolvedFunction` for functions `startswith`/`endswith`/`contains`",
+    "pred": "[SQL] Update endswith, startswith, and contains to use expression API in Scala."
+  },
+  {
+    "task_id": "spark_d2a1a31a3800c2b64f1e45793267e84ef046e888",
+    "model": "deepseek-reasoner",
+    "label": "[PYTHON][CONNECT] Improve error messages when Spark Connect mode is enabled but remote URL is not set",
+    "pred": "[SQL] Improve exception message when Spark Connect remote URL is not set."
+  },
+  {
+    "task_id": "spark_43b64635ac1a018fa32f7150478deb63955ee8be",
+    "model": "deepseek-reasoner",
+    "label": "[CONNECT] Add client_type to AddArtifactsRequest protobuf message",
+    "pred": "[SPARK-CONNECT] Add client_type field to AddArtifactsRequest proto"
+  },
+  {
+    "task_id": "spark_a61911c50c391e61038cf01611629d2186d17a76",
+    "model": "deepseek-reasoner",
+    "label": "[CORE][PYTHON] Fix UnionRDD of PairRDDs",
+    "pred": "[PYTHON] Fix error when creating UnionRDD of PairRDDs for SPARK-31788."
+  },
+  {
+    "task_id": "spark_f78d8394dcf19891141e353ea3b6a76020faf844",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Fix regression in AQEShuffleReadExec",
+    "pred": "[SQL] Return UnknownPartitioning for unexpected partitionings in AQEShuffleReadExec."
+  },
+  {
+    "task_id": "spark_a72d05c7e632fbb0d8a6082c3cacdf61f36518b4",
+    "model": "deepseek-reasoner",
+    "label": "[CORE][SQL] Avoid failing rename caused by destination directory not exist",
+    "pred": "[CORE] Fix rename handling in HadoopMapReduceCommitProtocol for dynamic partition overwrite"
+  },
+  {
+    "task_id": "spark_7274e3a4d24b85c99c42c115a227df42074ea739",
+    "model": "deepseek-reasoner",
+    "label": "[SQL][FOLLOWUP] Do not fail Spark startup with a broken FileSystem",
+    "pred": "[SQL] Catch exceptions when qualifying warehouse path in SharedState."
+  },
+  {
+    "task_id": "spark_59ce0a706cb52a54244a747d0a070b61f5cddd1c",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Fix union deduplication correctness bug",
+    "pred": "[SQL] SPARK-37865: Fix Union duplicate column deduplication."
+  },
+  {
+    "task_id": "spark_54aabb012e85b5c46773b57960d57de580fa8bba",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Add flag to control breaking change process for: DESC NAMESPACE EXTENDED should redact properties",
+    "pred": "[SQL] Add property redaction for DESCRIBE NAMESPACE with legacy config."
+  },
+  {
+    "task_id": "spark_fa3db73d7a96cc31f17ae76e8b69010147b9925a",
+    "model": "deepseek-reasoner",
+    "label": "[ML][PYTHON] Migrate _java2py from SQLContext to SparkSession",
+    "pred": "[PySpark] Migrate _java2py to SparkSession in ML and MLlib"
+  },
+  {
+    "task_id": "spark_171251518b469824589c498c5f202cc55dacb128",
+    "model": "deepseek-reasoner",
+    "label": "[PYTHON][DOCS][FOLLOWUP] Upgrade `pydata_sphinx_theme` to 0.8.0 in `spark-rm` Dockerfile",
+    "pred": "[Docs] Update pydata_sphinx_theme to 0.8.0 for version dropdown support."
+  },
+  {
+    "task_id": "spark_f86dc2b7e5c3aa4a94888feb499bc495877f36a9",
+    "model": "deepseek-reasoner",
+    "label": "[SS] Fix thread safety issue around access to loadedMaps in close function for hdfs store provider",
+    "pred": "[SQL] Synchronize access to loadedMaps in close method of HDFSBackedStateStoreProvider."
+  },
+  {
+    "task_id": "spark_2953d4f5005705d0e08f457156fcfe4e7e4ffa17",
+    "model": "deepseek-reasoner",
+    "label": "[PYTHON][DOCS][FOLLOW-UP] Fix unexpected section title for Examples in docstring",
+    "pred": "[PYSPARK] Fix docstring examples for octet_length and bit_length functions."
+  },
+  {
+    "task_id": "spark_2b2d7227878034331c38d6ca84ea8305b872533b",
+    "model": "deepseek-reasoner",
+    "label": "[PYTHON] Remove unnecessary 'noqa: F401' comments",
+    "pred": "[PYTHON] Remove noqa: F401 comments from typing imports after flake8 upgrade."
+  },
+  {
+    "task_id": "spark_379ef50d142537d01e31dc1c1402632de09388ee",
+    "model": "deepseek-reasoner",
+    "label": "[CORE][TEST] Remove writePartitionedFile in ExternalSorter",
+    "pred": "[CORE][SQL] Remove writePartitionedFile method from ExternalSorter and update test"
+  },
+  {
+    "task_id": "spark_9d5e48ea95d1c3017a51ff69584f32a18901b2b5",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Return SQL schema instead of Catalog string from the `SchemaOfJson` expression",
+    "pred": "[SQL] Fix from_json parsing error by updating schema_of_json output to SQL format with quoted field names."
+  },
+  {
+    "task_id": "spark_3bb8cd918dca338228cdf644056299a104d037fe",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Better FileScan statistics estimation",
+    "pred": "[SPARK-36568][SQL] FileScan statistics estimation takes read schema into account."
+  },
+  {
+    "task_id": "spark_ec1fb6b4e18ec36452e451021168ae4ae5a12e44",
+    "model": "deepseek-reasoner",
+    "label": "[SQL][FOLLOWUP] Add `.enabled` in the suffix of the ADD FILE legacy option",
+    "pred": "[SQL] Update spark.sql.legacy.addDirectory.recursive to .enabled for ADD FILE directory support"
+  },
+  {
+    "task_id": "spark_c4f720dfb41919dade7002b49462b3ff6b91eb22",
+    "model": "deepseek-reasoner",
+    "label": "[SS] Update config docs to indicate possibility of data loss/corruption issue if skip nulls for stream-stream joins config is enabled",
+    "pred": "[SQL] Add warning to skipNullsForStreamStreamJoins config documentation for Spark 3.5+."
+  },
+  {
+    "task_id": "spark_ac105ccebf5f144f2d506cbe102c362a195afa9a",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Fallback to previous codegen code path for complex expr with CAST",
+    "pred": "[SQL] Fix internal error in CheckOverflowInTableInsert for CaseWhen expressions with CAST."
+  },
+  {
+    "task_id": "spark_06997d6eb73f271aede5b159d86d1db80a73b89f",
+    "model": "deepseek-reasoner",
+    "label": "[SQL][TESTS] Move tests from SplitPart to elementAt",
+    "pred": "[SQL] Fix codegen compilation error for split_part by updating test suite."
+  },
+  {
+    "task_id": "spark_931eb938c70d6c6707e93f164255ac3c7dba63b0",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Do not convert array type string retrieved from jdbc driver",
+    "pred": "[SQL] Fix ClickHouse JDBC array write by removing lowercase type conversion in JdbcUtils."
+  },
+  {
+    "task_id": "spark_3e12e9d2ee2a0d6d0137a956356dfe888412d16a",
+    "model": "deepseek-reasoner",
+    "label": "[SQL][FOLLOW_UP] SHOW PARTITIONS Keep consistence with other `SHOW` command",
+    "pred": "[SQL] Unify output attributes for SHOW PARTITIONS by centralizing in ShowPartitions.OUTPUT."
+  },
+  {
+    "task_id": "spark_52958d9c34d9e7b1bbb23958e29258c6bb1a9322",
+    "model": "deepseek-reasoner",
+    "label": "[FOLLOWUP][PYTHON][SS] Catch Cancelled Job Group wrapped by Py4JJavaError in StreamExecution",
+    "pred": "[SQL] Fix interruption detection in Python foreachBatch streaming queries by handling py4j.Py4JException with cancelled job groups."
+  },
+  {
+    "task_id": "spark_71f4ee38c71734128c5653b8f18a7d0bf1014b6b",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Allow ANSI intervals in v2 `ALTER TABLE .. REPLACE COLUMNS`",
+    "pred": "[SQL] Support ANSI intervals in ALTER TABLE REPLACE COLUMNS command."
+  },
+  {
+    "task_id": "spark_c8fa821a873b9abc500e17b9c5bbb95d77364c5f",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Add `SnowflakeDialect` to handle BOOLEAN type correctly",
+    "pred": "[SQL] Add SnowflakeDialect with correct Boolean type mapping."
+  },
+  {
+    "task_id": "spark_5664403bb960b91e2f0fa87f2630b96e4c124701",
+    "model": "deepseek-reasoner",
+    "label": "[SQL][FOLLOWUP] Fix exception message and add a test case",
+    "pred": "[SPARK-38094][SQL] Update error message to use SQLConf constant and add test for nested schema field ID matching in Parquet."
+  },
+  {
+    "task_id": "spark_d025ddbaa7e7b9746d8e47aeed61ed39d2f09f0e",
+    "model": "deepseek-reasoner",
+    "label": "[TEST][FOLLOWUP] Fix readResourceOrcFile to create a local file from resource",
+    "pred": "[SQL][TESTS] Fix URISyntaxException in OrcTest.readResourceOrcFile by copying resources to temporary files."
+  },
+  {
+    "task_id": "spark_73e3c36ec89242e4c586a5328e813310f82de728",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Fix interpreted path for companion object constructor",
+    "pred": "[SQL] Fix encoder interpreted path for classes with only companion object constructor."
+  },
+  {
+    "task_id": "spark_4510c0624209349cc68d6486da3746ef0ed3b5d4",
+    "model": "deepseek-reasoner",
+    "label": "[SQL][FOLLOWUP] Fix `AnsiTypeCoercion` to handle ArrayType",
+    "pred": "[SQL] Add support for collated strings in array type coercion and array_join operation."
+  },
+  {
+    "task_id": "spark_116f6a719eaf1220d8eed98433f724fca672acc6",
+    "model": "deepseek-reasoner",
+    "label": "[CONNECT][FOLLOW-UP] Support all join types in python client",
+    "pred": "[SPARK] Extend join support in PySpark Connect with additional variants."
+  },
+  {
+    "task_id": "spark_28e0a0e21ea6481865592d18a874fee916a73339",
+    "model": "deepseek-reasoner",
+    "label": "[K8S][FOLLOWUP] Allow equal resource version to update snapshot",
+    "pred": "[K8s] Update resourceVersion comparison to >= for HA K8s API cache support."
+  },
+  {
+    "task_id": "spark_8dfecc1463ff0c2a3a18e7a4409736344c2dc3b8",
+    "model": "deepseek-reasoner",
+    "label": "[CONNECT][SQL] Move aggregators to sql/api",
+    "pred": "Move typed aggregator classes to sql/api and sql/internal."
+  },
+  {
+    "task_id": "spark_564a51b64e71f7402c2674de073b3b18001df56f",
+    "model": "deepseek-reasoner",
+    "label": "Fix race condition at the handling of ExecutorMetricsPoller's stageTCMP entries",
+    "pred": "[CORE] Ensure atomic operations on task count to fix assertion failure in ExecutorMetricsPoller."
+  },
+  {
+    "task_id": "spark_f7c8ac768e48dd5a8fd9ccc8c2642562b2b29226",
+    "model": "deepseek-reasoner",
+    "label": "[CONNECT][TEST][FOLLOWUP] Fix jar finding bug and use better env vars and time measurement",
+    "pred": "[Connect] Enhance test utilities and error handling for Scala client tests."
+  },
+  {
+    "task_id": "spark_91df046e0825c8916107de1cdf7c4a022fb1a53d",
+    "model": "deepseek-reasoner",
+    "label": "[PYTHON][CONNECT][TESTS] Enable doctest for `DataFrame.observe`",
+    "pred": "[SPARK-41888] Remove TODO and docstring deletion for StreamingQueryListener support in DataFrame.observe tests."
+  },
+  {
+    "task_id": "spark_d5f2539f83f6dded5c014bb354d01afa8f4c2c5d",
+    "model": "deepseek-reasoner",
+    "label": "[FOLLOWUP][TESTS] Only test Python data source when Python and PySpark environments are available",
+    "pred": "[SQL] Add assume(shouldTestPythonUDFs) to PythonDataSource tests for InputPartition feature."
+  },
+  {
+    "task_id": "spark_9fe78e3d33499060467ecdc0c2631beae0b0316c",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Support TIME in off-heap column vectors",
+    "pred": "[SQL] Add TIME type support to off-heap column vectors."
+  },
+  {
+    "task_id": "spark_9756bbe8026c2f9863046f01949a8d6e6d647f2f",
+    "model": "deepseek-reasoner",
+    "label": "[SQL] Support ordering UDTs in interpreted mode",
+    "pred": "[SPARK-46289][SQL] Fix UDT ordering in interpreted mode"
+  },
+  {
+    "task_id": "spark_5ef0eb5f4bb9925bf1a7ba6cb26890415c7d3892",
+    "model": "deepseek-reasoner",
+    "label": "[SQL][FOLLOWUP] Replace `ScalaObjectMapper` with `ClassTagExtensions` to fix compilation warning",
+    "pred": "[SQL] Replace ScalaObjectMapper with ClassTagExtensions in UserDefinedFunction serialization."
+  }
+]
